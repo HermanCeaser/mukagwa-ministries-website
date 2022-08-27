@@ -2,7 +2,7 @@ import './jquery.min';
 import './bootstrap';
 import './bootstrap.bundle';
 import './jquery.meanmenu';
-// import './jquery.magnific-popup.min';
+import './jquery.magnific-popup.min';
 import './owl.carousel.min';
 import './wow.min';
 import './waypoints.min';
