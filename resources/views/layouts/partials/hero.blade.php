@@ -3,7 +3,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6">
                 <div class="banner_one_text">
-                    <h1><span><span class="color_big">Share</span> your love to</span>
+                    <h1><span><span class="color_big">Mukagwa</span> your love to</span>
                         make someone’s life better</h1>
                     <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
                         unknown
