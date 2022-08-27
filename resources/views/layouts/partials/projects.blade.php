@@ -8,7 +8,7 @@
                     </div>
                     <div class="about_top_boxed_text">
                         <p>Donate for</p>
-                        <h3>Children education</h3>
+                        <h3>Health Care</h3>
                         <a href="about.html">More details...</a>
                     </div>
                     <div class="about_top_boxed_vector">
@@ -23,7 +23,7 @@
                     </div>
                     <div class="about_top_boxed_text">
                         <p>Donate for</p>
-                        <h3>Clean mineral water</h3>
+                        <h3>Children/Adult Education</h3>
                         <a href="about.html">More details...</a>
                     </div>
                     <div class="about_top_boxed_vector">
@@ -38,7 +38,7 @@
                     </div>
                     <div class="about_top_boxed_text">
                         <p>Donate for</p>
-                        <h3>Surgery & treatment</h3>
+                        <h3>Ministry/Evangelism</h3>
                         <a href="about.html">More details...</a>
                     </div>
                     <div class="about_top_boxed_vector">
@@ -53,7 +53,7 @@
                     </div>
                     <div class="about_top_boxed_text">
                         <p>Donate for</p>
-                        <h3>Healthy & good food</h3>
+                        <h3>Leadership</h3>
                         <a href="about.html">More details...</a>
                     </div>
                     <div class="about_top_boxed_vector">

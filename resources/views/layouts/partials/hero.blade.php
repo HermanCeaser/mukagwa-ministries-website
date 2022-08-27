@@ -3,11 +3,10 @@
         <div class="row align-items-center">
             <div class="col-lg-6">
                 <div class="banner_one_text">
-                    <h1><span><span class="color_big">Mukagwa</span> your love to</span>
-                        make someone’s life better</h1>
-                    <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-                        unknown
-                        printer took a type and scrambled.</p>
+                    <h1><span><span class="color_big">Mukagwa Children & Women Ministries</span></span>
+                    </h1>
+                    <p>To partner with organizations in Uganda and internationally to bring about transformational
+                        change through quality Christian education, health care and community development.</p>
                 </div>
             </div>
             <div class="col-lg-6">
