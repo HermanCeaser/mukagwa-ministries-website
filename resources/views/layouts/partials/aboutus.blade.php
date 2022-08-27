@@ -3,13 +3,13 @@
         <div class="row">
             <div class="col-lg-6 col-md-12 col-sm-12 col-12">
                 <div class="about_area_img">
-                    <img src="{{ Vite::asset('resources/img/common/about.png') }}" alt="img">
+                    <img src="{{ asset('assets/img/common/about.png') }}" alt="img">
                 </div>
             </div>
             <div class="col-lg-6 col-md-12 col-sm-12 col-12">
                 <div class="about_area_main_text">
                     <div class="about_area_heading">
-                        <img src="{{ Vite::asset('resources/img/icon/about.png') }}" alt="img">
+                        <img src="{{ asset('assets/img/icon/about.png') }}" alt="img">
                         <h3>Welcome to Jago</h3>
                     </div>
                     <div class="about_area_heading_two">

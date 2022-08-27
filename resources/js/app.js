@@ -1,5 +1,5 @@
-import './bootstrap';
 import './jquery.min';
+import './bootstrap';
 import './bootstrap.bundle';
 import './jquery.meanmenu';
 // import './jquery.magnific-popup.min';
@@ -23,6 +23,5 @@ import './custom-scroll-count';
 import './video';
 
 import.meta.glob([
-    '../img/**',
     '../webfonts/**',
   ]);

@@ -35,6 +35,58 @@
         <!-- About Us area -->
         @include('layouts.partials.aboutus')
 
+        <!-- Trending causes Area -->
+        @include('layouts.partials.causes')
+
+        <!-- Donate Area -->
+        @include('layouts.partials.donate')
+
+        <!-- Counter  Area -->
+        @include('layouts.partials.counter')
+
+        <!-- Subscribe Area -->
+        @include('layouts.partials.subscribe');
+
+        <!-- Footer Area -->
+        @include('layouts.partials.footer')
+
+        <!-- Copyright Area -->
+        <div class="copyright_area">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="co-lg-6 col-md-6 col-sm-12 col-12">
+                        <div class="copyright_left">
+                            <p>Copyright © {{ now()->format('Y') }} All Rights Reserved</p>
+                        </div>
+                    </div>
+                    <div class="co-lg-6 col-md-6 col-sm-12 col-12">
+                        <div class="copyright_right">
+                            <ul>
+                                <li>
+                                    <a href="#!"><i class="fab fa-facebook"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#!"><i class="fab fa-twitter-square"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#!"><i class="fab fa-instagram"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#!"><i class="fab fa-linkedin"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Top To Bottom Area -->
+        <div class="go-top">
+            <i class="fas fa-chevron-up"></i>
+            <i class="fas fa-chevron-up"></i>
+        </div>
+
 
 
         <!-- Page Content -->

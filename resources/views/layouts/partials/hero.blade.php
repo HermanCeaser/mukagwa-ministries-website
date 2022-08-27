@@ -12,11 +12,11 @@
             </div>
             <div class="col-lg-6">
                 <div class="banner_one_img">
-                    <img src="{{ Vite::asset('resources/img/banner/banner.png') }}" alt="img">
+                    <img src="{{ asset('assets/img/banner/banner.png') }}" alt="img">
                     <div class="banner_element">
-                        <img src="{{ Vite::asset('resources/img/banner/element-1.png') }}" alt="icon" class="element_1 shape-1">
-                        <img src="{{ Vite::asset('resources/img/banner/element-2.png') }}" alt="icon" class="element_2 shape-2">
-                        <img src="{{ Vite::asset('resources/img/banner/element-3.png') }}" alt="icon" class="element_3 shape-3">
+                        <img src="{{ asset('assets/img/banner/element-1.png') }}" alt="icon" class="element_1 shape-1">
+                        <img src="{{ asset('assets/img/banner/element-2.png') }}" alt="icon" class="element_2 shape-2">
+                        <img src="{{ asset('assets/img/banner/element-3.png') }}" alt="icon" class="element_3 shape-3">
                     </div>
                 </div>
             </div>
