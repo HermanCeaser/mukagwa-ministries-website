@@ -10,26 +10,27 @@
                 <div class="about_area_main_text">
                     <div class="about_area_heading">
                         <img src="{{ Vite::asset('resources/img/icon/about.png') }}" alt="img">
-                        <h3>Welcome to Jago</h3>
+                        <h3>Welcome to Mukagwa Ministries</h3>
                     </div>
                     <div class="about_area_heading_two">
-                        <h2>A world where <span class="color_big_heading">poverty</span> <br />
-                            will not exists</h2>
-                        <h3>We are the largest crowdfunding</h3>
+                        <h2>We strive to promote quality Christian Education, <span class="color_big_heading">Health
+                                Care</span> <br />
+                            & Economic Empowerment</h2>
+
                     </div>
                     <div class="about_area_para">
-                        <h5>Lorem ipsum dolor sit amet, consectetur notted adipisicing elit sed do
-                            eiusmod tempor incididunt ut labore.</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur notted adipisicing elit sed do
-                            eiusmod tempor incididunt ut labore et simply free text dolore magna
-                            aliqua lonm andhn.</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur notted adipisicing elit sed do
-                            eiusmod tempor incididunt ut labore et simply.</p>
+                        <p>Mukagwa Children and Women Ministries is a Christian Non Government Organization. It was
+                            founded in 2018 with an aim of providing holistic education, health care, evangelism and
+                            leadership to the less privileged communities.</p>
+                        <p>We are people who know that we can't afford to lose an individual to illiteracy, disease and
+                            spiritual poverty. We believe that when an individual is healthy, educated and spiritually
+                            grown every one wins.</p>
+
                     </div>
                     <div class="about_vedio_area">
                         <a href="about.html" class="btn btn_theme btn_md">Learn more</a>
-                        <a href="https://vimeo.com/45830194" class="vedio_btn popup-vimeo"><i
-                                class="fa fa-play"></i>How we work</a>
+                        <a href="https://vimeo.com/45830194" class="vedio_btn popup-vimeo"><i class="fa fa-play"></i>How
+                            we work</a>
                     </div>
                 </div>
             </div>
