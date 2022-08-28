@@ -6,9 +6,9 @@
                 <div class="col-lg-6 col-md-6">
                     <ul class="topbar-list">
 
-                        <li><a href="#!"><i class="fa fa-envelope"></i><span>contact@domain.com</span></a>
+                        <li><a href="#!"><i class="fa fa-envelope"></i><span>info@mukagwaministries.com</span></a>
                         </li>
-                        <li><a href="#!"><i class="fa fa-phone"></i><span>+011 234 567 89</span></a></li>
+                        <li><a href="#!"><i class="fa fa-phone"></i><span>+256 782 331 162 | +256 705 996 362</span></a></li>
                         <li><a href="#!"><span>Faqs</span></a></li>
                     </ul>
                 </div>
@@ -39,7 +39,7 @@
                 <div class="main-responsive-menu">
                     <div class="logo">
                         <a href="index.html">
-                            <img src="assets/img/logo.png" alt="logo">
+                            <img src="{{Vite::asset('resources/img/logo.png')}}" alt="logo">
                         </a>
                     </div>
                 </div>
@@ -49,12 +49,12 @@
             <div class="container">
                 <nav class="navbar navbar-expand-md navbar-light">
                     <a class="navbar-brand" href="index.html">
-                        <img src="assets/img/logo.png" alt="logo">
+                        <img src="{{Vite::asset('resources/img/logo.png')}}" alt="logo">
                     </a>
                     <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a href="index.html" class="nav-link active">Home</a>
+                                <a href="{{ route('home')}}" class="nav-link active">Home</a>
                             </li>
                             <li class="nav-item">
                                 <a href="#" class="nav-link">
@@ -63,14 +63,14 @@
                                 </a>
                                 <ul class="dropdown-menu">
                                     <li class="nav-item">
-                                        <a href="causes.html" class="nav-link">Causes</a>
+                                        <a href="#" class="nav-link">Causes</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="cause-details.html" class="nav-link">Causes Details</a>
+                                        <a href="#" class="nav-link">Causes Details</a>
                                     </li>
                                 </ul>
                             </li>
-                            <li class="nav-item">
+                            {{-- <li class="nav-item">
                                 <a href="#" class="nav-link">
                                     Events
                                     <i class="fas fa-angle-down"></i>
@@ -83,22 +83,22 @@
                                         <a href="event-details.html" class="nav-link">Events Details</a>
                                     </li>
                                 </ul>
-                            </li>
+                            </li> --}}
                             <li class="nav-item">
                                 <a href="#" class="nav-link">
                                     Gallery
                                     <i class="fas fa-angle-down"></i>
                                 </a>
-                                <ul class="dropdown-menu">
+                                {{-- <ul class="dropdown-menu">
                                     <li class="nav-item">
                                         <a href="gallery-grid.html" class="nav-link">Gallery One</a>
                                     </li>
                                     <li class="nav-item">
                                         <a href="gallery-slider.html" class="nav-link">Gallery Two</a>
                                     </li>
-                                </ul>
+                                </ul> --}}
                             </li>
-                            <li class="nav-item">
+                            {{-- <li class="nav-item">
                                 <a href="#" class="nav-link">
                                     News
                                     <i class="fas fa-angle-down"></i>
@@ -111,8 +111,8 @@
                                         <a href="news-details.html" class="nav-link">News Details</a>
                                     </li>
                                 </ul>
-                            </li>
-                            <li class="nav-item">
+                            </li> --}}
+                            {{-- <li class="nav-item">
                                 <a href="#" class="nav-link">
                                     Pages
                                     <i class="fas fa-angle-down"></i>
@@ -149,10 +149,10 @@
                                         <a href="error.html" class="nav-link">404 Error</a>
                                     </li>
                                 </ul>
-                            </li>
+                            </li> --}}
 
                             <li class="nav-item">
-                                <a href="contact.html" class="nav-link">Contact</a>
+                                <a href="#" class="nav-link">Contact</a>
                             </li>
                         </ul>
                         <div class="others-options d-flex align-items-center">
@@ -161,7 +161,7 @@
                                         alt="icon"></a>
                             </div>
                             <div class="option-item">
-                                <a href="make-donation.html" class="btn btn_navber">Donate now</a>
+                                <a href="#" class="btn btn_navber">Donate now</a>
                             </div>
                         </div>
                     </div>
@@ -184,7 +184,7 @@
                                 <a href="#" class="search-box"><i class="fas fa-search"></i></a>
                             </div>
                             <div class="option-item">
-                                <a href="make-donation.html" class="btn  btn_navber">Donate now</a>
+                                <a href="#" class="btn  btn_navber">Donate now</a>
                             </div>
                         </div>
                     </div>

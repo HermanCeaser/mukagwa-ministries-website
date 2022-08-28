@@ -12,8 +12,8 @@
             <div class="col-lg-4 col-md-12 col-sm-12 col-12">
                 <div class="case_boxed_wrapper">
                     <div class="case_boxed_img">
-                        <a href="causes.html"><img src="{{ asset('assets/img/causes/causes-1.png') }}" alt="img"></a>
-                        <span class="causes_badge bg-theme">Food & water</span>
+                        <a href="#"><img src="{{ asset('assets/img/common/children1.jpg') }}" alt="img"></a>
+                        <span class="causes_badge bg-theme">Children</span>
                     </div>
                     <div class="causes_boxed_text">
                         <div class="class-full causes_pro_bar progress_bar">
@@ -29,9 +29,8 @@
                                 </div>
                             </div>
                         </div>
-                        <h3><a href="causes.html">Collect fund for drinking water & healthy food</a></h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur notted
-                            adipisicing elit sed do eiusmod tempor.</p>
+                        <h3><a href="#">Collect funds to support children in Need</a></h3>
+                        <p>The ministry supports children's needs by giving them clothes and food through donations</p>
                         <div class="causes_boxed_bottom_wrapper">
                             <div class="row">
                                 <div class="col-lg-6 col-md-6 col-sm-6 col-6">
@@ -64,7 +63,7 @@
             <div class="col-lg-4 col-md-12 col-sm-12 col-12">
                 <div class="case_boxed_wrapper">
                     <div class="case_boxed_img">
-                        <a href="causes.html"><img src="{{ asset('assets/img/causes/causes-2.png') }}" alt="img"></a>
+                        <a href="#"><img src="{{ asset('assets/img/causes/education1.jpg') }}" alt="img"></a>
                         <span class="causes_badge bg-yellow">Education</span>
                     </div>
                     <div class="causes_boxed_text">
@@ -81,10 +80,9 @@
                                 </div>
                             </div>
                         </div>
-                        <h3><a href="causes.html">Give children a good education
+                        <h3><a href="#">Give children a good education
                                 & better life</a></h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur notted
-                            adipisicing elit sed do eiusmod tempor.</p>
+                        <p>The ministry supports children's education through providing school fees and scholastic materials.</p>
                         <div class="causes_boxed_bottom_wrapper">
                             <div class="row">
                                 <div class="col-lg-6 col-md-6 col-sm-6 col-6">
@@ -117,8 +115,8 @@
             <div class="col-lg-4 col-md-12 col-sm-12 col-12">
                 <div class="case_boxed_wrapper">
                     <div class="case_boxed_img">
-                        <a href="causes.html"><img src="{{ asset('assets/img/causes/causes-3.png') }}" alt="img"></a>
-                        <span class="causes_badge bg-theme">Home & shelter</span>
+                        <a href="#"><img src="{{ asset('assets/img/causes/health1.jpg') }}" alt="img"></a>
+                        <span class="causes_badge bg-theme">Health Care</span>
                     </div>
                     <div class="causes_boxed_text">
                         <div class="class-full causes_pro_bar progress_bar">
@@ -134,9 +132,8 @@
                                 </div>
                             </div>
                         </div>
-                        <h3><a href="causes.html">Collect fund for drinking water & healthy food</a></h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur notted
-                            adipisicing elit sed do eiusmod tempor.</p>
+                        <h3><a href="#">Donate For Better and a health Community</a></h3>
+                        <p>The ministry operates Luwafu Community Health centre. The health center provides subsidized health care services to the community</p>
                         <div class="causes_boxed_bottom_wrapper">
                             <div class="row">
                                 <div class="col-lg-6 col-md-6 col-sm-6 col-6">

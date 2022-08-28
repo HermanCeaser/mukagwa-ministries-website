@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-lg-6 col-md-12 col-sm-12 col-12">
                 <div class="about_area_img">
-                    <img src="{{ asset('assets/img/common/about.png') }}" alt="img">
+                    <img src="{{ asset('assets/img/common/aboutus.jpg') }}" alt="img">
                 </div>
             </div>
             <div class="col-lg-6 col-md-12 col-sm-12 col-12">
@@ -28,8 +28,8 @@
 
                     </div>
                     <div class="about_vedio_area">
-                        <a href="about.html" class="btn btn_theme btn_md">Learn more</a>
-                        <a href="https://vimeo.com/45830194" class="vedio_btn popup-vimeo"><i class="fa fa-play"></i>How
+                        <a href="#" class="btn btn_theme btn_md">Learn more</a>
+                        <a href="#" class="vedio_btn popup-vimeo"><i class="fa fa-play"></i>How
                             we work</a>
                     </div>
                 </div>

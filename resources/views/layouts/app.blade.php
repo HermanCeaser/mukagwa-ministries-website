@@ -6,7 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>{{ config('app.name', 'Mukagwa children and women ministries') }}</title>
+    <meta name="description" content="Mukagwa children and women ministries is a Christian Non Government Organisation. It was founded in 2018 with an aim of providing holistic education, health care, envagelism and leadership to the less privileged communities.We are people who know that we can't afford to lose an individual to illiteracy, disease and spiritual poverty. We believe that when an individual is healthy, educated and spiritually grown every one wins." />
+    <meta property="og:title" content="Mukagwa children and women ministries" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://mukagwaministries.com" />
+    {{-- <meta property="og:image" content="https://github.com/HermanCeaser" /> --}}
+    <meta property="og:description"
+        content="Mukagwa children and women ministries is a Christian Non Government Organisation. It was founded in 2018 with an aim of providing holistic education, health care, envagelism and leadership to the less privileged communities. We are people who know that we can't afford to lose an individual to illiteracy, disease and spiritual poverty. We believe that when an individual is healthy, educated and spiritually grown every one wins." />
 
     <!-- Fonts -->
     <link rel="stylesheet" href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap">
