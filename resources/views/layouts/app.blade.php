@@ -2,12 +2,25 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HMEL4YS757"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'G-HMEL4YS757');
+    </script>
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <title>{{ config('app.name', 'Mukagwa children and women ministries') }}</title>
-    <meta name="description" content="Mukagwa children and women ministries is a Christian Non Government Organisation. It was founded in 2018 with an aim of providing holistic education, health care, envagelism and leadership to the less privileged communities.We are people who know that we can't afford to lose an individual to illiteracy, disease and spiritual poverty. We believe that when an individual is healthy, educated and spiritually grown every one wins." />
+    <meta name="description"
+        content="Mukagwa children and women ministries is a Christian Non Government Organisation. It was founded in 2018 with an aim of providing holistic education, health care, envagelism and leadership to the less privileged communities.We are people who know that we can't afford to lose an individual to illiteracy, disease and spiritual poverty. We believe that when an individual is healthy, educated and spiritually grown every one wins." />
     <meta property="og:title" content="Mukagwa children and women ministries" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="http://mukagwaministries.com" />
@@ -17,15 +30,17 @@
 
     <!-- Fonts -->
     <link rel="stylesheet" href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/img/favicon.png">
 
     <!-- Scripts -->
-    @vite(['resources/css/app.css', 'resources/js/app.js'])
+    @vite(['resources/css/app.css'])
 </head>
 
 <body class="font-sans antialiased">
     <div class="min-h-screen bg-gray-100">
         <!-- preloader Area -->
-        {{-- @include('layouts.partials.preloader') --}}
+        @include('layouts.partials.preloader')
 
         <!-- Header Area -->
         @include('layouts.navigation')
@@ -33,27 +48,15 @@
         <!-- Search  -->
         @include('layouts.partials.search')
 
-        <!-- Banner Area -->
-        @include('layouts.partials.hero')
 
-        <!-- About Projects Area -->
-        @include('layouts.partials.projects')
 
-        <!-- About Us area -->
-        @include('layouts.partials.aboutus')
 
-        <!-- Trending causes Area -->
-        @include('layouts.partials.causes')
 
-        <!-- Donate Area -->
-        @include('layouts.partials.donate')
 
-        <!-- Counter  Area -->
-        @include('layouts.partials.counter')
-
-        <!-- Subscribe Area -->
-        @include('layouts.partials.subscribe');
-
+        <!-- Page Content -->
+        <main>
+            {{ $slot }}
+        </main>
         <!-- Footer Area -->
         @include('layouts.partials.footer')
 
@@ -94,13 +97,21 @@
             <i class="fas fa-chevron-up"></i>
         </div>
 
-
-
-        <!-- Page Content -->
-        <main>
-            {{ $slot }}
-        </main>
     </div>
+    {{-- <script src="{{ asset('assets/js/jquery-3.6.0.min.js') }}"></script> --}}
+    @vite(['resources/js/app.js'])
+    <script src="{{ asset('assets/js/jquery.min.js') }}"></script>
+    <script src="{{ asset('assets/js/jquery.meanmenu.js') }}"></script>
+    <script src="{{ asset('assets/js/owl.carousel.min.js') }}"></script>
+    <script src="{{ asset('assets/js/wow.min.js') }}"></script>
+    <script src="{{ asset('assets/js/waypoints.min.js') }}"></script>
+    <script src="{{ asset('assets/js/jquery.counterup.min.js') }}"></script>
+    <script src="{{ asset('assets/js/custom.js') }}"></script>
+    <script src="{{ asset('assets/js/custom-progress-bar.js') }}"></script>
+    <script src="{{ asset('assets/js/custom-scroll-count.js') }}"></script>
+
+
+    @stack('js')
 </body>
 
 </html>
