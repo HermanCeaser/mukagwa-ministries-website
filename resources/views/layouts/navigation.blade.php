@@ -54,7 +54,7 @@
                     <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a href="{{ route('home')}}" class="nav-link active">Home</a>
+                                <a href="{{ route('home')}}" @class([ 'nav-link', 'active'=>request()->routeIs('home')])>Home</a>
                             </li>
                             <li class="nav-item">
                                 <a href="#" class="nav-link">
@@ -84,10 +84,9 @@
                                     </li>
                                 </ul>
                             </li> --}}
-                            <li class="nav-item">
-                                <a href="#" class="nav-link">
+                            <li class="nav-item" >
+                                <a href="{{ route('gallery')}}" @class([ 'nav-link', 'active'=>request()->routeIs('gallery')])>
                                     Gallery
-                                    <i class="fas fa-angle-down"></i>
                                 </a>
                                 {{-- <ul class="dropdown-menu">
                                     <li class="nav-item">

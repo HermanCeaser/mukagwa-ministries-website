@@ -1186,7 +1186,7 @@ section {
 =========================*/
 /* --Common Banner-- */
 #common_banner_area {
-    background-image: url('../img/common/common-banner.png');
+    background-image: url('../img/banner/common-banner.png');
     background-size: cover;
     background-position: center;
     padding: 145px 0;

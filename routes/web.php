@@ -21,6 +21,10 @@ Route::get('/causes', function(){
     return view('dashboard');
 })->name('causes');
 
+Route::get('/gallery', function(){
+    return view('pages.gallery');
+})->name('gallery');
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth'])->name('dashboard');

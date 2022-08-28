@@ -49,14 +49,14 @@
         @include('layouts.partials.search')
 
 
-
-
-
-
         <!-- Page Content -->
         <main>
             {{ $slot }}
         </main>
+
+        <!-- Subscribe Area -->
+        @include('layouts.partials.subscribe');
+
         <!-- Footer Area -->
         @include('layouts.partials.footer')
 
@@ -107,8 +107,8 @@
     <script src="{{ asset('assets/js/waypoints.min.js') }}"></script>
     <script src="{{ asset('assets/js/jquery.counterup.min.js') }}"></script>
     <script src="{{ asset('assets/js/custom.js') }}"></script>
-    <script src="{{ asset('assets/js/custom-progress-bar.js') }}"></script>
-    <script src="{{ asset('assets/js/custom-scroll-count.js') }}"></script>
+    {{-- <script src="{{ asset('assets/js/custom-progress-bar.js') }}"></script> --}}
+    {{-- <script src="{{ asset('assets/js/custom-scroll-count.js') }}"></script> --}}
 
 
     @stack('js')

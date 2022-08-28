@@ -17,16 +17,13 @@
     <!-- Counter  Area -->
     @include('layouts.partials.counter')
 
-    <!-- Subscribe Area -->
-    @include('layouts.partials.subscribe');
-
 
 </x-app-layout>
 
-{{-- @push('js')
-    <script src="{{ asset('assets/js/custom.js') }}"></script>
+@push('js')
+    {{-- <script src="{{ asset('assets/js/custom.js') }}"></script> --}}
     <script src="{{ asset('assets/js/custom-progress-bar.js') }}"></script>
     <script src="{{ asset('assets/js/custom-scroll-count.js') }}"></script>
     <script src="{{ asset('assets/js/video.js') }}"></script>
 
-@endpush --}}
+@endpush
