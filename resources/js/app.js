@@ -24,4 +24,5 @@ import './video';
 
 import.meta.glob([
     '../webfonts/**',
+    '../img/logo.png',
   ]);
