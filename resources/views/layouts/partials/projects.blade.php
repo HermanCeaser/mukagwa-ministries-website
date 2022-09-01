@@ -10,7 +10,7 @@
                     <div class="about_top_boxed_text">
                         <p>Donate for</p>
                         <h3>Health Care</h3>
-                        <a href="#">More details...</a>
+                        <a href="{{ route('projects.show', 'health')}}">More details...</a>
                     </div>
                     <div class="about_top_boxed_vector">
                         <img src="{{ asset('assets/img/icon/round.png') }}" alt="img">
@@ -25,7 +25,7 @@
                     <div class="about_top_boxed_text">
                         <p>Donate for</p>
                         <h3>Children/Adult Education</h3>
-                        <a href="#">More details...</a>
+                        <a href="{{ route('projects.show', 'education')}}">More details...</a>
                     </div>
                     <div class="about_top_boxed_vector">
                         <img src="{{ asset('assets/img/icon/round.png') }}" alt="img">
@@ -40,7 +40,7 @@
                     <div class="about_top_boxed_text">
                         <p>Donate for</p>
                         <h3>Ministry/Evangelism</h3>
-                        <a href="#">More details...</a>
+                        <a href="{{ route('projects.show', 'evalengism')}}">More details...</a>
                     </div>
                     <div class="about_top_boxed_vector">
                         <img src="{{ asset('assets/img/icon/round.png') }}" alt="img">
@@ -55,7 +55,7 @@
                     <div class="about_top_boxed_text">
                         <p>Donate for</p>
                         <h3>Leadership</h3>
-                        <a href="#">More details...</a>
+                        <a href="{{ route('projects.show', 'leadership')}}">More details...</a>
                     </div>
                     <div class="about_top_boxed_vector">
                         <img src="{{ asset('assets/img/icon/round.png') }}" alt="img">

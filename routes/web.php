@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\CausesController;
+use App\Http\Controllers\ProjectController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -17,9 +19,9 @@ Route::get('/', function () {
     return view('dashboard');
 })->name('home');
 
-Route::get('/causes', function(){
-    return view('dashboard');
-})->name('causes');
+Route::get('/causes', [CausesController::class, 'index'])->name('causes');
+Route::get('/projects/{project}', [ProjectController::class, 'show'])->name('projects.show');
+Route::get('/causes/{cause}', [CausesController::class, 'show'])->name('causes.show');
 
 Route::get('/gallery', function(){
     return view('pages.gallery');
