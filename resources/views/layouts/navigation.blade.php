@@ -38,7 +38,7 @@
             <div class="container">
                 <div class="main-responsive-menu">
                     <div class="logo">
-                        <a href="index.html">
+                        <a href="{{route('home')}}">
                             <img src="{{Vite::asset('resources/img/logo.png')}}" alt="logo">
                         </a>
                     </div>
@@ -48,7 +48,7 @@
         <div class="main-navbar">
             <div class="container">
                 <nav class="navbar navbar-expand-md navbar-light">
-                    <a class="navbar-brand" href="index.html">
+                    <a class="navbar-brand" href="{{route('home')}}">
                         <img src="{{Vite::asset('resources/img/logo.png')}}" alt="logo">
                     </a>
                     <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
@@ -156,7 +156,7 @@
                         </ul>
                         <div class="others-options d-flex align-items-center">
                             <div class="option-item">
-                                <a href="#" class="search-box"> <img src="assets/img/icon/search_icon.png"
+                                <a href="#" class="search-box"> <img src="{{ asset('assets/img/icon/search_icon.png') }}"
                                         alt="icon"></a>
                             </div>
                             <div class="option-item">
