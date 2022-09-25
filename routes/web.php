@@ -1,6 +1,9 @@
 <?php
 
+use App\Http\Controllers\AboutController;
 use App\Http\Controllers\CausesController;
+use App\Http\Controllers\ContactController;
+use App\Http\Controllers\DonationController;
 use App\Http\Controllers\ProjectController;
 use Illuminate\Support\Facades\Route;
 
@@ -20,10 +23,16 @@ Route::get('/', function () {
 })->name('home');
 
 Route::get('/causes', [CausesController::class, 'index'])->name('causes');
-Route::get('/projects/{project}', [ProjectController::class, 'show'])->name('projects.show');
+Route::get('/projects/health', [ProjectController::class, 'health'])->name('projects.health');
+Route::get('/projects/education', [ProjectController::class, 'education'])->name('projects.education');
+Route::get('/projects/evangelism', [ProjectController::class, 'evangelism'])->name('projects.evangelism');
+Route::get('/projects/leadership', [ProjectController::class, 'leadership'])->name('projects.leadership');
 Route::get('/causes/{cause}', [CausesController::class, 'show'])->name('causes.show');
+Route::resource('/donation', DonationController::class)->only(['create', 'store', 'show']);
+Route::get('about-us', [AboutController::class, 'index'])->name('aboutus');
+Route::resource('contact-us', ContactController::class)->only(['index', 'store']);
 
-Route::get('/gallery', function(){
+Route::get('/gallery', function () {
     return view('pages.gallery');
 })->name('gallery');
 

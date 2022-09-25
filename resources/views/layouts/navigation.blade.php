@@ -63,10 +63,19 @@
                                 </a>
                                 <ul class="dropdown-menu">
                                     <li class="nav-item">
-                                        <a href="#" class="nav-link">Causes</a>
+                                        <a href="{{route('projects.health')}}" @class([ 'nav-link', 'active'=>request()->routeIs('projects.health')])>Health</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="#" class="nav-link">Causes Details</a>
+                                        <a href="{{ route('projects.education')}}" @class([ 'nav-link', 'active'=>request()->routeIs('projects.education')])>Education</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="{{ route('projects.evangelism')}}" @class([ 'nav-link', 'active'=>request()->routeIs('projects.evangelism')])>Evangelism</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="{{ route('projects.leadership')}}" @class([ 'nav-link', 'active'=>request()->routeIs('projects.leadership')])>Leadership</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="{{ route('projects.leadership')}}" class="nav-link">Women Empowerment</a>
                                     </li>
                                 </ul>
                             </li>
@@ -88,71 +97,14 @@
                                 <a href="{{ route('gallery')}}" @class([ 'nav-link', 'active'=>request()->routeIs('gallery')])>
                                     Gallery
                                 </a>
-                                {{-- <ul class="dropdown-menu">
-                                    <li class="nav-item">
-                                        <a href="gallery-grid.html" class="nav-link">Gallery One</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="gallery-slider.html" class="nav-link">Gallery Two</a>
-                                    </li>
-                                </ul> --}}
                             </li>
-                            {{-- <li class="nav-item">
-                                <a href="#" class="nav-link">
-                                    News
-                                    <i class="fas fa-angle-down"></i>
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li class="nav-item">
-                                        <a href="news.html" class="nav-link">News</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="news-details.html" class="nav-link">News Details</a>
-                                    </li>
-                                </ul>
-                            </li> --}}
-                            {{-- <li class="nav-item">
-                                <a href="#" class="nav-link">
-                                    Pages
-                                    <i class="fas fa-angle-down"></i>
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li class="nav-item">
-                                        <a href="about.html" class="nav-link">About</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="make-donation.html" class="nav-link">Make Donation</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="testimonials.html" class="nav-link">Testimonials</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="volunter.html" class="nav-link">Volunter</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="login.html" class="nav-link">Login</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="registration.html" class="nav-link">Register</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="faqs.html" class="nav-link">FAQ</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="privacy-policy.html" class="nav-link">Privacy Policy</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="terms-service.html" class="nav-link">Terms Service</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="error.html" class="nav-link">404 Error</a>
-                                    </li>
-                                </ul>
-                            </li> --}}
-
                             <li class="nav-item">
-                                <a href="#" class="nav-link">Contact</a>
+                                <a href="{{ route('aboutus')}}" @class([ 'nav-link', 'active'=>request()->routeIs('aboutus')])>About Us</a>
                             </li>
+                            <li class="nav-item">
+                                <a href="{{ route('contact-us.index')}}" @class([ 'nav-link', 'active'=>request()->routeIs('contact-us.index')])>Contact</a>
+                            </li>
+
                         </ul>
                         <div class="others-options d-flex align-items-center">
                             <div class="option-item">
@@ -160,7 +112,7 @@
                                         alt="icon"></a>
                             </div>
                             <div class="option-item">
-                                <a href="#" class="btn btn_navber">Donate now</a>
+                                <a href="{{route('donation.create')}}" class="btn btn_navber">Donate now</a>
                             </div>
                         </div>
                     </div>
@@ -183,7 +135,7 @@
                                 <a href="#" class="search-box"><i class="fas fa-search"></i></a>
                             </div>
                             <div class="option-item">
-                                <a href="#" class="btn  btn_navber">Donate now</a>
+                                <a href="{{route('donation.create')}}" class="btn  btn_navber">Donate now</a>
                             </div>
                         </div>
                     </div>

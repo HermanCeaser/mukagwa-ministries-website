@@ -16,8 +16,8 @@ class CategoryFactory extends Factory
      */
     public function definition()
     {
-
         $categories = ['Education', 'Health', 'Leadership', 'Evangelism', 'Childcare', 'Women Empowerment'];
+
         return [
             //
         ];

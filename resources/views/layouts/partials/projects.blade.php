@@ -10,7 +10,7 @@
                     <div class="about_top_boxed_text">
                         <p>Donate for</p>
                         <h3>Health Care</h3>
-                        <a href="{{ route('projects.show', 'health')}}">More details...</a>
+                        <a class="btn btn-sm btn-success" href="{{ route('projects.health')}}">More details...</a>
                     </div>
                     <div class="about_top_boxed_vector">
                         <img src="{{ asset('assets/img/icon/round.png') }}" alt="img">
@@ -24,8 +24,8 @@
                     </div>
                     <div class="about_top_boxed_text">
                         <p>Donate for</p>
-                        <h3>Children/Adult Education</h3>
-                        <a href="{{ route('projects.show', 'education')}}">More details...</a>
+                        <h3>Education</h3>
+                        <a class="btn btn-sm btn-primary" href="{{ route('projects.education')}}">More details...</a>
                     </div>
                     <div class="about_top_boxed_vector">
                         <img src="{{ asset('assets/img/icon/round.png') }}" alt="img">
@@ -40,7 +40,7 @@
                     <div class="about_top_boxed_text">
                         <p>Donate for</p>
                         <h3>Ministry/Evangelism</h3>
-                        <a href="{{ route('projects.show', 'evalengism')}}">More details...</a>
+                        <a class="btn btn-sm btn-info" href="{{ route('projects.evangelism')}}">More details...</a>
                     </div>
                     <div class="about_top_boxed_vector">
                         <img src="{{ asset('assets/img/icon/round.png') }}" alt="img">
@@ -55,7 +55,7 @@
                     <div class="about_top_boxed_text">
                         <p>Donate for</p>
                         <h3>Leadership</h3>
-                        <a href="{{ route('projects.show', 'leadership')}}">More details...</a>
+                        <a class="btn btn-sm btn-danger" href="{{ route('projects.leadership')}}">More details...</a>
                     </div>
                     <div class="about_top_boxed_vector">
                         <img src="{{ asset('assets/img/icon/round.png') }}" alt="img">

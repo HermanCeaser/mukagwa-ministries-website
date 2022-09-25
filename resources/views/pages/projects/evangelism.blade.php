@@ -7,11 +7,13 @@
                     <div class="commn_banner_page">
                         <h2><span class="color_big_heading">Projects</span></h2>
                         <ul class="breadcrumb_wrapper">
-                            <li class="breadcrumb_item"><a href="{{route('home')}}">Home</a></li>
-                            <li class="breadcrumb_item"><img src="{{asset('assets/img/icon/arrow.png')}}" alt="img"></li>
+                            <li class="breadcrumb_item"><a href="{{ route('home') }}">Home</a></li>
+                            <li class="breadcrumb_item"><img src="{{ asset('assets/img/icon/arrow.png') }}"
+                                    alt="img"></li>
                             <li class="breadcrumb_item"><a href="">Projects</a></li>
-                            <li class="breadcrumb_item"><img src="{{asset('assets/img/icon/arrow.png')}}" alt="img"></li>
-                            <li class="breadcrumb_item active">{{ ucfirst($project) ?? __('Details')}}</li>
+                            <li class="breadcrumb_item"><img src="{{ asset('assets/img/icon/arrow.png') }}"
+                                    alt="img"></li>
+                            <li class="breadcrumb_item active">{{ ucfirst($title) ?? __('Details') }}</li>
                         </ul>
                     </div>
                 </div>
@@ -23,18 +25,44 @@
     <section id="trending_causes_main" class="section_padding">
         <div class="container">
             <div class="row" id="counter">
-                <div class="col-lg-10">
+                <div class="col-lg-12">
                     <div class="details_wrapper_area">
-                        <div class="details_big_img">
-                            <img src="{{ asset('assets/img/causes/gallery9.jpg') }}" alt="img">
-                            <span class="causes_badge bg-yellow">{{ ucfirst($project) ?? ''}}</span>
+                        <div class="row">
+                            <div class="col-md-8">
+                                <div class="details_big_img">
+                                    <img src="{{ asset('assets/img/causes/evalengism1.jpg') }}" alt="img">
+                                    <span class="causes_badge bg-yellow">{{ ucfirst($title) ?? '' }}</span>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <!-- Project Organizer -->
+                                <div class="project_organizer_wrapper sidebar_boxed">
+                                    <div class="project_organizer_img">
+                                        <img src="{{ asset('assets/img/icon/betty-avatar.png') }}" alt="img" />
+                                    </div>
+                                    <div class="project_organizer_text">
+                                        <h5>Project organizer:</h5>
+                                        <h3>Betty Mutunda</h3>
+                                        <p>Co-founder | Mukagwa Ministries</p>
+                                        <ul>
+                                            <li><img src="{{ asset('assets/img/icon/tag.png') }}" alt="icon">
+                                                Category: <span>Evalengism</span>
+                                            </li>
+                                            <li><img src="{{ asset('assets/img/icon/map.png') }}" alt="icon">
+                                                Location: <span>Kampala: Uganda</span></li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
+
                         <div class="details_skill_area">
                             <div class="class-full causes_pro_bar_flex progress_bar">
                                 <div class="class-full-bar-box">
-                                    <h3 class="h3-title">Goal: <span>$11,000</span></h3>
+                                    <h3 class="h3-title">Goal: <span>$5000</span></h3>
                                     <div class="class-full-bar-percent">
-                                        <h2><span class="counting-data" data-count="89">0</span>
+                                        <h2><span class="counting-data" data-count="20">20</span>
                                             <span>%</span>
                                         </h2>
                                     </div>
@@ -43,88 +71,87 @@
                                     </div>
                                 </div>
                                 <div class="details_top_btn">
-                                    <a href="make-donation.html" class="btn btn_md btn_theme">Donate now</a>
+                                    <a href="{{ route('donation.create') }}" class="btn btn_md btn_theme">Donate
+                                        now</a>
                                 </div>
                             </div>
 
                         </div>
                         <div class="details_text_wrapper">
-                            <h2>Give the community access to  better health services</h2>
+                            <h2>We believe that "a hand lived for another is worth while"</h2>
+                            <p>We win souls through street preaching, fellowship, discipleship, spiritual mentorship,
+                                mutual encouragement, Bible study and crusades. Through these activities we also donate
+                                basic necessities like food, clothes,shoes, sanitary pads etc to the needy.
+
+                            </p>
+                            <h3>Our desire is to see lives changed through the power of Jesus Christ.</h3>
                             <p>
-                                The ministry operates Luwafu Community Health centre. The health center provides subsidized health care services to the community
+                                We love the Lord and are committed to His work on earth. We believe that Jesus Christ is
+                                the only way to salvation and that He wants all people to be saved from their sins <span
+                                    class="quote">(John
+                                    3:16). </span>We are living proof of what happens when people turn away from sin and
+                                turn
+                                toward God by repenting of their sins and accepting Jesus Christ as their personal
+                                Savior.
                             </p>
 
-                            <h3>These include;</h3>
+                            <p>We are a church with a heart for the world. We believe that God has called us to reach
+                                out to those who do not know Him, and so we have a passion for evangelism and missions.
+                            </p>
 
-                            <ul>
-                                <li><i class="fas fa-circle"></i>Treatment of common diseases and illnesses.</li>
-                                <li><i class="fas fa-circle"></i>Antenatal and maternity services.</li>
-                                <li><i class="fas fa-circle"></i>Child nutritional services.</li>
-                                <li><i class="fas fa-circle"></i>Minor surgeries.</li>
-                                <li><i class="fas fa-circle"></i>Laboratory services</li>
-                                <li><i class="fas fa-circle"></i>Dental care.</li>
-                                <li><i class="fas fa-circle"></i>Community medical outreach programs.</li>
-                                <li><i class="fas fa-circle"></i>HIV/AIDS testing and counselling.</li>
-                                <li><i class="fas fa-circle"></i>Family planning etc.</li>
-                            </ul>
                             <div class="row">
                                 <div class="col-lg-6 col-md-6 col-sm-6 col-12">
                                     <div class="details_small_img">
-                                        <img width="450"  src="{{ asset('assets/img/causes/details-small1.jpg') }}" alt="img">
+                                        <img width="450" src="{{ asset('assets/img/causes/evangelism2.jpg') }}"
+                                            alt="img">
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-md-6 col-sm-6 col-12">
                                     <div class="details_small_img">
-                                        <img src="{{ asset('assets/img/causes/details-small2.jpg') }}" alt="img">
+                                        <img src="{{ asset('assets/img/gallery/gallery16.jpg') }}" alt="img">
                                     </div>
                                 </div>
                             </div>
                             <p>
-                                Pictures of Mukagwa ministries having a health camp in Luwero district where they were having immunisation of Kids,
-                                Sexual Education for the teens and General health care services.
+                                Jesus called us to “Go into all the world and preach the gospel to every creature” (Mark
+                                16:15). We are committed to obeying this command
                             </p>
                         </div>
-                        {{-- <div class="download_pdf_area">
-                            <div class="pdf_download_left">
-                                <img src="{{ asset('assets/img/icon/pdf.png') }}" alt="icon">
-                                <h4>Children education manual .pdf</h4>
-                            </div>
-                            <div class="pdf_download_right">
-                                <a href="!#" class="btn btn_md btn_theme">Download now</a>
-                            </div>
-                        </div> --}}
-                        <div class="comment_area_details">
-                            <h3>2 Comments</h3>
-                            <div class="post_comment_wrapper">
-                                <div class="post_comment_item">
-                                    <div class="post_comment_img">
-                                        <img src="{{ asset('assets/img/common/post-1.png') }}" alt="img">
-                                    </div>
-                                    <div class="post_comment_text">
-                                        <div class="post_names_replay">
-                                            <h5>James martin</h5>
-                                            <a href="#!"><i class="fas fa-reply"></i>Reply</a>
-                                        </div>
-                                        <p>Lorem ipsum dolor sit amet, cibo mundi ea duo, vim exerci phaedrum. There are
-                                            many variations of passages of Lorem Ipsum available but the majority.</p>
-                                    </div>
-                                </div>
-                                <div class="post_comment_item">
-                                    <div class="post_comment_img">
-                                        <img src="{{ asset('assets/img/common/post-2.png') }}" alt="img">
-                                    </div>
-                                    <div class="post_comment_text">
-                                        <div class="post_names_replay">
-                                            <h5>James martin</h5>
-                                            <a href="#!"><i class="fas fa-reply"></i>Reply</a>
-                                        </div>
-                                        <p>Lorem ipsum dolor sit amet, cibo mundi ea duo, vim exerci phaedrum. There are
-                                            many variations of passages of Lorem Ipsum available but the majority.</p>
-                                    </div>
 
+                        @isset($comments)
+                            <div class="comment_area_details">
+                                <h3>2 Comments</h3>
+                                <div class="post_comment_wrapper">
+                                    <div class="post_comment_item">
+                                        <div class="post_comment_img">
+                                            <img src="{{ asset('assets/img/common/post-1.png') }}" alt="img">
+                                        </div>
+                                        <div class="post_comment_text">
+                                            <div class="post_names_replay">
+                                                <h5>James martin</h5>
+                                                <a href="#!"><i class="fas fa-reply"></i>Reply</a>
+                                            </div>
+                                            <p>Lorem ipsum dolor sit amet, cibo mundi ea duo, vim exerci phaedrum. There are
+                                                many variations of passages of Lorem Ipsum available but the majority.</p>
+                                        </div>
+                                    </div>
+                                    <div class="post_comment_item">
+                                        <div class="post_comment_img">
+                                            <img src="{{ asset('assets/img/common/post-2.png') }}" alt="img">
+                                        </div>
+                                        <div class="post_comment_text">
+                                            <div class="post_names_replay">
+                                                <h5>James martin</h5>
+                                                <a href="#!"><i class="fas fa-reply"></i>Reply</a>
+                                            </div>
+                                            <p>Lorem ipsum dolor sit amet, cibo mundi ea duo, vim exerci phaedrum. There are
+                                                many variations of passages of Lorem Ipsum available but the majority.</p>
+                                        </div>
+
+                                    </div>
                                 </div>
                             </div>
-                        </div>
+                        @endisset
                         <div class="comment_form_area">
                             <h3>Leave a comment</h3>
                             <div class="comment_form">
@@ -144,8 +171,7 @@
                                         </div>
                                         <div class="col-lg-12">
                                             <div class="form-group">
-                                                <textarea rows="5" placeholder="Write your comments"
-                                                    class="form-control" required></textarea>
+                                                <textarea rows="5" placeholder="Write your comments" class="form-control" required></textarea>
                                             </div>
                                         </div>
                                         <div class="col-lg-12">

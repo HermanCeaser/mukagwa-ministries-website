@@ -18,6 +18,7 @@ class ProjectFactory extends Factory
     public function definition()
     {
         $categories = ['Education', 'Health', 'Leadership', 'Evangelism', 'Childcare', 'Women Empowerment'];
+
         return [
             'title' => fake()->unique()->randomElement($categories),
             'slug' => fake()->slug(),

@@ -2,8 +2,6 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
-
 class CausesController extends Controller
 {
     /**
@@ -16,8 +14,6 @@ class CausesController extends Controller
         return view('dashboard');
     }
 
-
-
     /**
      * Display the specified resource.
      *
@@ -26,12 +22,9 @@ class CausesController extends Controller
      */
     public function show($cause)
     {
-        return "It works";
+        return 'It works';
         // return view('causes.show');
     }
-
-
-
 
     /**
      * Remove the specified resource from storage.

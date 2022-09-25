@@ -16,11 +16,8 @@ class Cause extends Model
         return $this->morphMany(Photo::class, 'photable');
     }
 
-
     public function categories()
     {
         return $this->morphToMany(Category::class, 'categorable');
     }
 }
-
-
