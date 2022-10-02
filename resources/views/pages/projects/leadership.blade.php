@@ -33,7 +33,7 @@
                         </div>
                         <div class="details_skill_area">
                             <div class="class-full causes_pro_bar_flex progress_bar">
-                                <div class="class-full-bar-box">
+                                {{-- <div class="class-full-bar-box">
                                     <h3 class="h3-title">Goal: <span>$11,000</span></h3>
                                     <div class="class-full-bar-percent">
                                         <h2><span class="counting-data" data-count="89">0</span>
@@ -43,7 +43,7 @@
                                     <div class="skill-bar class-bar" data-width="89%">
                                         <div class="skill-bar-inner class-bar-in"></div>
                                     </div>
-                                </div>
+                                </div> --}}
                                 <div class="details_top_btn">
                                     <a href="{{ route('donation.create') }}" class="btn btn_md btn_theme">Donate now</a>
                                 </div>

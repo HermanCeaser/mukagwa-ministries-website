@@ -55,9 +55,8 @@
 
                         </div>
                         <div class="about_vedio_area">
-                            <a href="about.html" class="btn btn_theme btn_md">Learn more</a>
-                            <a href="https://vimeo.com/45830194" class="vedio_btn popup-vimeo"><i
-                                    class="fa fa-play"></i>How we work</a>
+                            <a href="#" class="btn btn_theme btn_md">Learn more</a>
+
                         </div>
                     </div>
                 </div>

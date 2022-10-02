@@ -16,7 +16,7 @@
                         <span class="causes_badge bg-theme">Children</span>
                     </div>
                     <div class="causes_boxed_text">
-                        <div class="class-full causes_pro_bar progress_bar">
+                        {{-- <div class="class-full causes_pro_bar progress_bar">
                             <div class="class-full-bar-box">
                                 <h3 class="h3-title">Goal: <span>$10,000</span></h3>
                                 <div class="class-full-bar-percent">
@@ -28,7 +28,7 @@
                                     <div class="skill-bar-inner class-bar-in"></div>
                                 </div>
                             </div>
-                        </div>
+                        </div> --}}
                         <h3><a href="#">Collect funds to support children in Need</a></h3>
                         <p>The ministry supports children's needs by giving them clothes and food through donations</p>
                         <div class="causes_boxed_bottom_wrapper">
@@ -67,7 +67,7 @@
                         <span class="causes_badge bg-yellow">Education</span>
                     </div>
                     <div class="causes_boxed_text">
-                        <div class="class-full causes_pro_bar progress_bar">
+                        {{-- <div class="class-full causes_pro_bar progress_bar">
                             <div class="class-full-bar-box">
                                 <h3 class="h3-title">Goal: <span>$45,000</span></h3>
                                 <div class="class-full-bar-percent">
@@ -79,7 +79,7 @@
                                     <div class="skill-bar-inner class-bar-in"></div>
                                 </div>
                             </div>
-                        </div>
+                        </div> --}}
                         <h3><a href="#">Give children a good education
                                 & better life</a></h3>
                         <p>The ministry supports children's education through providing school fees and scholastic materials.</p>
@@ -119,7 +119,7 @@
                         <span class="causes_badge bg-theme">Health Care</span>
                     </div>
                     <div class="causes_boxed_text">
-                        <div class="class-full causes_pro_bar progress_bar">
+                        {{-- <div class="class-full causes_pro_bar progress_bar">
                             <div class="class-full-bar-box">
                                 <h3 class="h3-title">Goal: <span>$14,000</span></h3>
                                 <div class="class-full-bar-percent">
@@ -131,7 +131,7 @@
                                     <div class="skill-bar-inner class-bar-in"></div>
                                 </div>
                             </div>
-                        </div>
+                        </div> --}}
                         <h3><a href="#">Donate For Better and a health Community</a></h3>
                         <p>The ministry operates Luwafu Community Health centre. The health center provides subsidized health care services to the community</p>
                         <div class="causes_boxed_bottom_wrapper">

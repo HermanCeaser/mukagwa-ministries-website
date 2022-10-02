@@ -28,7 +28,7 @@
                 </div>
             </div>
             <div class="row" id="counter">
-                <div class="col-lg-8">
+                <div class="col-lg-8 mx-auto">
                     <div class="details_wrapper_area">
                         <div class="donet_amount_area doner_content_pbottom">
                             <h3>Enter your donation amount</h3>
@@ -95,9 +95,9 @@
                                 <div class="payment_donet_area">
                                     <div class="payment_option_area">
                                         <ul>
-                                            <li><img src="{{ asset('assets/img/icon/visa.png') }}" alt="icon"></li>
+                                            {{-- <li><img src="{{ asset('assets/img/icon/visa.png') }}" alt="icon"></li>
                                             <li><img src="{{ asset('assets/img/icon/skill.png') }}" alt="icon"></li>
-                                            <li><img src="{{ asset('assets/img/icon/master.png') }}" alt="icon"></li>
+                                            <li><img src="{{ asset('assets/img/icon/master.png') }}" alt="icon"></li> --}}
                                             <li><img src="{{ asset('assets/img/icon/paypal.png') }}" alt="icon"></li>
                                         </ul>
                                     </div>
@@ -139,7 +139,7 @@
                         </form>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                {{-- <div class="col-lg-4">
                     <div class="sidebar_first">
                         <div class="case_boxed_wrapper">
                             <div class="case_boxed_img">
@@ -247,7 +247,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> --}}
             </div>
         </div>
     </section>

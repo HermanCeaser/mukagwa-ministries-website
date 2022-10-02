@@ -29,8 +29,7 @@
                     </div>
                     <div class="about_vedio_area">
                         <a href="{{ route('aboutus')}}" class="btn btn_theme btn_md">Learn more</a>
-                        <a href="#" class="vedio_btn popup-vimeo"><i class="fa fa-play"></i>How
-                            we work</a>
+
                     </div>
                 </div>
             </div>
