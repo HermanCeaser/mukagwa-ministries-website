@@ -12,12 +12,16 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="cta_right_side">
-                        <form action="#!" id="subscribe_form">
+                        <form action="{{ url('newsletter/') }}" id="subscribe_form" method="POST">
+                            @csrf
                             <div class="input-group">
-                                <input type="text" class="form-control" placeholder="Your mail address"
-                                    required="">
+                                <input name="email" type="text" class="form-control"
+                                    placeholder="Your mail address" value="{{ old('email') }}" required="">
                                 <button class="btn btn_theme btn_md" type="submit">Subscribe</button>
                             </div>
+                            @error('email')
+                                <div class="text-danger text-muted font-14">{{ $message }}</div>
+                            @enderror
                         </form>
                     </div>
                 </div>

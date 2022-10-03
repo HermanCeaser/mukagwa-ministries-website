@@ -40,4 +40,27 @@ Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth'])->name('dashboard');
 
-require __DIR__.'/auth.php';
+Route::post('newsletter', function () {
+    request()->validate(['email' => 'required|email']);
+
+    $mailchimp = new \MailchimpMarketing\ApiClient();
+
+    $mailchimp->setConfig([
+        'apiKey' => config('services.mailchimp.key'),
+        'server' => 'us18'
+    ]);
+
+    try {
+        $response = $mailchimp->lists->addListMember('8d7f60f522', [
+            'email_address' => request('email'),
+            'status' => 'subscribed'
+        ]);
+    } catch (\Exception $e) {
+        throw \Illuminate\Validation\ValidationException::withMessages([
+            'email' => 'This email could not be added to our newsletter list!. Try using another Active Email'
+        ]);
+    }
+    return redirect('/')->with('success', 'You are now signed up for our newletter!');
+});
+
+require __DIR__ . '/auth.php';

@@ -60,8 +60,10 @@
                             <div class="contact_left_text">
                                 <h3>Phone number:</h3>
                                 <a href="https://wa.me/256705996362?text=Hello+Betty%2C+I%27ve+been+looking+at+the+Mukagwa+Ministries+website%2C+and+I+believe+the+cause+has+touched+me.+I%27m+interested+in+volunteering.+"
-                                    target="_blank"><img src="{{ asset('assets/img/icon/whatsapp.png')}}" alt="Whatsapp Icon" style="height: 20px; width: 20px;"/>  +256 705 996 362  </a>
-                                <a href="tel:+256705996362"><img src="{{ asset('assets/img/icon/telephone.png')}}" alt="Telephone Icon" style="height: 20px; width: 20px;"/> +256 782 331 162 </a>
+                                    target="_blank"><img src="{{ asset('assets/img/icon/whatsapp.png') }}"
+                                        alt="Whatsapp Icon" style="height: 20px; width: 20px;" /> +256 705 996 362 </a>
+                                <a href="tel:+256705996362"><img src="{{ asset('assets/img/icon/telephone.png') }}"
+                                        alt="Telephone Icon" style="height: 20px; width: 20px;" /> +256 782 331 162 </a>
                             </div>
                         </div>
                     </div>
@@ -69,18 +71,34 @@
                 <div class="col-lg-6">
                     <div class="contact_form_Wrapper">
                         <h3>Leave us a message</h3>
-                        <form action="#!" id="contact_form">
+                        <form action="{{ route('contact-us.store') }}" id="contact_form" method="post">
+                            @csrf
                             <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Your full name*" required />
+                                <input name="name" type="text" class="form-control" placeholder="Your full name*"
+                                    value="{{ old('name') }}" required />
+                                @error('name')
+                                    <span class="text-danger">{{ $message }}</span>
+                                @enderror
                             </div>
                             <div class="form-group">
-                                <input type="email" class="form-control" placeholder="Your email address*" required />
+                                <input name="email" type="email" class="form-control"
+                                    placeholder="Your email address*" value="{{ old('email') }}" required />
+                                @error('email')
+                                    <span class="text-danger">{{ $message }}</span>
+                                @enderror
                             </div>
                             <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Subject**" required />
+                                <input name="subject" type="text" class="form-control" placeholder="Subject**"
+                                    value="{{old('subject')}}" required />
+                                @error('subject')
+                                    <span class="text-danger"> {{ $message }}</span>
+                                @enderror
                             </div>
                             <div class="form-group">
-                                <textarea class="form-control" rows="6" placeholder="Message*" required></textarea>
+                                <textarea name="message" class="form-control" rows="6" placeholder="Message*" required>{{old('message')}}</textarea>
+                                @error('message')
+                                    <span class="text-danger">{{ $message }}</span>
+                                @enderror
                             </div>
                             <div class="contact_submit_form">
                                 <button class="btn btn_theme btn_md">Send message</button>

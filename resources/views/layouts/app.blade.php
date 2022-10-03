@@ -30,6 +30,7 @@
 
     <!-- Fonts -->
     <link rel="stylesheet" href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap">
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="{{ asset('assets/img/favicon.png') }}">
 
@@ -51,6 +52,17 @@
 
         <!-- Page Content -->
         <main>
+            @if (session()->has('success'))
+                <div x-data="{ show: true }" x-init="setTimeout(() => show = false, 4000)" x-show="show" class="d-flex w-auto card-body"
+                    style="position:fixed; top: 16px; right: 0; z-index: 1030;">
+                    <span class="alert alert-success ">{{ session('success') }}</span>
+                </div>
+            @elseif(session()->has('error'))
+                <div x-data="{ show: true }" x-init="setTimeout(() => show = false, 4000)" x-show="show" class="d-flex w-auto card-body"
+                    style="position:fixed; top: 16px; right: 0; z-index: 1030;">
+                    <span class="alert alert-danger ">{{ session('error') }}</span>
+                </div>
+            @endif
             {{ $slot }}
         </main>
 
