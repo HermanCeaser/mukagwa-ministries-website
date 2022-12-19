@@ -13,11 +13,11 @@
             <div class="col-lg-6">
                 <div class="banner_one_img">
                     <img src="{{ asset('assets/img/banner/banner2.png') }}" alt="img">
-                    <div class="banner_element">
+                    {{-- <div class="banner_element">
                         <img src="{{ asset('assets/img/banner/element-1.png') }}" alt="icon" class="element_1 shape-1">
                         <img src="{{ asset('assets/img/banner/element-2.png') }}" alt="icon" class="element_2 shape-2">
                         <img src="{{ asset('assets/img/banner/element-3.png') }}" alt="icon" class="element_3 shape-3">
-                    </div>
+                    </div> --}}
                 </div>
             </div>
         </div>

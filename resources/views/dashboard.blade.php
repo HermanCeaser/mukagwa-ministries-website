@@ -15,7 +15,7 @@
     @include('layouts.partials.donate')
 
     <!-- Counter  Area -->
-    @include('layouts.partials.counter')
+    {{-- @include('layouts.partials.counter') --}}
 
 
 </x-app-layout>
