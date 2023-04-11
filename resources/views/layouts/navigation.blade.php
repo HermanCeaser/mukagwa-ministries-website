@@ -15,6 +15,9 @@
                 <div class="col-lg-6 col-md-6">
                     <ul class="topbar-list-right">
                         <li>
+                            <a href="#!"><i class="fab fa-youtube"></i></a>
+                        </li>
+                        <li>
                             <a href="#!"><i class="fab fa-facebook"></i></a>
                         </li>
                         <li>

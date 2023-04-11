@@ -82,6 +82,9 @@
                             <div class="volunteer_icon">
                                 <ul>
                                     <li>
+                                        <a href="#!"><i class="fab fa-youtube-square"></i></a>
+                                    </li>
+                                    <li>
                                         <a href="#!"><i class="fab fa-facebook"></i></a>
                                     </li>
                                     <li>
@@ -110,6 +113,9 @@
                             <div class="volunteer_icon">
                                 <ul>
                                     <li>
+                                        <a href="#!"><i class="fab fa-youtube-square"></i></a>
+                                    </li>
+                                    <li>
                                         <a href="#!"><i class="fab fa-facebook"></i></a>
                                     </li>
                                     <li>
@@ -137,6 +143,9 @@
                             <img src="assets/img/volunteer/volunteer-3.png" alt="img">
                             <div class="volunteer_icon">
                                 <ul>
+                                    <li>
+                                        <a href="#!"><i class="fab fa-youtube-square"></i></a>
+                                    </li>
                                     <li>
                                         <a href="#!"><i class="fab fa-facebook"></i></a>
                                     </li>
