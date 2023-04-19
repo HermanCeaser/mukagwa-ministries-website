@@ -15,19 +15,19 @@
                 <div class="col-lg-6 col-md-6">
                     <ul class="topbar-list-right">
                         <li>
-                            <a href="#!"><i class="fab fa-youtube"></i></a>
+                            <a href="https://www.youtube.com/channel/UCurriVT-sKF0NQ5yU4gDCpw"><i class="fab fa-youtube"></i></a>
                         </li>
                         <li>
-                            <a href="#!"><i class="fab fa-facebook"></i></a>
+                            <a href="https://www.facebook.com/profile.php?id=100091954598812&mibextid=ZbWKwL"><i class="fab fa-facebook"></i></a>
                         </li>
                         <li>
-                            <a href="#!"><i class="fab fa-twitter-square"></i></a>
+                            <a href="https://twitter.com/@Mukagwa2020"><i class="fab fa-twitter-square"></i></a>
                         </li>
                         <li>
-                            <a href="#!"><i class="fab fa-instagram"></i></a>
+                            <a href="https://instagram.com/mukagwa_ministries"><i class="fab fa-instagram"></i></a>
                         </li>
                         <li>
-                            <a href="#!"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://www.linkedin.com/in/mukagwa-ministries-18bb4b272/"><i class="fab fa-linkedin"></i></a>
                         </li>
                     </ul>
                 </div>
