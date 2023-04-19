@@ -89,7 +89,7 @@
 
             </div>
 
-            <h2> Children's Orphanage <span class="color_big_heading">in</span> in Namutumba-District
+            <h2> Children's Orphanage <span class="color_big_heading">in</span> Namutumba-District
             </h2>
             <div class="row popup-gallery">
                 {{-- <div class="col-lg-12 co-md-12 col-sm-12 col-12"> --}}

@@ -46,7 +46,7 @@
                                         <p>Co-founder | Mukagwa Ministries</p>
                                         <ul>
                                             <li><img src="{{ asset('assets/img/icon/tag.png') }}" alt="icon">
-                                                Category: <span>Evalengism</span>
+                                                Category: <span>Evangelism</span>
                                             </li>
                                             <li><img src="{{ asset('assets/img/icon/map.png') }}" alt="icon">
                                                 Location: <span>Kampala: Uganda</span></li>
@@ -54,6 +54,32 @@
                                         </ul>
                                     </div>
                                 </div>
+                                <div class="project_organizer_wrapper sidebar_boxed">
+                                    <div class="project_organizer_img">
+                                        <img src="#!" alt="img" />
+                                    </div>
+                                    <div class="project_organizer_text">
+                                        <h5>Senior Pastor:</h5>
+                                        <h3>Komodo Keneth</h3>
+                                        <p>Senior Pastor | Community Bible Church</p>
+                                        <ul>
+                                            <li><img src="{{ asset('assets/img/icon/tag.png') }}" alt="icon">
+                                                Category: <span>Evangelism</span>
+                                            </li>
+                                            <li><img src="{{ asset('assets/img/icon/map.png') }}" alt="icon">
+                                                Location: <span>Namutumba: Uganda</span></li>
+                                            <li>
+                                                <img src="{{ asset('assets/img/icon/telephone.png') }}"
+                                                    alt="Telephone Icon"> Contact: <span>+256 754 653 315</span>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                                <p>
+                                    <head> Romans 1:17 </head><br>
+                                    The righteous shall live by faith.
+                                </p>
                             </div>
                         </div>
 

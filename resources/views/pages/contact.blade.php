@@ -39,7 +39,16 @@
                             </div>
                             <div class="contact_left_text">
                                 <h3>Address:</h3>
+
+                                <head>Head Office</head>
                                 <p>Luwafu, Makindye - Kampala<br /> Uganda</p>
+                                <br>
+
+                                <head>Branches:</head>
+                                <p>Namutumba - Eastern Uganda</p>
+                                <p>Luwero - Central Uganda</p>
+                                <p>Buddaka - Eastern Uganda</p>
+                                <p>Mbale City</p>
                             </div>
                         </div>
                         <div class="contact_left_item">
@@ -64,6 +73,8 @@
                                         alt="Whatsapp Icon" style="height: 20px; width: 20px;" /> +256 705 996 362 </a>
                                 <a href="tel:+256705996362"><img src="{{ asset('assets/img/icon/telephone.png') }}"
                                         alt="Telephone Icon" style="height: 20px; width: 20px;" /> +256 782 331 162 </a>
+                                <a href="#!"><img src="{{ asset('assets/img/icon/telephone.png') }}"
+                                        alt="Telephone Icon" style="height: 20px; width: 20px;" /> +256 754 653 315 </a>
                             </div>
                         </div>
                     </div>
@@ -89,13 +100,13 @@
                             </div>
                             <div class="form-group">
                                 <input name="subject" type="text" class="form-control" placeholder="Subject**"
-                                    value="{{old('subject')}}" required />
+                                    value="{{ old('subject') }}" required />
                                 @error('subject')
                                     <span class="text-danger"> {{ $message }}</span>
                                 @enderror
                             </div>
                             <div class="form-group">
-                                <textarea name="message" class="form-control" rows="6" placeholder="Message*" required>{{old('message')}}</textarea>
+                                <textarea name="message" class="form-control" rows="6" placeholder="Message*" required>{{ old('message') }}</textarea>
                                 @error('message')
                                     <span class="text-danger">{{ $message }}</span>
                                 @enderror

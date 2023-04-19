@@ -5,8 +5,9 @@
                 <div class="footer_area_about">
                     <img src="{{Vite::asset('resources/img/logo.png')}}" alt="img">
                     <p>To partner with organisations in Uganda and internationally to bring about transformational change through quality Christian education, health care and community development.</p>
-                    <h6><strong>Address:</strong> Luwafu, Makindye - Kampala Uganda</h6>
-                    <h6><strong>Phone:</strong> <a href="#">+256-782331162 / +256-705996362</a></h6>
+                    <h6><strong>Address:</strong> <br> <head><strong>Head Office:</strong></head><br>Luwafu, Makindye - Kampala Uganda</h6>
+                    <h6><strong>Branches:</strong> Namutumba, Luwero, Buddaka & Mbale City</h6>
+                    <h6><strong>Phone:</strong> <a href="#">+256-782331162 / +256-705996362 / +256 754 653 315</a></h6>
                     <h6><strong>Email:</strong> <a href="mailto:info@mukagwaministries.com">info@mukagwaministries.com</a></h6>
                 </div>
             </div>
