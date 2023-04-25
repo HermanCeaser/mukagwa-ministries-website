@@ -115,7 +115,7 @@
 
                         <div class="volunteer_text">
                             <h3><a href="#!">Betty Mutunda</a></h3>
-                            <p>Project Manager</p>
+                            <p>Director</p>
                         </div>
                     </div>
                 </div>
