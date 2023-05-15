@@ -153,7 +153,7 @@
 
                         <div class="volunteer_text">
                             <h3><a href="#!">Stephen Kuwereka</a></h3>
-                            <p>Director Health</p>
+                            <p>CEO</p>
                         </div>
                     </div>
                 </div>
@@ -190,10 +190,11 @@
 
                         <div class="volunteer_text">
                             <h3><a href="#!">Komodo Keneth</a></h3>
-                            <p>Senior Pastor</p>
+                            <p> Department of Planning & Administration</p>
                         </div>
                     </div>
                 </div>
+
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="volunteer_wrapper">
                         <div class="volunteer_img">
@@ -223,12 +224,160 @@
 
                         <div class="volunteer_text">
                             <h3><a href="#!">Muledu Micheal</a></h3>
-                            <p>Elder</p>
+                            <p>Department of Consume, Religious & Life Stance</p>
                         </div>
                     </div>
                 </div>
             </div>
+            <br>
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                    <div class="volunteer_wrapper">
+                        <div class="volunteer_img">
+                            <img src="assets/img/volunteer/volunteer-1.png" alt="img">
+                            <div class="volunteer_icon">
+                                <ul>
+                                    <li>
+                                        <a href="https://www.youtube.com/channel/UCurriVT-sKF0NQ5yU4gDCpw"><i
+                                                class="fab fa-youtube-square"></i></a>
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="https://www.facebook.com/profile.php?id=100091954598812&mibextid=ZbWKwL"><i
+                                                class="fab fa-facebook"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://twitter.com/@Mukagwa2020"><i
+                                                class="fab fa-twitter-square"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://instagram.com/mukagwa_ministries"><i
+                                                class="fab fa-instagram"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.linkedin.com/in/mukagwa-ministries-18bb4b272/"><i
+                                                class="fab fa-linkedin"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
 
+                        <div class="volunteer_text">
+                            <h3><a href="#!">Mugala Deborah</a></h3>
+                            <p>General Secretary</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                    <div class="volunteer_wrapper">
+                        <div class="volunteer_img">
+                            <img src="assets/img/volunteer/volunteer-2.png" alt="img">
+                            <div class="volunteer_icon">
+                                <ul>
+                                    <li>
+                                        <a href="https://www.youtube.com/channel/UCurriVT-sKF0NQ5yU4gDCpw"><i
+                                                class="fab fa-youtube-square"></i></a>
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="https://www.facebook.com/profile.php?id=100091954598812&mibextid=ZbWKwL"><i
+                                                class="fab fa-facebook"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://twitter.com/@Mukagwa2020"><i
+                                                class="fab fa-twitter-square"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://instagram.com/mukagwa_ministries"><i
+                                                class="fab fa-instagram"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.linkedin.com/in/mukagwa-ministries-18bb4b272/"><i
+                                                class="fab fa-linkedin"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="volunteer_text">
+                            <h3><a href="#!">Kaigo Julius</a></h3>
+                            <p>Cheif Financial Officer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                    <div class="volunteer_wrapper">
+                        <div class="volunteer_img">
+                            <img src="assets/img/volunteer/volunteer-3.png" alt="img">
+                            <div class="volunteer_icon">
+                                <ul>
+                                    <li>
+                                        <a href="https://www.youtube.com/channel/UCurriVT-sKF0NQ5yU4gDCpw"><i
+                                                class="fab fa-youtube-square"></i></a>
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="https://www.facebook.com/profile.php?id=100091954598812&mibextid=ZbWKwL"><i
+                                                class="fab fa-facebook"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://twitter.com/@Mukagwa2020"><i
+                                                class="fab fa-twitter-square"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://instagram.com/mukagwa_ministries"><i
+                                                class="fab fa-instagram"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.linkedin.com/in/mukagwa-ministries-18bb4b272/"><i
+                                                class="fab fa-linkedin"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="volunteer_text">
+                            <h3><a href="#!">Musibika Lillian</a></h3>
+                            <p>Operations Manager</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                    <div class="volunteer_wrapper">
+                        <div class="volunteer_img">
+                            <img src="assets/img/volunteer/volunteer-5.png" alt="img">
+                            <div class="volunteer_icon">
+                                <ul>
+                                    <li>
+                                        <a
+                                            href="https://www.facebook.com/profile.php?id=100091954598812&mibextid=ZbWKwL"><i
+                                                class="fab fa-facebook"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://twitter.com/@Mukagwa2020"><i
+                                                class="fab fa-twitter-square"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://instagram.com/mukagwa_ministries"><i
+                                                class="fab fa-instagram"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.linkedin.com/in/mukagwa-ministries-18bb4b272/"><i
+                                                class="fab fa-linkedin"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="volunteer_text">
+                            <h3><a href="#!">Abbas Wandega</a></h3>
+                            <p>Communication Department</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <br>
             <div class="row">
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
@@ -340,6 +489,154 @@
                         <div class="volunteer_text">
                             <h3><a href="#!">Daniel Mugabi</a></h3>
                             <p>Project Moblizer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                    <div class="volunteer_wrapper">
+                        <div class="volunteer_img">
+                            <img src="assets/img/volunteer/volunteer-4.png" alt="img">
+                            <div class="volunteer_icon">
+                                <ul>
+                                    <li>
+                                        <a
+                                            href="https://www.facebook.com/profile.php?id=100091954598812&mibextid=ZbWKwL"><i
+                                                class="fab fa-facebook"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://twitter.com/@Mukagwa2020"><i
+                                                class="fab fa-twitter-square"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://instagram.com/mukagwa_ministries"><i
+                                                class="fab fa-instagram"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.linkedin.com/in/mukagwa-ministries-18bb4b272/"><i
+                                                class="fab fa-linkedin"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="volunteer_text">
+                            <h3><a href="#!">Nakitende Christine</a></h3>
+                            <p>Promotions Manager</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                    <div class="volunteer_wrapper">
+                        <div class="volunteer_img">
+                            <img src="assets/img/volunteer/volunteer-6.png" alt="img">
+                            <div class="volunteer_icon">
+                                <ul>
+                                    <li>
+                                        <a href="https://www.youtube.com/channel/UCurriVT-sKF0NQ5yU4gDCpw"><i
+                                                class="fab fa-youtube-square"></i></a>
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="https://www.facebook.com/profile.php?id=100091954598812&mibextid=ZbWKwL"><i
+                                                class="fab fa-facebook"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://twitter.com/@Mukagwa2020"><i
+                                                class="fab fa-twitter-square"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://instagram.com/mukagwa_ministries"><i
+                                                class="fab fa-instagram"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.linkedin.com/in/mukagwa-ministries-18bb4b272/"><i
+                                                class="fab fa-linkedin"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="volunteer_text">
+                            <h3><a href="#!">Sarah Buwule Ndimwibo</a></h3>
+                            <p>Welfare Department</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                    <div class="volunteer_wrapper">
+                        <div class="volunteer_img">
+                            <img src="assets/img/volunteer/volunteer-7.png" alt="img">
+                            <div class="volunteer_icon">
+                                <ul>
+                                    <li>
+                                        <a href="https://www.youtube.com/channel/UCurriVT-sKF0NQ5yU4gDCpw"><i
+                                                class="fab fa-youtube-square"></i></a>
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="https://www.facebook.com/profile.php?id=100091954598812&mibextid=ZbWKwL"><i
+                                                class="fab fa-facebook"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://twitter.com/@Mukagwa2020"><i
+                                                class="fab fa-twitter-square"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://instagram.com/mukagwa_ministries"><i
+                                                class="fab fa-instagram"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.linkedin.com/in/mukagwa-ministries-18bb4b272/"><i
+                                                class="fab fa-linkedin"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="volunteer_text">
+                            <h3><a href="#!">Stella Birungi</a></h3>
+                            <p>Department of Childhood, Youth & Family Affairs</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                    <div class="volunteer_wrapper">
+                        <div class="volunteer_img">
+                            <img src="assets/img/volunteer/volunteer-8.png" alt="img">
+                            <div class="volunteer_icon">
+                                <ul>
+                                    <li>
+                                        <a href="https://www.youtube.com/channel/UCurriVT-sKF0NQ5yU4gDCpw"><i
+                                                class="fab fa-youtube-square"></i></a>
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="https://www.facebook.com/profile.php?id=100091954598812&mibextid=ZbWKwL"><i
+                                                class="fab fa-facebook"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://twitter.com/@Mukagwa2020"><i
+                                                class="fab fa-twitter-square"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://instagram.com/mukagwa_ministries"><i
+                                                class="fab fa-instagram"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.linkedin.com/in/mukagwa-ministries-18bb4b272/"><i
+                                                class="fab fa-linkedin"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="volunteer_text">
+                            <h3><a href="#!">Volunteer</a></h3>
+                            <p>Volunteer</p>
                         </div>
                     </div>
                 </div>
