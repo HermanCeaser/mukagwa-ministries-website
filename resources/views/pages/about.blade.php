@@ -83,7 +83,7 @@
             </div>
             <div class="row">
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-                    <div class="volunteer_wrapper">
+                    <div class="volunteer_wrapper h-100">
                         <div class="volunteer_img">
                             <img src="assets/img/volunteer/Mutunda_Betty.jpg" alt="img">
                             <div class="volunteer_icon">
@@ -121,7 +121,7 @@
                 </div>
 
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-                    <div class="volunteer_wrapper">
+                    <div class="volunteer_wrapper h-100">
                         <div class="volunteer_img">
                             <img src="assets/img/volunteer/Stephen Kuwereka2.jpg" alt="img">
                             <div class="volunteer_icon">
@@ -158,7 +158,7 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-                    <div class="volunteer_wrapper">
+                    <div class="volunteer_wrapper h-100">
                         <div class="volunteer_img">
                             <img src="assets/img/volunteer/Komodo Keneth1.jpg" alt="img">
                             <div class="volunteer_icon">
@@ -196,7 +196,7 @@
                 </div>
 
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-                    <div class="volunteer_wrapper">
+                    <div class="volunteer_wrapper h-100">
                         <div class="volunteer_img">
                             <img src="assets/img/volunteer/volunteer-4.png" alt="img">
                             <div class="volunteer_icon">
@@ -232,7 +232,7 @@
             <br>
             <div class="row">
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-                    <div class="volunteer_wrapper">
+                    <div class="volunteer_wrapper h-100">
                         <div class="volunteer_img">
                             <img src="assets/img/volunteer/volunteer-1.png" alt="img">
                             <div class="volunteer_icon">
@@ -270,7 +270,7 @@
                 </div>
 
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-                    <div class="volunteer_wrapper">
+                    <div class="volunteer_wrapper h-100">
                         <div class="volunteer_img">
                             <img src="assets/img/volunteer/volunteer-2.png" alt="img">
                             <div class="volunteer_icon">
@@ -307,7 +307,7 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-                    <div class="volunteer_wrapper">
+                    <div class="volunteer_wrapper h-100">
                         <div class="volunteer_img">
                             <img src="assets/img/volunteer/volunteer-3.png" alt="img">
                             <div class="volunteer_icon">
@@ -345,7 +345,7 @@
                 </div>
 
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-                    <div class="volunteer_wrapper">
+                    <div class="volunteer_wrapper h-100">
                         <div class="volunteer_img">
                             <img src="assets/img/volunteer/volunteer-5.png" alt="img">
                             <div class="volunteer_icon">
@@ -381,7 +381,7 @@
             <br>
             <div class="row">
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-                    <div class="volunteer_wrapper">
+                    <div class="volunteer_wrapper h-100">
                         <div class="volunteer_img">
                             <img src="assets/img/volunteer/Nangobi Linda Eunice2.jpg" alt="img">
                             <div class="volunteer_icon">
@@ -419,7 +419,7 @@
                 </div>
 
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-                    <div class="volunteer_wrapper">
+                    <div class="volunteer_wrapper h-100">
                         <div class="volunteer_img">
                             <img src="assets/img/volunteer/Akello Harriet.jpg" alt="img">
                             <div class="volunteer_icon">
@@ -456,7 +456,7 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-                    <div class="volunteer_wrapper">
+                    <div class="volunteer_wrapper h-100">
                         <div class="volunteer_img">
                             <img src="assets/img/volunteer/Daniel Mugabi.jpg" alt="img">
                             <div class="volunteer_icon">
@@ -493,7 +493,7 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-                    <div class="volunteer_wrapper">
+                    <div class="volunteer_wrapper h-100">
                         <div class="volunteer_img">
                             <img src="assets/img/volunteer/volunteer-4.png" alt="img">
                             <div class="volunteer_icon">
@@ -529,7 +529,7 @@
             <br>
             <div class="row">
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-                    <div class="volunteer_wrapper">
+                    <div class="volunteer_wrapper h-100">
                         <div class="volunteer_img">
                             <img src="assets/img/volunteer/volunteer-6.png" alt="img">
                             <div class="volunteer_icon">
@@ -567,7 +567,7 @@
                 </div>
 
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-                    <div class="volunteer_wrapper">
+                    <div class="volunteer_wrapper h-100">
                         <div class="volunteer_img">
                             <img src="assets/img/volunteer/volunteer-7.png" alt="img">
                             <div class="volunteer_icon">
@@ -604,7 +604,7 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-                    <div class="volunteer_wrapper">
+                    <div class="volunteer_wrapper h-100">
                         <div class="volunteer_img">
                             <img src="assets/img/volunteer/volunteer-8.png" alt="img">
                             <div class="volunteer_icon">
@@ -641,7 +641,7 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-                    <div class="volunteer_wrapper">
+                    <div class="volunteer_wrapper h-100">
                         <div class="volunteer_img">
                             <img src="assets/img/volunteer/volunteer-4.png" alt="img">
                             <div class="volunteer_icon">
