@@ -372,7 +372,7 @@
                         </div>
 
                         <div class="volunteer_text">
-                            <h3><a href="#!">Abbas Wandega</a></h3>
+                            <h3><a href="#!">Abasa Wandega</a></h3>
                             <p>Communication Department</p>
                         </div>
                     </div>
