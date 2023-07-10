@@ -51,7 +51,7 @@ class ContactController extends Controller
         try {
             // mail($EmailTo, $subject, $message, $headers);
             $contact = Contact::create($request->all());
-            Mail::to(env('MAIL_FROM_ADDRESS'))->send(new ContactMail($contact));
+            // Mail::to(env('MAIL_FROM_ADDRESS'))->send(new ContactMail($contact));
             return redirect()->back()->with(['success' => 'Thank you for contacting us. We will get back to you Shortly']);
         } catch (\Exception $e) {
             return redirect()->back()->with(['error' => 'Failed to send the Email. Try Again Later']);
