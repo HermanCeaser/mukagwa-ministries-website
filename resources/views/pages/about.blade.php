@@ -347,7 +347,7 @@
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="volunteer_wrapper">
                         <div class="volunteer_img">
-                            <img src="assets/img/volunteer/volunteer-5.png" alt="img">
+                            <img src="assets/img/volunteer/Abasa_Wandega.jpg" alt="img">
                             <div class="volunteer_icon">
                                 <ul>
                                     <li>
