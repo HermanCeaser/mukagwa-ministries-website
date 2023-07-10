@@ -347,7 +347,7 @@
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="volunteer_wrapper h-100">
                         <div class="volunteer_img">
-                            <img src="assets/img/volunteer/volunteer-5.png" alt="img">
+                            <img src="assets/img/volunteer/Abasa_Wandega.jpg" alt="img">
                             <div class="volunteer_icon">
                                 <ul>
                                     <li>
@@ -372,7 +372,7 @@
                         </div>
 
                         <div class="volunteer_text">
-                            <h3><a href="#!">Abbas Wandega</a></h3>
+                            <h3><a href="#!">Abasa Wandega</a></h3>
                             <p>Communication Department</p>
                         </div>
                     </div>
