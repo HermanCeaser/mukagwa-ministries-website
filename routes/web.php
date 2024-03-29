@@ -28,7 +28,7 @@ Route::get('/projects/education', [ProjectController::class, 'education'])->name
 Route::get('/projects/evangelism', [ProjectController::class, 'evangelism'])->name('projects.evangelism');
 Route::get('/projects/leadership', [ProjectController::class, 'leadership'])->name('projects.leadership');
 Route::get('/causes/{cause}', [CausesController::class, 'show'])->name('causes.show');
-Route::resource('/donation', DonationController::class)->only(['create', 'store', 'show']);
+Route::resource('/donation', DonationController::class)->only(['index', 'store', 'show']);
 Route::get('about-us', [AboutController::class, 'index'])->name('aboutus');
 Route::resource('contact-us', ContactController::class)->only(['index', 'store']);
 

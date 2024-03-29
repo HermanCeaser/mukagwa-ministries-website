@@ -115,7 +115,7 @@
                                         alt="icon"></a>
                             </div>
                             <div class="option-item">
-                                <a href="{{route('donation.create')}}" class="btn btn_navber">Donate now</a>
+                                <a href="{{route('donation.index')}}" class="btn btn_navber">Donate now</a>
                             </div>
                         </div>
                     </div>
@@ -138,7 +138,7 @@
                                 <a href="#" class="search-box"><i class="fas fa-search"></i></a>
                             </div>
                             <div class="option-item">
-                                <a href="{{route('donation.create')}}" class="btn  btn_navber">Donate now</a>
+                                <a href="{{route('donation.index')}}" class="btn  btn_navber">Donate now</a>
                             </div>
                         </div>
                     </div>

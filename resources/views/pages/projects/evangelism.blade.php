@@ -97,7 +97,7 @@
                                     </div>
                                 </div> --}}
                                 <div class="details_top_btn">
-                                    <a href="{{ route('donation.create') }}" class="btn btn_md btn_theme">Donate
+                                    <a href="{{ route('donation.index') }}" class="btn btn_md btn_theme">Donate
                                         now</a>
                                 </div>
                             </div>

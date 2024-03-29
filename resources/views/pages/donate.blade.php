@@ -54,7 +54,7 @@
                                             <span id="donation_currency_symbol"></span>
                                             <input id="donation_amount" name="amount"
                                                 onkeypress="return CheckNumeric()" type="text" 
-                                                style="text-align: right;" />
+                                                style="text-align: right;" required/>
                                         </div>
                                         @error('amount')
                                             <span class="text-danger">{{ $message }}</span>
