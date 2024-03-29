@@ -16,7 +16,18 @@ class DonationController extends Controller
 
     public function store(Request $request)
     {
-        //
+        $request->validate([
+            'currency' => 'required',
+            'amount' => ['required','regex:/^\d{1,3}(,\d{3})*(\.\d{2})?$/'], // Validates currency amount
+            'first_name' => 'required',
+            'last_name' => 'required',
+            'email' => 'required|email',
+            'phone_number' => 'nullable',
+            'address' => 'nullable',
+            'comment' => 'nullable',
+            'country' => 'required',
+        ]);
+        dd($request->all());
     }
 
 
