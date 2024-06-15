@@ -36,6 +36,8 @@
 
     <!-- Scripts -->
     @vite(['resources/css/app.css'])
+
+    @stack('css')
 </head>
 
 <body class="font-sans antialiased">

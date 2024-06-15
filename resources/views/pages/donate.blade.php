@@ -1,4 +1,74 @@
 <x-app-layout>
+    @push('css')
+        <style>
+            /* Donation Page Styles */
+            .donate-section .payment-info {
+                position: relative;
+                padding-top: 40px;
+                padding-bottom: 10px;
+            }
+
+            .donate-section .payment-options {
+                position: relative;
+                padding-bottom: 10px;
+            }
+
+            .donate-section .payment-info-select {
+                position: relative;
+                float: left;
+                text-align: center;
+                margin: 0px 15px 15px 0px;
+            }
+
+            .donate-section .payment-info-select input[type="radio"] {
+                left: 0px;
+                top: 0px;
+                visibility: hidden;
+                position: absolute;
+                opacity: 0;
+            }
+
+            .donate-section .payment-info-select label {
+                position: relative;
+                display: block;
+                line-height: 24px;
+                padding: 12px 30px;
+                text-align: center;
+                font-size: 16px;
+                text-transform: capitalize;
+                font-weight: 500;
+                background: #faf9f2;
+                color: #2f3753;
+                border: 1px solid #faf9f2;
+                cursor: pointer;
+                border-radius: 5px;
+                -webkit-transition: all 500ms ease;
+                -ms-transition: all 500ms ease;
+                transition: all 500ms ease;
+            }
+
+            .donate-section .payment-info-select img {
+                position: relative;
+                padding-left: 10px;
+            }
+
+            .donate-section .payment-info-select input[type="radio"]:checked+label {
+                background: #3f6b92;
+                border-color: #3f6b92;
+                color: #ffffff;
+            }
+
+            .donate-section .info-column {
+                position: relative;
+                margin-bottom: 30px;
+            }
+
+            .donate-section .info-column .inner {
+                position: relative;
+                display: block;
+            }
+        </style>
+    @endpush
     <section id="common_banner_area">
         <div class="container">
             <div class="row">
@@ -53,8 +123,8 @@
                                         <div class="input_donet_amount">
                                             <span id="donation_currency_symbol"></span>
                                             <input id="donation_amount" name="amount"
-                                                onkeypress="return CheckNumeric()" type="text" 
-                                                style="text-align: right;" required/>
+                                                onkeypress="return CheckNumeric()" type="text"
+                                                style="text-align: right;" required />
                                         </div>
                                         @error('amount')
                                             <span class="text-danger">{{ $message }}</span>
@@ -88,9 +158,18 @@
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="form-group">
-                                            <input type="email" name="email" class="form-control"
-                                                placeholder="Enter email address*" value="{{ old('email') }}"
-                                                required />
+                                            <input type="email" name="email" class="form-control" placehold
+                                                .donate-section .payment-info-select { position: relative; float: left;
+                                                text-align: center; margin: 0 15px 15px 0; } .donate-section
+                                                .payment-info-select input[type=radio]:checked+label { background:
+                                                #3f6b92; border-color: #3f6b92; color: #fff; } .donate-section
+                                                .payment-info-select label { position: relative; display: block;
+                                                line-height: 24px; padding: 12px 30px; text-align: center; font-size:
+                                                16px; text-transform: capitalize; font-weight: 500; background: #faf9f2;
+                                                color: #2f3753; border: 1px solid #faf9f2; cursor: pointer;
+                                                border-radius: 5px; transition: all .5s ease; } .donate-section
+                                                .payment-options { position: relative; padding-bottom: 10px;
+                                                }er="Enter email address*" value="{{ old('email') }}" required />
                                             @error('email')
                                                 <span class="text-danger">{{ $message }}</span>
                                             @enderror
@@ -137,7 +216,87 @@
                                         </div>
                                     </div>
                                 </div>
+                            </div>
+                            <div x-data="{ paymentMeans: 'bank' }" class="payment-info">
+                                <h3>Payment Means</h3>
+                                {{-- <div class="payment-options clearfix">
+                                    <div class="payment-info-select">
+                                        <input x-model="paymentMeans" value="bank" type="radio"
+                                            name="payment_means" id="radio-nine">
+                                        <label for="radio-nine">Bank Transfer<img style="height:32px; width:auto;"
+                                                src="{{ asset('assets/img/icon/icon-bank.png') }}" alt="" />
+                                        </label>
+                                    </div>
+                                    <div class="payment-info-select">
+                                        <input x-model="paymentMeans" value="mobile_money" type="radio"
+                                            name="payment_means" id="radio-zero">
+                                        <label for="radio-zero">Mobile Money
+                                            <img style="height:32px; width:auto;"
+                                                src="{{ asset('assets/img/icon/icon-momo.png') }}" alt="" />
+                                        </label>
+                                    </div>
+                                </div> --}}
+                                <div class="payment_option_area">
+                                    <ul>
+                                        <li>
+                                            <input x-model="paymentMeans" value="bank" type="radio"
+                                                style="display: none" name="payment_means" id="radio-zero">
+                                            <label for="radio-zero">
+                                                <img src="{{ asset('assets/img/icon/icon-bank.png') }}" alt="icon">
+                                            </label>
+                                        </li>
 
+                                        <li>
+                                            <input x-model="paymentMeans" value="mobile_money" type="radio"
+                                                style="display: none" name="payment_means" id="radio-one">
+                                            <label for="radio-one">
+                                                <img
+                                                    src="{{ asset('assets/img/icon/icon-momo.png') }}" alt="icon">
+                                            </label>
+                                        </li>
+                                        {{-- <li><img src="{{ asset('assets/img/icon/master.png') }}" alt="icon"></li>
+                                        <li><img src="{{ asset('assets/img/icon/paypal.png') }}" alt="icon"></li> --}}
+                                    </ul>
+                                </div>
+                                <div x-show="paymentMeans=='bank'" class="row clearfix">
+                                    <div id="bank-transfer">
+                                        <div class="default-event col-sm-12">
+                                            <div class="inner-box">
+                                                <div class="date"><span>STANBIC BANK</span></div>
+                                                <h3><a href="#">Direct Bank Transfer</a>
+                                                </h3>
+                                                <ul class="info">
+                                                    <li><span class="far fa-address-card"></span> Account No:
+                                                        9030015432356</li>
+                                                    <li><span class="fa fa-map-marker-alt"></span> SWIFT CODE :
+                                                        SBICUGKXX.</li>
+                                                    <li><span class="fa fa-user"></span> Account Name: MUTUNDA BETTY.
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                                <div x-show="paymentMeans == 'mobile_money'" class="row clearfix">
+                                    <div id="bank-transfer">
+                                        <div class="default-event col-sm-12">
+                                            <div class="inner-box">
+                                                <div class="date"><span>Mobile Money</span></div>
+                                                <h3><a href="#">Donate using Mobile Money</a>
+                                                </h3>
+                                                <ul class="info">
+                                                    <li><span class="fa fa-phone"></span> Number: <a
+                                                            href="tel:+256782331162">0782-331-162</a></li>
+                                                    <li><span class="fa fa-phone"></span> Number: <a
+                                                            href="tel:+256705996362">0705-996-362</a></li>
+                                                    <li><span class="fa fa-user"></span> Names: MUTUNDA BETTY</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
 
                             <div class="payment_amount_submit">

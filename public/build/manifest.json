@@ -1,4 +1,16 @@
 {
+  "resources/webfonts/Flaticon.woff": {
+    "file": "assets/Flaticon.400132fb.woff",
+    "src": "resources/webfonts/Flaticon.woff"
+  },
+  "resources/webfonts/Flaticon.ttf": {
+    "file": "assets/Flaticon.2af02b91.ttf",
+    "src": "resources/webfonts/Flaticon.ttf"
+  },
+  "resources/webfonts/Flaticon.svg": {
+    "file": "assets/Flaticon.574c2f29.svg",
+    "src": "resources/webfonts/Flaticon.svg"
+  },
   "resources/webfonts/Flaticon.eot": {
     "file": "assets/Flaticon.bdf14ccc.eot",
     "src": "resources/webfonts/Flaticon.eot"
@@ -7,37 +19,13 @@
     "file": "assets/logo.5b432d26.png",
     "src": "resources/img/logo.png"
   },
-  "resources/webfonts/Flaticon.svg": {
-    "file": "assets/Flaticon.574c2f29.svg",
-    "src": "resources/webfonts/Flaticon.svg"
-  },
-  "resources/webfonts/Flaticon.ttf": {
-    "file": "assets/Flaticon.2af02b91.ttf",
-    "src": "resources/webfonts/Flaticon.ttf"
-  },
-  "resources/webfonts/Flaticon.woff": {
-    "file": "assets/Flaticon.400132fb.woff",
-    "src": "resources/webfonts/Flaticon.woff"
-  },
-  "resources/webfonts/Flaticon.woff2": {
-    "file": "assets/Flaticon.e6029f69.woff2",
-    "src": "resources/webfonts/Flaticon.woff2"
-  },
-  "resources/webfonts/fa-brands-400.woff": {
-    "file": "assets/fa-brands-400.ca441c07.woff",
-    "src": "resources/webfonts/fa-brands-400.woff"
-  },
-  "resources/webfonts/fa-brands-400.ttf": {
-    "file": "assets/fa-brands-400.dbd08d02.ttf",
-    "src": "resources/webfonts/fa-brands-400.ttf"
-  },
   "resources/webfonts/fa-brands-400.eot": {
     "file": "assets/fa-brands-400.9158ee2e.eot",
     "src": "resources/webfonts/fa-brands-400.eot"
   },
-  "resources/webfonts/fa-brands-400.woff2": {
-    "file": "assets/fa-brands-400.05dbc516.woff2",
-    "src": "resources/webfonts/fa-brands-400.woff2"
+  "resources/webfonts/Flaticon.woff2": {
+    "file": "assets/Flaticon.e6029f69.woff2",
+    "src": "resources/webfonts/Flaticon.woff2"
   },
   "resources/webfonts/fa-regular-400.svg": {
     "file": "assets/fa-regular-400.59dc4082.svg",
@@ -46,6 +34,18 @@
   "resources/webfonts/fa-regular-400.eot": {
     "file": "assets/fa-regular-400.16941688.eot",
     "src": "resources/webfonts/fa-regular-400.eot"
+  },
+  "resources/webfonts/fa-brands-400.woff2": {
+    "file": "assets/fa-brands-400.05dbc516.woff2",
+    "src": "resources/webfonts/fa-brands-400.woff2"
+  },
+  "resources/webfonts/fa-brands-400.woff": {
+    "file": "assets/fa-brands-400.ca441c07.woff",
+    "src": "resources/webfonts/fa-brands-400.woff"
+  },
+  "resources/webfonts/fa-brands-400.ttf": {
+    "file": "assets/fa-brands-400.dbd08d02.ttf",
+    "src": "resources/webfonts/fa-brands-400.ttf"
   },
   "resources/webfonts/fa-regular-400.woff": {
     "file": "assets/fa-regular-400.f101b8f7.woff",
@@ -83,6 +83,10 @@
     "file": "assets/fa-solid-900.7798165e.woff2",
     "src": "resources/webfonts/fa-solid-900.woff2"
   },
+  "resources/webfonts/lightcaseeead.ttf": {
+    "file": "assets/lightcaseeead.e34fd551.ttf",
+    "src": "resources/webfonts/lightcaseeead.ttf"
+  },
   "resources/webfonts/lightcaseeead.svg": {
     "file": "assets/lightcaseeead.454c2e32.svg",
     "src": "resources/webfonts/lightcaseeead.svg"
@@ -90,10 +94,6 @@
   "resources/webfonts/lightcaseeead.eot": {
     "file": "assets/lightcaseeead.28723a28.eot",
     "src": "resources/webfonts/lightcaseeead.eot"
-  },
-  "resources/webfonts/lightcaseeead.ttf": {
-    "file": "assets/lightcaseeead.e34fd551.ttf",
-    "src": "resources/webfonts/lightcaseeead.ttf"
   },
   "resources/webfonts/fa-solid-900.svg": {
     "file": "assets/fa-solid-900.22f6af77.svg",
@@ -112,12 +112,12 @@
     "src": "resources/img/common/donat_banner.png"
   },
   "resources/js/app.js": {
-    "file": "assets/app.ab93cf8a.js",
+    "file": "assets/app.b4b86c71.js",
     "src": "resources/js/app.js",
     "isEntry": true
   },
   "resources/css/app.css": {
-    "file": "assets/app.93504e9b.css",
+    "file": "assets/app.cd9b340d.css",
     "src": "resources/css/app.css",
     "isEntry": true
   }
