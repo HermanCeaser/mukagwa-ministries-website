@@ -281,9 +281,9 @@
                                             <h3 class="mb-2"><a href="#">Donate using Mobile Money</a>
                                             </h3>
                                             <ul class="info">
-                                                <li class="mb-2"><span class="fa fa-phone"></span> Number: <a
+                                                <li class="mb-2"><span class="fa fa-phone"></span> MTN: <a
                                                         href="tel:+256782331162">+256 782 331 162</a></li>
-                                                <li class="mb-2"><span class="fa fa-phone"></span> Number: <a
+                                                <li class="mb-2"><span class="fa fa-phone"></span> Airtel: <a
                                                         href="tel:+256705996362">+256 705 996 362</a></li>
                                                 <li class="mb-2"><span class="fa fa-user"></span> Names: MUTUNDA BETTY</li>
                                             </ul>
