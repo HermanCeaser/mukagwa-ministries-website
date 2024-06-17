@@ -133,7 +133,7 @@
                                 </div>
                             </div>
 
-                            <div class="donet_amount_form_area doner_content_pbottom">
+                            <div class="donet_amount_form_area doner_content_pbottom row">
                                 <h3>Donor Details</h3>
                                 <div class="row">
                                     <div class="col-lg-6">
@@ -158,18 +158,7 @@
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="form-group">
-                                            <input type="email" name="email" class="form-control" placehold
-                                                .donate-section .payment-info-select { position: relative; float: left;
-                                                text-align: center; margin: 0 15px 15px 0; } .donate-section
-                                                .payment-info-select input[type=radio]:checked+label { background:
-                                                #3f6b92; border-color: #3f6b92; color: #fff; } .donate-section
-                                                .payment-info-select label { position: relative; display: block;
-                                                line-height: 24px; padding: 12px 30px; text-align: center; font-size:
-                                                16px; text-transform: capitalize; font-weight: 500; background: #faf9f2;
-                                                color: #2f3753; border: 1px solid #faf9f2; cursor: pointer;
-                                                border-radius: 5px; transition: all .5s ease; } .donate-section
-                                                .payment-options { position: relative; padding-bottom: 10px;
-                                                }er="Enter email address*" value="{{ old('email') }}" required />
+                                            <input type="email" name="email" class="form-control" placeholder="user@emailadrress.com*" value="{{ old('email') }}" required />
                                             @error('email')
                                                 <span class="text-danger">{{ $message }}</span>
                                             @enderror
@@ -178,7 +167,7 @@
                                     <div class="col-lg-6">
                                         <div class="form-group">
                                             <input type="phone" name="phone_number" class="form-control"
-                                                value="{{ old('phone_number') }}" placeholder="" />
+                                                value="{{ old('phone_number') }}" placeholder="+256 780 260 782" />
                                             @error('phone_number')
                                                 <span class="text-danger">{{ $message }}</span>
                                             @enderror
@@ -217,7 +206,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div x-data="{ paymentMeans: 'bank' }" class="payment-info">
+                            
+                            <div x-data="{ paymentMeans: 'bank' }" class="donet_amount_form_area doner_content_pbottom row" >
                                 <h3>Payment Means</h3>
                                 {{-- <div class="payment-options clearfix">
                                     <div class="payment-info-select">
