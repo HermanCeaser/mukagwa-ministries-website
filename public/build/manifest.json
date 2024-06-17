@@ -3,6 +3,10 @@
     "file": "assets/Flaticon.400132fb.woff",
     "src": "resources/webfonts/Flaticon.woff"
   },
+  "resources/webfonts/Flaticon.woff2": {
+    "file": "assets/Flaticon.e6029f69.woff2",
+    "src": "resources/webfonts/Flaticon.woff2"
+  },
   "resources/webfonts/Flaticon.ttf": {
     "file": "assets/Flaticon.2af02b91.ttf",
     "src": "resources/webfonts/Flaticon.ttf"
@@ -22,10 +26,6 @@
   "resources/webfonts/fa-brands-400.eot": {
     "file": "assets/fa-brands-400.9158ee2e.eot",
     "src": "resources/webfonts/fa-brands-400.eot"
-  },
-  "resources/webfonts/Flaticon.woff2": {
-    "file": "assets/Flaticon.e6029f69.woff2",
-    "src": "resources/webfonts/Flaticon.woff2"
   },
   "resources/webfonts/fa-regular-400.svg": {
     "file": "assets/fa-regular-400.59dc4082.svg",
@@ -75,21 +75,21 @@
     "file": "assets/fa-solid-900.b97adad7.ttf",
     "src": "resources/webfonts/fa-solid-900.ttf"
   },
-  "resources/webfonts/fa-solid-900.woff": {
-    "file": "assets/fa-solid-900.8fb19633.woff",
-    "src": "resources/webfonts/fa-solid-900.woff"
-  },
   "resources/webfonts/fa-solid-900.woff2": {
     "file": "assets/fa-solid-900.7798165e.woff2",
     "src": "resources/webfonts/fa-solid-900.woff2"
   },
-  "resources/webfonts/lightcaseeead.ttf": {
-    "file": "assets/lightcaseeead.e34fd551.ttf",
-    "src": "resources/webfonts/lightcaseeead.ttf"
+  "resources/webfonts/fa-solid-900.woff": {
+    "file": "assets/fa-solid-900.8fb19633.woff",
+    "src": "resources/webfonts/fa-solid-900.woff"
   },
   "resources/webfonts/lightcaseeead.svg": {
     "file": "assets/lightcaseeead.454c2e32.svg",
     "src": "resources/webfonts/lightcaseeead.svg"
+  },
+  "resources/webfonts/lightcaseeead.ttf": {
+    "file": "assets/lightcaseeead.e34fd551.ttf",
+    "src": "resources/webfonts/lightcaseeead.ttf"
   },
   "resources/webfonts/lightcaseeead.eot": {
     "file": "assets/lightcaseeead.28723a28.eot",
@@ -112,12 +112,12 @@
     "src": "resources/img/common/donat_banner.png"
   },
   "resources/js/app.js": {
-    "file": "assets/app.b4b86c71.js",
+    "file": "assets/app.ab93cf8a.js",
     "src": "resources/js/app.js",
     "isEntry": true
   },
   "resources/css/app.css": {
-    "file": "assets/app.cd9b340d.css",
+    "file": "assets/app.93504e9b.css",
     "src": "resources/css/app.css",
     "isEntry": true
   }
