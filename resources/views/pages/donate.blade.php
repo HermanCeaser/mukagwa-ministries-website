@@ -282,9 +282,9 @@
                                             </h3>
                                             <ul class="info">
                                                 <li class="mb-2"><span class="fa fa-phone"></span> Number: <a
-                                                        href="tel:+256782331162">0782-331-162</a></li>
+                                                        href="tel:+256782331162">+256 782 331 162</a></li>
                                                 <li class="mb-2"><span class="fa fa-phone"></span> Number: <a
-                                                        href="tel:+256705996362">0705-996-362</a></li>
+                                                        href="tel:+256705996362">+256 705 996 362</a></li>
                                                 <li class="mb-2"><span class="fa fa-user"></span> Names: MUTUNDA BETTY</li>
                                             </ul>
 
