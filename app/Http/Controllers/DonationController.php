@@ -2,9 +2,11 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Donation;
 use DateTime;
 use Illuminate\Http\Request;
 use App\Services\Flutterwave\Payment;
+use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\Log;
 
 class DonationController extends Controller
@@ -45,7 +47,11 @@ class DonationController extends Controller
             'address' => 'nullable',
             'comment' => 'nullable',
             'country' => 'required',
+            'payment_means' => 'required|in:mobile_money,bank'
         ]);
+
+        
+        $nationality = Config::get('constants.COUNTRIES')[$request->country];    
 
         $paymentDetails = [
             'currency' => $request->currency,
@@ -70,7 +76,21 @@ class DonationController extends Controller
         ];
 
         try {
-            $paymentService->processPayment($paymentDetails);
+            // $paymentService->processPayment($paymentDetails);
+
+            Donation::create([
+                'customer_name' => $request->first_name . ' ' . $request->last_name,
+                'email' => $request->email,
+                'phone_number' => $request->phone_number,
+                'address' => $request->address,
+                'nationality' => $nationality,
+                'amount' => preg_replace("/\D/", '', $request->input('amount')),
+                'currency' => $request->currency,
+                'payment_means' => $request->payment_means,
+                'comment' => $request->comment
+            ]);
+
+            return redirect('donation')->with('success', 'Thank you for your Donation 🙏. May the good Lord reward you abundantly!!');
         } catch (\Exception $e) {
             Log::error($e->getMessage());
             return back()->with('error', 'Failed To process Transaction! Try Again');

@@ -239,19 +239,22 @@
                                 <div class="payment_option_area">
                                     <ul>
                                         <li>
-                                            <input x-model="paymentMeans" value="bank" type="radio"
-                                                style="display: none" name="payment_means" id="radio-zero">
                                             <label for="radio-zero">
-                                                <img src="{{ asset('assets/img/icon/icon-bank.png') }}" alt="icon">
+                                                <input x-model="paymentMeans" value="bank" type="radio"
+                                                    name="payment_means" id="radio-zero">
+
+                                                <img src="{{ asset('assets/img/icon/icon-bank.png') }}"
+                                                    alt="icon">
                                             </label>
                                         </li>
 
                                         <li>
-                                            <input x-model="paymentMeans" value="mobile_money" type="radio"
-                                                style="display: none" name="payment_means" id="radio-one">
                                             <label for="radio-one">
-                                                <img
-                                                    src="{{ asset('assets/img/icon/icon-momo.png') }}" alt="icon">
+                                                <input x-model="paymentMeans" value="mobile_money" type="radio"
+                                                    name="payment_means" id="radio-one">
+
+                                                <img src="{{ asset('assets/img/icon/icon-momo.png') }}"
+                                                    alt="icon">
                                             </label>
                                         </li>
                                         {{-- <li><img src="{{ asset('assets/img/icon/master.png') }}" alt="icon"></li>
@@ -261,51 +264,53 @@
                                 <div x-show="paymentMeans=='bank'" class="row clearfix">
                                     <div id="bank-transfer">
                                         <div class="default-event col-sm-12">
-                                            <div class="inner-box">
-                                                <div class="date"><span>STANBIC BANK</span></div>
-                                                <h3><a href="#">Direct Bank Transfer</a>
-                                                </h3>
-                                                <ul class="info">
-                                                    <li><span class="far fa-address-card"></span> Account No:
-                                                        9030015432356</li>
-                                                    <li><span class="fa fa-map-marker-alt"></span> SWIFT CODE :
-                                                        SBICUGKXX.</li>
-                                                    <li><span class="fa fa-user"></span> Account Name: MUTUNDA BETTY.
-                                                    </li>
-                                                </ul>
+                                            <div class="section_heading inner-box">
+                                                <h2 style="text-align: left;"><span>STANBIC BANK</span></h2>
                                             </div>
+                                            <h3 class="mb-2"><a href="#">Direct Bank Transfer</a> </h3>
+                                            <ul class="info">
+                                                <li class="mb-2"><span class="far fa-address-card"></span> Account No:
+                                                    9030015432356</li>
+                                                <li class="mb-2"><span class="fa fa-map-marker-alt"></span> SWIFT CODE :
+                                                    SBICUGKXX.</li>
+                                                <li class="mb-2"><span class="fa fa-user"></span> Account Name: MUTUNDA BETTY.
+                                                </li>
+                                            </ul>
                                         </div>
-
-
                                     </div>
+
+
                                 </div>
-                                <div x-show="paymentMeans == 'mobile_money'" class="row clearfix">
-                                    <div id="bank-transfer">
+
+                                <div x-show="paymentMeans =='mobile_money'" class="row clearfix">
+                                    <div id="mobile-money">
                                         <div class="default-event col-sm-12">
-                                            <div class="inner-box">
-                                                <div class="date"><span>Mobile Money</span></div>
-                                                <h3><a href="#">Donate using Mobile Money</a>
-                                                </h3>
-                                                <ul class="info">
-                                                    <li><span class="fa fa-phone"></span> Number: <a
-                                                            href="tel:+256782331162">0782-331-162</a></li>
-                                                    <li><span class="fa fa-phone"></span> Number: <a
-                                                            href="tel:+256705996362">0705-996-362</a></li>
-                                                    <li><span class="fa fa-user"></span> Names: MUTUNDA BETTY</li>
-                                                </ul>
+                                            <div class="section_heading inner-box">
+                                                <h2 style="text-align: left;"><span>Mobile Money</span></h2>
                                             </div>
+                                            <h3 class="mb-2"><a href="#">Donate using Mobile Money</a>
+                                            </h3>
+                                            <ul class="info">
+                                                <li class="mb-2"><span class="fa fa-phone"></span> Number: <a
+                                                        href="tel:+256782331162">0782-331-162</a></li>
+                                                <li class="mb-2"><span class="fa fa-phone"></span> Number: <a
+                                                        href="tel:+256705996362">0705-996-362</a></li>
+                                                <li class="mb-2"><span class="fa fa-user"></span> Names: MUTUNDA BETTY</li>
+                                            </ul>
+
                                         </div>
                                     </div>
                                 </div>
                             </div>
-
-                            <div class="payment_amount_submit">
-                                <button class="btn btn_theme btn_md">Donate now</button>
-                            </div>
-                        </form>
                     </div>
+
+                    <div class="payment_amount_submit">
+                        <button class="btn btn_theme btn_md">Donate now</button>
+                    </div>
+                    </form>
                 </div>
             </div>
+        </div>
         </div>
     </section>
 
