@@ -29,6 +29,7 @@
         content="Mukagwa children and women ministries is a Christian Non Government Organisation. It was founded in 2018 with an aim of providing holistic education, health care, envagelism and leadership to the less privileged communities. We are people who know that we can't afford to lose an individual to illiteracy, disease and spiritual poverty. We believe that when an individual is healthy, educated and spiritually grown every one wins." />
 
     <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.bunny.net">
     <link rel="stylesheet" href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap">
     <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
     <!-- Favicon -->
