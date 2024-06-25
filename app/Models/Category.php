@@ -9,7 +9,7 @@ class Category extends Model
 {
     use HasFactory;
 
-    protected $guarded = [];
+    protected $fillable = ['name', 'slug'];
 
     public function projects()
     {
@@ -19,5 +19,10 @@ class Category extends Model
     public function causes()
     {
         return $this->morphedByMany(Cause::class, 'categorable');
+    }
+
+    public function blogs()
+    {
+        return $this->morphedByMany(Blog::class, 'categorable');
     }
 }
