@@ -8,6 +8,11 @@ use Filament\Widgets\StatsOverviewWidget\Stat;
 
 class BlogPosts extends BaseWidget
 {
+    protected function getColumns(): int
+    {
+        return 2;
+    }
+    
     protected function getStats(): array
     {
         // $postCount = Post::isPublished()->count();

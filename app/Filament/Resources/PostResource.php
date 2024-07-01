@@ -9,6 +9,9 @@ use Filament\Forms;
 use Filament\Forms\Form;
 use Filament\Forms\Get;
 use Filament\Forms\Set;
+use Filament\Infolists\Components\ImageEntry;
+use Filament\Infolists;
+use Filament\Infolists\Infolist;
 use Filament\Resources\Resource;
 use Filament\Tables;
 use Filament\Tables\Table;
@@ -109,7 +112,12 @@ class PostResource extends Resource
                     ->toggleable(isToggledHiddenByDefault: true),
             ])
             ->filters([
-                //
+                Tables\Filters\SelectFilter::make('status')
+                ->options([
+                    'draft' => 'Draft',
+                    'published' => 'Published',
+                    'disabled' => 'Disabled',
+                ]),
             ])
             ->actions([
                 Tables\Actions\ViewAction::make(),
@@ -120,6 +128,42 @@ class PostResource extends Resource
                     Tables\Actions\DeleteBulkAction::make(),
                 ]),
             ]);
+    }
+
+    public static function infolist(Infolist $infolist): Infolist
+    {
+      return $infolist
+      ->schema([
+        Infolists\Components\Section::make('Blog Post Details')
+        ->columns(2)
+        ->schema([
+            ImageEntry::make('thumbnail'),
+            Infolists\Components\Group::make()
+            ->schema([
+                Infolists\Components\TextEntry::make('title'),
+                Infolists\Components\TextEntry::make('slug'),
+            ]),
+            Infolists\Components\TextEntry::make('body')->columnSpan('full')
+        ]),
+        Infolists\Components\Section::make('publishing')
+        ->columns(3)
+        ->schema([
+            Infolists\Components\IconEntry::make('status')
+            ->icon(fn (string $state): string => match ($state) {
+                'draft' => 'heroicon-o-pencil',
+                'disabled' => 'heroicon-o-clock',
+                'published' => 'heroicon-o-check-circle',
+            })
+            ->color(fn (string $state): string => match ($state) {
+                'draft' => 'info',
+                'disabled' => 'warning',
+                'published' => 'success',
+                default => 'gray',
+            }),
+            // Infolists\Components\TextEntry::make('categorable')
+            // ->sele
+        ]),
+    ]);   
     }
 
     public static function getRelations(): array
