@@ -68,22 +68,31 @@ class PostResource extends Resource
     {
         return $table
             ->columns([
-                Tables\Columns\TextColumn::make('id')
-                    ->label('ID')
-                    ->searchable(),
                 Tables\Columns\TextColumn::make('title')
                     ->searchable(),
                 Tables\Columns\TextColumn::make('slug')
                     ->searchable(),
-                Tables\Columns\TextColumn::make('thumbnail')
-                    ->searchable(),
-                Tables\Columns\IconColumn::make('is_published')
-                    ->boolean(),
+                Tables\Columns\ImageColumn::make('thumbnail'),
+                // Tables\Columns\SelectColumn::make('status')
+                // ->options([
+                //     'draft' => 'Draft',
+                //     'disabled' => 'Disabled',
+                //     'published' => 'Published',
+                // ]),
+                Tables\Columns\IconColumn::make('status')
+                ->icon(fn (string $state): string => match ($state) {
+                    'draft' => 'heroicon-o-pencil',
+                    'disabled' => 'heroicon-o-clock',
+                    'published' => 'heroicon-o-check-circle',
+                })
+                ->color(fn (string $state): string => match ($state) {
+                    'draft' => 'info',
+                    'disabled' => 'warning',
+                    'published' => 'success',
+                    default => 'gray',
+                }),
                 Tables\Columns\TextColumn::make('published_at')
                     ->dateTime()
-                    ->sortable(),
-                Tables\Columns\TextColumn::make('author')
-                    ->numeric()
                     ->sortable(),
                 Tables\Columns\TextColumn::make('deleted_at')
                     ->dateTime()

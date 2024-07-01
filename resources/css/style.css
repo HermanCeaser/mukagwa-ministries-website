@@ -2244,3 +2244,26 @@ textarea.form-control {
     top: 50%
 }
 
+
+.page-item.active .page-link {
+    z-index: 3;
+    color: #fff;
+    background-color: var(--main-color) !important;
+    border-color: var(--main-color) !important;
+}
+
+.page-link:hover {
+    background-color: var(--heading-color) !important;
+    border-color: var(--main-color) !important;
+    color: #fff;
+}
+
+
+.page-link {
+    color: #e03c33fc;
+    text-decoration: none;
+}
+
+.page-link:hover {
+    color: var(--heading-color) !important;
+}

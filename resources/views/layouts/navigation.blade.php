@@ -105,6 +105,9 @@
                                 <a href="{{ route('aboutus')}}" @class([ 'nav-link', 'active'=>request()->routeIs('aboutus')])>About Us</a>
                             </li>
                             <li class="nav-item">
+                                <a href="{{ route('news.index')}}" @class([ 'nav-link', 'active'=>request()->routeIs('news.index')])>News</a>
+                            </li>
+                            <li class="nav-item">
                                 <a href="{{ route('contact-us.index')}}" @class([ 'nav-link', 'active'=>request()->routeIs('contact-us.index')])>Contact</a>
                             </li>
 

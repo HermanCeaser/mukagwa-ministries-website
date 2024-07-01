@@ -16,6 +16,14 @@ class Post extends Model
 
     protected $guarded = [];
 
+    protected function casts(): array
+    {
+        return [
+            'published_at' => 'datetime:Y-m-d',
+            'deleted_at' => 'datetime:Y-m-d',
+        ];
+    }
+
 
     public function author(): BelongsTo
     {
@@ -25,5 +33,12 @@ class Post extends Model
     public function categories(): MorphToMany
     {
         return $this->morphToMany(Category::class, 'categorable');
+    }
+
+    public function getTagsAttribute(): string
+    {
+        $categories = $this->categories->pluck('name')->toArray();
+        $tags = array_map(fn ($category) => "#{$category}", $categories);
+        return implode(', ', $tags);
     }
 }
