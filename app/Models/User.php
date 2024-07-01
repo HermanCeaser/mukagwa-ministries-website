@@ -48,8 +48,8 @@ class User extends Authenticatable
         return $this->hasMany(Project::class, 'user_id', 'id');
     }
 
-    public function blogs(): HasMany
+    public function Posts(): HasMany
     {
-        return $this->hasMany(Blog::class, 'user_id', 'id');
+        return $this->hasMany(Post::class, 'user_id', 'id');
     }
 }

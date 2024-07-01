@@ -15,7 +15,7 @@ return new class extends Migration
     {
         Schema::create('categorables', function (Blueprint $table) {
             $table->unsignedBigInteger('category_id');
-            $table->unsignedBigInteger('categorable_id');
+            $table->string('categorable_id');
             $table->string('categorable_type');
         });
     }
