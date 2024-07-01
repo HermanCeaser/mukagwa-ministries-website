@@ -20,6 +20,8 @@ class PostResource extends Resource
 {
     protected static ?string $model = Post::class;
 
+    protected static ?string $navigationGroup = 'Blog';
+
     protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
 
     public static function form(Form $form): Form
@@ -30,21 +32,20 @@ class PostResource extends Resource
                     ->required()
                     ->maxLength(255)
                     ->live(onBlur: true)
-                    ->afterStateUpdated(function(Set $set, Get $get, ?string $old, ?string $state) {
+                    ->afterStateUpdated(function (Set $set, Get $get, ?string $old, ?string $state) {
                         if (($get('slug') ?? '') !== Str::slug($old)) {
                             return;
                         }
-                    
-                         $set('slug', Str::slug($state));
-                        }),
+
+                        $set('slug', Str::slug($state));
+                    }),
                 Forms\Components\TextInput::make('slug')
                     ->required()
                     ->maxLength(255),
-                Forms\Components\Textarea::make('body')
+                Forms\Components\RichEditor::make('body')
                     ->required()
                     ->columnSpanFull(),
-                Forms\Components\TextInput::make('thumbnail')
-                    ->maxLength(255),
+                Forms\Components\FileUpload::make('thumbnail')->required(),
                 Forms\Components\Select::make('status')
                     ->options(['draft' => 'Draft', 'published' => "Published", 'disabled' => 'Disabled'])
                     ->default('draft')
@@ -56,7 +57,7 @@ class PostResource extends Resource
                     ->relationship(name: 'author', titleAttribute: 'name')
                     ->native(false)
                     ->required(),
-                    Forms\Components\Select::make('categorable')
+                Forms\Components\Select::make('categorable')
                     ->relationship(name: 'categories', titleAttribute: 'name')
                     ->native(false)
                     ->multiple()
@@ -80,17 +81,17 @@ class PostResource extends Resource
                 //     'published' => 'Published',
                 // ]),
                 Tables\Columns\IconColumn::make('status')
-                ->icon(fn (string $state): string => match ($state) {
-                    'draft' => 'heroicon-o-pencil',
-                    'disabled' => 'heroicon-o-clock',
-                    'published' => 'heroicon-o-check-circle',
-                })
-                ->color(fn (string $state): string => match ($state) {
-                    'draft' => 'info',
-                    'disabled' => 'warning',
-                    'published' => 'success',
-                    default => 'gray',
-                }),
+                    ->icon(fn (string $state): string => match ($state) {
+                        'draft' => 'heroicon-o-pencil',
+                        'disabled' => 'heroicon-o-clock',
+                        'published' => 'heroicon-o-check-circle',
+                    })
+                    ->color(fn (string $state): string => match ($state) {
+                        'draft' => 'info',
+                        'disabled' => 'warning',
+                        'published' => 'success',
+                        default => 'gray',
+                    }),
                 Tables\Columns\TextColumn::make('published_at')
                     ->dateTime()
                     ->sortable(),

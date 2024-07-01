@@ -13,7 +13,7 @@ class PostController extends Controller
     {
         $title = "News Articles";
 
-        $posts = Post::with(['author:id,name', 'categories:name,slug'])->where('status', 'published')->paginate(6);
+        $posts = Post::with(['author:id,name', 'categories:name,slug'])->isPublished()->latest()->paginate(6);
         // dd($posts);
         return view('pages.news', compact('posts', 'title'));
     }

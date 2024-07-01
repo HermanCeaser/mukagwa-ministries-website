@@ -8,6 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\MorphToMany;
 use Illuminate\Database\Eloquent\SoftDeletes;
+use Illuminate\Database\Eloquent\Builder;
 
 class Post extends Model
 {
@@ -40,5 +41,13 @@ class Post extends Model
         $categories = $this->categories->pluck('name')->toArray();
         $tags = array_map(fn ($category) => "#{$category}", $categories);
         return implode(', ', $tags);
+    }
+
+    public function scopeIsPublished(Builder $query){
+        return $query->where('status', 'published');
+    }
+
+    public function scopeIsDraft(Builder $query){
+        return $query->where('status', 'draft');
     }
 }
