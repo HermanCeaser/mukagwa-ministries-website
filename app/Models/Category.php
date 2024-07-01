@@ -21,7 +21,7 @@ class Category extends Model
         return $this->morphedByMany(Cause::class, 'categorable');
     }
 
-    public function Posts()
+    public function posts()
     {
         return $this->morphedByMany(Post::class, 'categorable');
     }
