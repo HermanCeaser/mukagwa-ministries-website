@@ -32,6 +32,7 @@ class PostResource extends Resource
         return $form
             ->schema([
                 Forms\Components\TextInput::make('title')
+                    ->label('Post Title')
                     ->required()
                     ->maxLength(255)
                     ->live(onBlur: true)
@@ -50,12 +51,16 @@ class PostResource extends Resource
                     ->columnSpanFull(),
                 Forms\Components\FileUpload::make('thumbnail')->required(),
                 Forms\Components\Select::make('status')
+                    ->lazy()
                     ->options(['draft' => 'Draft', 'published' => "Published", 'disabled' => 'Disabled'])
                     ->default('draft')
                     ->selectablePlaceholder(false)
                     ->native(false)
                     ->required(),
-                Forms\Components\DateTimePicker::make('published_at'),
+                Forms\Components\DateTimePicker::make('published_at')
+                    ->label('Publish Date')
+                    ->default(now())
+                    ->visible(fn (Get $get) =>  $get('status') === 'published'),
                 Forms\Components\Select::make('user_id')
                     ->relationship(name: 'author', titleAttribute: 'name')
                     ->native(false)
@@ -64,6 +69,7 @@ class PostResource extends Resource
                     ->relationship(name: 'categories', titleAttribute: 'name')
                     ->native(false)
                     ->multiple()
+                    ->preload()
                     ->required(),
             ]);
     }
@@ -113,11 +119,11 @@ class PostResource extends Resource
             ])
             ->filters([
                 Tables\Filters\SelectFilter::make('status')
-                ->options([
-                    'draft' => 'Draft',
-                    'published' => 'Published',
-                    'disabled' => 'Disabled',
-                ]),
+                    ->options([
+                        'draft' => 'Draft',
+                        'published' => 'Published',
+                        'disabled' => 'Disabled',
+                    ]),
             ])
             ->actions([
                 Tables\Actions\ViewAction::make(),
@@ -132,38 +138,41 @@ class PostResource extends Resource
 
     public static function infolist(Infolist $infolist): Infolist
     {
-      return $infolist
-      ->schema([
-        Infolists\Components\Section::make('Blog Post Details')
-        ->columns(2)
-        ->schema([
-            ImageEntry::make('thumbnail'),
-            Infolists\Components\Group::make()
+        return $infolist
             ->schema([
-                Infolists\Components\TextEntry::make('title'),
-                Infolists\Components\TextEntry::make('slug'),
-            ]),
-            Infolists\Components\TextEntry::make('body')->columnSpan('full')
-        ]),
-        Infolists\Components\Section::make('publishing')
-        ->columns(3)
-        ->schema([
-            Infolists\Components\IconEntry::make('status')
-            ->icon(fn (string $state): string => match ($state) {
-                'draft' => 'heroicon-o-pencil',
-                'disabled' => 'heroicon-o-clock',
-                'published' => 'heroicon-o-check-circle',
-            })
-            ->color(fn (string $state): string => match ($state) {
-                'draft' => 'info',
-                'disabled' => 'warning',
-                'published' => 'success',
-                default => 'gray',
-            }),
-            // Infolists\Components\TextEntry::make('categorable')
-            // ->sele
-        ]),
-    ]);   
+                Infolists\Components\Section::make('Blog Post Details')
+                    ->columns(2)
+                    ->schema([
+                        ImageEntry::make('thumbnail'),
+                        Infolists\Components\Group::make()
+                            ->schema([
+                                Infolists\Components\TextEntry::make('title'),
+                                Infolists\Components\TextEntry::make('slug'),
+                            ]),
+                        Infolists\Components\TextEntry::make('body')
+                        ->extraAttributes(['class' => 'prose dark:prose-invert'])
+                        ->html()
+                        ->columnSpan('full')
+                    ]),
+                Infolists\Components\Section::make('publishing')
+                    ->columns(3)
+                    ->schema([
+                        Infolists\Components\IconEntry::make('status')
+                            ->icon(fn (string $state): string => match ($state) {
+                                'draft' => 'heroicon-o-pencil',
+                                'disabled' => 'heroicon-o-clock',
+                                'published' => 'heroicon-o-check-circle',
+                            })
+                            ->color(fn (string $state): string => match ($state) {
+                                'draft' => 'info',
+                                'disabled' => 'warning',
+                                'published' => 'success',
+                                default => 'gray',
+                            }),
+                        // Infolists\Components\TextEntry::make('categorable')
+                        // ->sele
+                    ]),
+            ]);
     }
 
     public static function getRelations(): array
