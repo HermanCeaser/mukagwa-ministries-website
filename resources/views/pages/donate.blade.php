@@ -260,10 +260,10 @@
                                             <h3 class="mb-2"><a href="#">Direct Bank Transfer</a> </h3>
                                             <ul class="info">
                                                 <li class="mb-2"><span class="far fa-address-card"></span> Account No:
-                                                    9030015432356</li>
+                                                    01440016344389</li>
                                                 <li class="mb-2"><span class="fa fa-map-marker-alt"></span> SWIFT CODE :
-                                                    SBICUGKXX.</li>
-                                                <li class="mb-2"><span class="fa fa-user"></span> Account Name: MUTUNDA BETTY.
+                                                    DFCUUGKA.</li>
+                                                <li class="mb-2"><span class="fa fa-user"></span> Account Name: MUKAGWA CHILDREN AND WOMEN MINISTRIES.
                                                 </li>
                                             </ul>
                                         </div>
