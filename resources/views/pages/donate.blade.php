@@ -255,7 +255,7 @@
                                     <div id="bank-transfer">
                                         <div class="default-event col-sm-12">
                                             <div class="section_heading inner-box">
-                                                <h2 style="text-align: left;"><span>STANBIC BANK</span></h2>
+                                                <h2 style="text-align: left;"><span>DFCU BANK</span></h2>
                                             </div>
                                             <h3 class="mb-2"><a href="#">Direct Bank Transfer</a> </h3>
                                             <ul class="info">
