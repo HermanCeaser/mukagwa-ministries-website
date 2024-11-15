@@ -23,13 +23,13 @@
                 <div class="col-lg-6 col-md-12 col-sm-12 col-12">
                     <div class="about_area_img">
                         <img src="{{ asset('assets/img/common/aboutus.jpg') }}" alt="img">
-                        <h3 class="mt-3">About Us</h3>
+                        <h3 class="my-3">About Us</h3>
                         <p>Mukagwa Children and Women Ministries is a Christian Non Government Organization. It was
                             founded in 2018 with an aim of providing holistic education, health care, evangelism and
-                            leadership to the less privileged communities.</p>
+                            leadership to the less privileged communities.</p><br>
                         <p>We are people who know that we can't afford to lose an individual to illiteracy, disease and
                             spiritual poverty. We believe that when an individual is healthy, educated and spiritually
-                            grown every one wins.</p>
+                            grown every one wins.</p><br>
                         <p>
                             In addition, we are particularly drawn to Community Bible Church in Namutumba District as a
                             joint initiative. The church's commitment to serving others
@@ -40,9 +40,9 @@
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12 col-12">
-                    <div class="about_area_main_text">
+                    <div class="about_area_main_text pt-0">
                         <div class="about_area_heading">
-                            <img src="assets/img/icon/about.png" alt="img">
+                            <img src="assets/img/icon/about.png" height="392" alt="img">
                             <h3>Welcome to Mukagwa Ministries</h3>
                         </div>
                         <div class="about_area_heading_two">
@@ -85,7 +85,7 @@
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="volunteer_wrapper h-100">
                         <div class="volunteer_img">
-                            <img src="assets/img/volunteer/Mutunda_Betty.jpg" alt="img">
+                            <img loading="lazy" width="330" height="345" src="assets/img/volunteer/Mutunda_Betty.jpg" alt="img">
                             <div class="volunteer_icon">
                                 <ul>
                                     <li>
@@ -123,7 +123,7 @@
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="volunteer_wrapper h-100">
                         <div class="volunteer_img">
-                            <img src="assets/img/volunteer/Stephen Kuwereka2.jpg" alt="img">
+                            <img loading="lazy" width="330" height="345" src="assets/img/volunteer/Stephen Kuwereka2.jpg" alt="img">
                             <div class="volunteer_icon">
                                 <ul>
                                     <li>
@@ -160,7 +160,7 @@
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="volunteer_wrapper h-100">
                         <div class="volunteer_img">
-                            <img src="assets/img/volunteer/Komodo Keneth1.jpg" alt="img">
+                            <img loading="lazy" width="330" height="345" src="assets/img/volunteer/Komodo Keneth1.jpg" alt="img">
                             <div class="volunteer_icon">
                                 <ul>
                                     <li>
@@ -198,7 +198,7 @@
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="volunteer_wrapper h-100">
                         <div class="volunteer_img">
-                            <img src="assets/img/volunteer/volunteer-4.png" alt="img">
+                            <img loading="lazy" width="330" height="345" src="assets/img/volunteer/volunteer-4.png" alt="img">
                             <div class="volunteer_icon">
                                 <ul>
                                     <li>
@@ -234,7 +234,7 @@
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="volunteer_wrapper h-100">
                         <div class="volunteer_img">
-                            <img src="assets/img/volunteer/volunteer-1.png" alt="img">
+                            <img loading="lazy" width="330" height="345" src="assets/img/volunteer/Ssenyange_Samson.jpg" alt="Ssenyange Samson - General Secretary">
                             <div class="volunteer_icon">
                                 <ul>
                                     <li>
@@ -263,7 +263,7 @@
                         </div>
 
                         <div class="volunteer_text">
-                            <h3><a href="#!">Mugala Deborah</a></h3>
+                            <h3><a href="#!">Ssenyange Samson</a></h3>
                             <p>General Secretary</p>
                         </div>
                     </div>
@@ -272,7 +272,7 @@
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="volunteer_wrapper h-100">
                         <div class="volunteer_img">
-                            <img src="assets/img/volunteer/volunteer-2.png" alt="img">
+                            <img loading="lazy" width="330" height="345" src="assets/img/volunteer/volunteer-2.png" alt="img">
                             <div class="volunteer_icon">
                                 <ul>
                                     <li>
@@ -309,7 +309,7 @@
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="volunteer_wrapper h-100">
                         <div class="volunteer_img">
-                            <img src="assets/img/volunteer/volunteer-3.png" alt="img">
+                            <img loading="lazy" width="330" height="345" src="assets/img/volunteer/volunteer-3.png" alt="img">
                             <div class="volunteer_icon">
                                 <ul>
                                     <li>
@@ -347,7 +347,7 @@
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="volunteer_wrapper h-100">
                         <div class="volunteer_img">
-                            <img src="assets/img/volunteer/Abasa_Wandega.jpg" alt="img">
+                            <img loading="lazy" width="330" height="345" src="assets/img/volunteer/Abasa_Wandega.jpg" alt="img">
                             <div class="volunteer_icon">
                                 <ul>
                                     <li>
@@ -383,7 +383,7 @@
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="volunteer_wrapper h-100">
                         <div class="volunteer_img">
-                            <img src="assets/img/volunteer/Nangobi Linda Eunice2.jpg" alt="img">
+                            <img loading="lazy" width="330" height="345" src="assets/img/volunteer/Nangobi Linda Eunice2.jpg" alt="img">
                             <div class="volunteer_icon">
                                 <ul>
                                     <li>
@@ -421,7 +421,7 @@
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="volunteer_wrapper h-100">
                         <div class="volunteer_img">
-                            <img src="assets/img/volunteer/Akello Harriet.jpg" alt="img">
+                            <img loading="lazy" width="330" height="345" src="assets/img/volunteer/Akello Harriet.jpg" alt="img">
                             <div class="volunteer_icon">
                                 <ul>
                                     <li>
@@ -458,7 +458,7 @@
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="volunteer_wrapper h-100">
                         <div class="volunteer_img">
-                            <img src="assets/img/volunteer/Daniel Mugabi.jpg" alt="img">
+                            <img loading="lazy" width="330" height="345" src="assets/img/volunteer/Daniel Mugabi.jpg" alt="img">
                             <div class="volunteer_icon">
                                 <ul>
                                     <li>
@@ -495,7 +495,7 @@
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="volunteer_wrapper h-100">
                         <div class="volunteer_img">
-                            <img src="assets/img/volunteer/volunteer-4.png" alt="img">
+                            <img loading="lazy" width="330" height="345" src="assets/img/volunteer/volunteer-4.png" alt="img">
                             <div class="volunteer_icon">
                                 <ul>
                                     <li>
@@ -531,7 +531,7 @@
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="volunteer_wrapper h-100">
                         <div class="volunteer_img">
-                            <img src="assets/img/volunteer/volunteer-6.png" alt="img">
+                            <img loading="lazy" width="330" height="345" src="assets/img/volunteer/volunteer-6.png" alt="img">
                             <div class="volunteer_icon">
                                 <ul>
                                     <li>
@@ -569,7 +569,7 @@
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="volunteer_wrapper h-100">
                         <div class="volunteer_img">
-                            <img src="assets/img/volunteer/volunteer-7.png" alt="img">
+                            <img loading="lazy" width="330" height="345" src="assets/img/volunteer/volunteer-7.png" alt="img">
                             <div class="volunteer_icon">
                                 <ul>
                                     <li>
@@ -606,7 +606,7 @@
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="volunteer_wrapper h-100">
                         <div class="volunteer_img">
-                            <img src="assets/img/volunteer/volunteer-8.png" alt="img">
+                            <img loading="lazy" width="330" height="345" src="assets/img/volunteer/volunteer-8.png" alt="img">
                             <div class="volunteer_icon">
                                 <ul>
                                     <li>
@@ -643,7 +643,7 @@
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="volunteer_wrapper h-100">
                         <div class="volunteer_img">
-                            <img src="assets/img/volunteer/volunteer-4.png" alt="img">
+                            <img loading="lazy" width="330" height="345" src="assets/img/volunteer/volunteer-4.png" alt="img">
                             <div class="volunteer_icon">
                                 <ul>
                                     <li>
