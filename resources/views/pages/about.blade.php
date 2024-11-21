@@ -22,21 +22,8 @@
             <div class="row">
                 <div class="col-lg-6 col-md-12 col-sm-12 col-12">
                     <div class="about_area_img">
-                        <img src="{{ asset('assets/img/common/aboutus.jpg') }}" alt="img">
-                        <h3 class="my-3">About Us</h3>
-                        <p>Mukagwa Children and Women Ministries is a Christian Non Government Organization. It was
-                            founded in 2018 with an aim of providing holistic education, health care, evangelism and
-                            leadership to the less privileged communities.</p><br>
-                        <p>We are people who know that we can't afford to lose an individual to illiteracy, disease and
-                            spiritual poverty. We believe that when an individual is healthy, educated and spiritually
-                            grown every one wins.</p><br>
-                        <p>
-                            In addition, we are particularly drawn to Community Bible Church in Namutumba District as a
-                            joint initiative. The church's commitment to serving others
-                            and spreading love and compassion to those in need. We believe that by working together, we
-                            can create a stronger network of support and resources for those who are struggling or
-                            facing challenges.
-                        </p>
+                        <img src="{{ asset('assets/img/common/about2.png') }}" alt="img">
+                        
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12 col-12">
@@ -63,15 +50,43 @@
                         </div>
                         <div class="about_vedio_area">
                             <a href="#" class="btn btn_theme btn_md">Learn more</a>
-
+                            <a href="https://youtu.be/QvNEkZGL-v4" class="vedio_btn popup-vimeo"><i class="fa fa-play"></i>Birth of Mukagwa Ministries</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    <section id="newletter_banner">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-4">
+                    <div class="newletter_text">
+                        <h4><img src="assets/img/icon/about.png" alt="img">Where we came from</h4>
+                        <h2>About <span class="color_big_heading">Us</span></h2>
+                       
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <p>Mukagwa Children and Women Ministries is a Christian Non Government Organization. It was
+                        founded in 2018 with an aim of providing holistic education, health care, evangelism and
+                        leadership to the less privileged communities.</p><br>
+                    <p>We are people who know that we can't afford to lose an individual to illiteracy, disease and
+                        spiritual poverty. We believe that when an individual is healthy, educated and spiritually
+                        grown every one wins.</p><br>
+                    <p>
+                        In addition, we are particularly drawn to Community Bible Church in Namutumba District as a
+                        joint initiative. The church's commitment to serving others
+                        and spreading love and compassion to those in need. We believe that by working together, we
+                        can create a stronger network of support and resources for those who are struggling or
+                        facing challenges.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <section id="volunteer_area" class="section_after section_padding bg-color">
+    <section id="testimonial_area" class="section_after section_padding">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 offset-lg-3 col-md-12 col-sm-12 col-12">

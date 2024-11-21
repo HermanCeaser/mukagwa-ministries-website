@@ -1,13 +1,16 @@
 <section id="about_area" class="section_padding_bottom">
     <div class="container">
         <div class="row">
-            <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+            <div class="col-lg-6 col-md-12 col-sm-12 col-12 align-self-md-center">
                 <div class="about_area_img">
-                    <img src="{{ asset('assets/img/common/aboutus.jpg') }}" alt="img">
+                    {{-- <img src="{{ asset('assets/img/common/aboutus.jpg') }}" alt="img"> --}}
+                    <iframe width="702" height="500"
+                        src="https://www.youtube.com/embed/QvNEkZGL-v4?autoplay=1&mute=1&controls=1">
+                    </iframe>
                 </div>
             </div>
             <div class="col-lg-6 col-md-12 col-sm-12 col-12">
-                <div class="about_area_main_text">
+                <div class="about_area_main_text pt-0">
                     <div class="about_area_heading">
                         <img src="{{ asset('assets/img/icon/about.png') }}" alt="img">
                         <h3>Welcome to Mukagwa Ministries</h3>
@@ -28,7 +31,7 @@
 
                     </div>
                     <div class="about_vedio_area">
-                        <a href="{{ route('aboutus')}}" class="btn btn_theme btn_md">Learn more</a>
+                        <a href="{{ route('aboutus') }}" class="btn btn_theme btn_md">Learn more</a>
 
                     </div>
                 </div>
