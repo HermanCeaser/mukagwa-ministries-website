@@ -1,10 +1,10 @@
 <section id="about_area" class="section_padding_bottom">
     <div class="container">
         <div class="row">
-            <div class="col-lg-6 col-md-12 col-sm-12 col-12 align-self-md-center">
-                <div class="about_area_img">
+            <div class="col-lg-6 col-md-12 col-sm-12 col-12 align-self-md-center relative">
+                <div class="about_area_img" style="padding-bottom:56.25%; position:relative; display:block; width: 100%">
                     {{-- <img src="{{ asset('assets/img/common/aboutus.jpg') }}" alt="img"> --}}
-                    <iframe width="702" height="500"
+                    <iframe  width="100%" height="100%" style="position:absolute; top:0; left: 0"
                         src="https://www.youtube.com/embed/QvNEkZGL-v4?autoplay=1&mute=1&controls=1">
                     </iframe>
                 </div>
