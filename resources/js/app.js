@@ -14,6 +14,6 @@ Alpine.start();
 
 import.meta.glob([
     '../webfonts/**',
-    '../img/logo.png',
+    '../img/logo-new.png',
     '../img/banner/common-banner.png',
   ]);
