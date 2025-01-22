@@ -8,7 +8,8 @@
                         We are fundraising for the <span class="color_big_heading">people</span> who are
                         fighting against poverty
                     </h2>
-                    <a href="{{route('donation.index')}}" class="btn btn_md btn_theme">Donate now</a>
+                    {{-- <a href="{{route('donation.index')}}" class="btn btn_md btn_theme">Donate now</a> --}}
+                    <a href="https://www.mchanga.africa/fundraiser/109416" target="_blank" class="btn btn_md btn_theme">Donate now</a>
                 </div>
             </div>
         </div>

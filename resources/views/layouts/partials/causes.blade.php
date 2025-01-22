@@ -29,7 +29,8 @@
                                 </div>
                             </div>
                         </div> --}}
-                        <h3><a href="{{route('donation.index')}}">Back to School Donations</a> Mathew 19:21</h3>
+                        {{-- <h3><a href="{{route('donation.index')}}">Back to School Donations</a> Mathew 19:21</h3> --}}
+                        <h3><a href="https://www.mchanga.africa/fundraiser/109416" target="_blank">Back to School Donations</a> Mathew 19:21</h3>
                         <p>"If you want to be perfect, go sell your possessions and give to the poor, and you will have treasure in heaven. Then come follow me".</p>
                         <div class="causes_boxed_bottom_wrapper">
                             <div class="row">

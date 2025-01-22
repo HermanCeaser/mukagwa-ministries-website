@@ -148,7 +148,8 @@
                                         src="{{ asset('assets/img/icon/search_icon.png') }}" alt="icon"></a>
                             </div>
                             <div class="option-item">
-                                <a href="{{ route('donation.index') }}" class="btn btn_navber">Donate now</a>
+                                {{-- <a href="{{ route('donation.index') }}" class="btn btn_navber">Donate now</a> --}}
+                                <a href="https://www.mchanga.africa/fundraiser/109416" target="_blank" class="btn btn_navber">Donate now</a>
                             </div>
                         </div>
                     </div>
@@ -171,7 +172,8 @@
                                 <a href="#" class="search-box"><i class="fas fa-search"></i></a>
                             </div>
                             <div class="option-item">
-                                <a href="{{ route('donation.index') }}" class="btn  btn_navber">Donate now</a>
+                                {{-- <a href="{{ route('donation.index') }}" class="btn  btn_navber">Donate now</a> --}}
+                                <a href="ttps://www.mchanga.africa/fundraiser/109416" target="_blank" class="btn  btn_navber">Donate now</a>
                             </div>
                         </div>
                     </div>
