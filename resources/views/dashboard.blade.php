@@ -11,6 +11,9 @@
     <!-- Trending causes Area -->
     @include('layouts.partials.causes')
 
+    <!-- Upcoming Events Area -->
+    @include('layouts.partials.events')
+
     <!-- Donate Area -->
     @include('layouts.partials.donate')
 
