@@ -584,7 +584,7 @@
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="volunteer_wrapper h-100">
                         <div class="volunteer_img">
-                            <img loading="lazy" width="330" height="345" src="assets/img/volunteer/volunteer-7.png" alt="img">
+                            <img loading="lazy" width="330" height="345" src="assets/img/volunteer/stella-birunji.jpeg" alt="img">
                             <div class="volunteer_icon">
                                 <ul>
                                     <li>
@@ -618,76 +618,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-                    <div class="volunteer_wrapper h-100">
-                        <div class="volunteer_img">
-                            <img loading="lazy" width="330" height="345" src="assets/img/volunteer/volunteer-8.png" alt="img">
-                            <div class="volunteer_icon">
-                                <ul>
-                                    <li>
-                                        <a href="https://www.youtube.com/channel/UCurriVT-sKF0NQ5yU4gDCpw"><i
-                                                class="fab fa-youtube-square"></i></a>
-                                    </li>
-                                    <li>
-                                        <a
-                                            href="https://www.facebook.com/profile.php?id=100092540853639"><i
-                                                class="fab fa-facebook"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="https://twitter.com/@Mukagwa2020"><i
-                                                class="fab fa-twitter-square"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="https://instagram.com/mukagwa_ministries"><i
-                                                class="fab fa-instagram"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="https://www.linkedin.com/in/mukagwa-ministries-18bb4b272/"><i
-                                                class="fab fa-linkedin"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <div class="volunteer_text">
-                            <h3><a href="#!">Volunteer</a></h3>
-                            <p>Volunteer</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-                    <div class="volunteer_wrapper h-100">
-                        <div class="volunteer_img">
-                            <img loading="lazy" width="330" height="345" src="assets/img/volunteer/volunteer-4.png" alt="img">
-                            <div class="volunteer_icon">
-                                <ul>
-                                    <li>
-                                        <a
-                                            href="https://www.facebook.com/profile.php?id=100092540853639"><i
-                                                class="fab fa-facebook"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="https://twitter.com/@Mukagwa2020"><i
-                                                class="fab fa-twitter-square"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="https://instagram.com/mukagwa_ministries"><i
-                                                class="fab fa-instagram"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="https://www.linkedin.com/in/mukagwa-ministries-18bb4b272/"><i
-                                                class="fab fa-linkedin"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <div class="volunteer_text">
-                            <h3><a href="#!">Volunteer</a></h3>
-                            <p>Volunteer</p>
-                        </div>
-                    </div>
-                </div>
+                
             </div>
         </div>
     </section>

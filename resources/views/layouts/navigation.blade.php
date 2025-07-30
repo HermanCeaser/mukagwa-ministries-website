@@ -140,6 +140,11 @@
                                     'active' => request()->routeIs('contact-us.index'),
                                 ])>Contact</a>
                             </li>
+                             <li class="nav-item">
+                                <a href="{{ route('reports') }}" @class(['nav-link', 'active' => request()->routeIs('reports')])>
+                                    Reports
+                                </a>
+                            </li>
 
                         </ul>
                         <div class="others-options d-flex align-items-center">

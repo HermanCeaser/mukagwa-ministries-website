@@ -37,6 +37,10 @@ Route::get('/gallery', function () {
     return view('pages.gallery');
 })->name('gallery');
 
+Route::get('/reports', function () {
+    return view('pages.reports');
+})->name('reports');
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
