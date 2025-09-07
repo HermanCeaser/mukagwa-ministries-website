@@ -213,7 +213,7 @@
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="volunteer_wrapper h-100">
                         <div class="volunteer_img">
-                            <img loading="lazy" width="330" height="345" src="assets/img/volunteer/volunteer-4.png" alt="img">
+                            <img loading="lazy" width="330" height="345" src="assets/img/volunteer/muledu-micheal.jpg" alt="img">
                             <div class="volunteer_icon">
                                 <ul>
                                     <li>
@@ -388,7 +388,7 @@
 
                         <div class="volunteer_text">
                             <h3><a href="#!">Abasa Wandega</a></h3>
-                            <p>Communication Department</p>
+                            <p>Head ICT & Communication Department</p>
                         </div>
                     </div>
                 </div>
@@ -436,7 +436,7 @@
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="volunteer_wrapper h-100">
                         <div class="volunteer_img">
-                            <img loading="lazy" width="330" height="345" src="assets/img/volunteer/Akello Harriet.jpg" alt="img">
+                            <img loading="lazy" width="330" height="345" src="assets/img/volunteer/namugga-linda.jpg" alt="img">
                             <div class="volunteer_icon">
                                 <ul>
                                     <li>
@@ -465,8 +465,8 @@
                         </div>
 
                         <div class="volunteer_text">
-                            <h3><a href="#!">Akello Harriet</a></h3>
-                            <p>Development</p>
+                            <h3><a href="#!">Namugga Linda</a></h3>
+                            <p>Department of Development & planning</p>
                         </div>
                     </div>
                 </div>
@@ -614,7 +614,83 @@
 
                         <div class="volunteer_text">
                             <h3><a href="#!">Stella Birungi</a></h3>
-                            <p>Department of Childhood, Youth & Family Affairs</p>
+                            <p>Department of Childhood & Family Affairs</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                    <div class="volunteer_wrapper h-100">
+                        <div class="volunteer_img">
+                            <img loading="lazy" width="330" height="345" src="assets/img/volunteer/birungi-phiona.jpg" alt="img">
+                            <div class="volunteer_icon">
+                                <ul>
+                                    <li>
+                                        <a href="https://www.youtube.com/channel/UCurriVT-sKF0NQ5yU4gDCpw"><i
+                                                class="fab fa-youtube-square"></i></a>
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="https://www.facebook.com/profile.php?id=100092540853639"><i
+                                                class="fab fa-facebook"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://twitter.com/@Mukagwa2020"><i
+                                                class="fab fa-twitter-square"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://instagram.com/mukagwa_ministries"><i
+                                                class="fab fa-instagram"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.linkedin.com/in/mukagwa-ministries-18bb4b272/"><i
+                                                class="fab fa-linkedin"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="volunteer_text">
+                            <h3><a href="#!">Birungi Phionah</a></h3>
+                            <p>Department of Youth Affairs</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                    <div class="volunteer_wrapper h-100">
+                        <div class="volunteer_img">
+                            <img loading="lazy" width="330" height="345" src="assets/img/volunteer/kemigisa-brenda.jpg" alt="img">
+                            <div class="volunteer_icon">
+                                <ul>
+                                    <li>
+                                        <a href="https://www.youtube.com/channel/UCurriVT-sKF0NQ5yU4gDCpw"><i
+                                                class="fab fa-youtube-square"></i></a>
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="https://www.facebook.com/profile.php?id=100092540853639"><i
+                                                class="fab fa-facebook"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://twitter.com/@Mukagwa2020"><i
+                                                class="fab fa-twitter-square"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://instagram.com/mukagwa_ministries"><i
+                                                class="fab fa-instagram"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.linkedin.com/in/mukagwa-ministries-18bb4b272/"><i
+                                                class="fab fa-linkedin"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="volunteer_text">
+                            <h3><a href="#!">Kemigisa Brenda</a></h3>
+                            <p>Publicity & Media</p>
                         </div>
                     </div>
                 </div>

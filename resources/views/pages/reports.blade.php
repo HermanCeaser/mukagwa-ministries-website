@@ -54,25 +54,25 @@
                                 </div>
                             </div>
 
-                            {{-- <!-- Additional Report Card Example -->
+                            <!-- Additional Report Card Example -->
                             <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
                                 <div class="report_card">
                                     <div class="card h-100">
                                         <div class="card-body">
-                                            <h5 class="card-title">Annual Report 2024</h5>
+                                            <h5 class="card-title">Trauma Healing 2024</h5>
                                             <div class="report-meta mb-3">
-                                                <span class="report-author"><i class="fas fa-user"></i> John Doe</span>
-                                                <span class="report-date"><i class="far fa-calendar-alt"></i> January 15, 2025</span>
+                                                <span class="report-author"><i class="fas fa-user"></i> Mutunda Betty</span>
+                                                <span class="report-date"><i class="far fa-calendar-alt"></i> September 5, 2025</span>
                                             </div>
-                                            <p class="card-text">Comprehensive overview of our organization's activities throughout 2024.</p>
-                                            <a href="#" class="btn btn-primary mt-auto">
+                                            <p class="card-text">Report on Training for Trauma Healing and Counseling.</p>
+                                            <a href="{{ asset('assets/reports/TRAUMA_HEALING.pdf') }}" class="btn btn-primary mt-auto">
                                                 <i class="fas fa-download"></i> Download PDF
                                             </a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            --}}
+                           
 
                             
                         </div>
