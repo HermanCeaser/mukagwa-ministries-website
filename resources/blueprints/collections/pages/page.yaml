@@ -42,13 +42,93 @@ sections:
           push_tags: false
           cast_booleans: false
       -
-        import: about_fields
-        if:
-          page_type: 'equals about'
+        handle: mission_title
+        field:
+          type: text
+          display: 'Mission Title'
+          default: 'Mission'
+          if:
+            page_type: 'equals about'
       -
-        import: gallery_fields
-        if:
-          page_type: 'equals gallery'
+        handle: mission_content
+        field:
+          type: bard
+          display: 'Mission Content'
+          toolbar_mode: inline
+          if:
+            page_type: 'equals about'
+      -
+        handle: goal_title
+        field:
+          type: text
+          display: 'Goal Title'
+          default: 'Our Goal:'
+          if:
+            page_type: 'equals about'
+      -
+        handle: goal_content
+        field:
+          type: bard
+          display: 'Goal Content'
+          toolbar_mode: inline
+          if:
+            page_type: 'equals about'
+      -
+        handle: welcome_title
+        field:
+          type: text
+          display: 'Welcome Title'
+          default: 'Welcome to Mukagwa Ministries'
+          if:
+            page_type: 'equals about'
+      -
+        handle: welcome_subtitle
+        field:
+          type: text
+          display: 'Welcome Subtitle'
+          if:
+            page_type: 'equals about'
+      -
+        handle: about_image
+        field:
+          type: assets
+          container: assets
+          max_files: 1
+          display: 'About Image'
+          if:
+            page_type: 'equals about'
+      -
+        handle: team_section_title
+        field:
+          type: text
+          display: 'Team Section Title'
+          default: 'Meet Our Team'
+          if:
+            page_type: 'equals about'
+      -
+        handle: team_section_subtitle
+        field:
+          type: text
+          display: 'Team Section Subtitle'
+          default: 'Ready to help'
+          if:
+            page_type: 'equals about'
+      -
+        handle: gallery_intro_title
+        field:
+          type: text
+          display: 'Gallery Intro Title'
+          default: 'Gallery'
+          if:
+            page_type: 'equals gallery'
+      -
+        handle: gallery_intro_subtitle
+        field:
+          type: text
+          display: 'Gallery Intro Subtitle'
+          default: 'Explore our gallery to know how we work'
+          if:
+            page_type: 'equals gallery'
   sidebar:
     display: Sidebar
     fields:
@@ -58,75 +138,3 @@ sections:
           type: template
           required: true
           display: Template
-  about_fields:
-    display: 'About Page Fields'
-    fields:
-      -
-        handle: mission_title
-        field:
-          type: text
-          display: 'Mission Title'
-          default: 'Mission'
-      -
-        handle: mission_content
-        field:
-          type: bard
-          display: 'Mission Content'
-          toolbar_mode: inline
-      -
-        handle: goal_title
-        field:
-          type: text
-          display: 'Goal Title'
-          default: 'Our Goal:'
-      -
-        handle: goal_content
-        field:
-          type: bard
-          display: 'Goal Content'
-          toolbar_mode: inline
-      -
-        handle: welcome_title
-        field:
-          type: text
-          display: 'Welcome Title'
-          default: 'Welcome to Mukagwa Ministries'
-      -
-        handle: welcome_subtitle
-        field:
-          type: text
-          display: 'Welcome Subtitle'
-      -
-        handle: about_image
-        field:
-          type: assets
-          container: assets
-          max_files: 1
-          display: 'About Image'
-      -
-        handle: team_section_title
-        field:
-          type: text
-          display: 'Team Section Title'
-          default: 'Meet Our Team'
-      -
-        handle: team_section_subtitle
-        field:
-          type: text
-          display: 'Team Section Subtitle'
-          default: 'Ready to help'
-  gallery_fields:
-    display: 'Gallery Page Fields'
-    fields:
-      -
-        handle: gallery_intro_title
-        field:
-          type: text
-          display: 'Gallery Intro Title'
-          default: 'Gallery'
-      -
-        handle: gallery_intro_subtitle
-        field:
-          type: text
-          display: 'Gallery Intro Subtitle'
-          default: 'Explore our gallery to know how we work'
