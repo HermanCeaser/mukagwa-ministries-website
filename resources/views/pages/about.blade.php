@@ -539,7 +539,7 @@
                         </div>
 
                         <div class="volunteer_text">
-                            <h3><a href="#!">Stella Grace Zalwango Phionah</a></h3>
+                            <h3><a href="#!">Stella Grace Zalwango </a></h3>
                             <p>Program Coordinator</p>
                         </div>
                     </div>
