@@ -4,6 +4,7 @@ use App\Http\Controllers\AboutController;
 use App\Http\Controllers\CausesController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\DonationController;
+use App\Http\Controllers\GalleryController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\ProjectController;
 use Illuminate\Support\Facades\Route;
@@ -33,9 +34,7 @@ Route::resource('/donation', DonationController::class)->only(['index', 'store',
 Route::get('about-us', [AboutController::class, 'index'])->name('aboutus');
 Route::resource('contact-us', ContactController::class)->only(['index', 'store']);
 
-Route::get('/gallery', function () {
-    return view('pages.gallery');
-})->name('gallery');
+Route::get('/gallery', [GalleryController::class, 'index'])->name('gallery');
 
 Route::get('/reports', function () {
     return view('pages.reports');

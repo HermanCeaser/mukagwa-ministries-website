@@ -1,0 +1,28 @@
+title: Gallery Section
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: title
+        field:
+          type: text
+          required: true
+          display: 'Section Title'
+      -
+        handle: subtitle
+        field:
+          type: text
+          display: 'Section Subtitle'
+      -
+        handle: images
+        field:
+          type: assets
+          container: assets
+          display: Images
+      -
+        handle: order
+        field:
+          type: integer
+          display: 'Display Order'
+          default: 1

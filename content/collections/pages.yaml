@@ -1,0 +1,13 @@
+title: Pages
+structure:
+  root: true
+  tree:
+    -
+      entry: home
+    -
+      entry: about
+    -
+      entry: gallery
+route: '{slug}'
+blueprints:
+  - page
