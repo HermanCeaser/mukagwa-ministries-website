@@ -11,6 +11,7 @@
                         <li><a href="#!"><i class="fa fa-phone"></i><span>+256 782 331 162 | +256 705 996
                                     362</span></a></li>
                         <li><a href="#!"><span>Faqs</span></a></li>
+                        <li><a href="{{ url('/cp') }}" target="_blank" title="Content Management System"><i class="fas fa-cog"></i><span>CMS Login</span></a></li>
                     </ul>
                 </div>
                 <div class="col-lg-6 col-md-6">
@@ -127,12 +128,12 @@
                                 </ul>
                             </li> --}}
                             <li class="nav-item">
-                                <a href="{{ route('gallery') }}" @class(['nav-link', 'active' => request()->routeIs('gallery')])>
+                                <a href="/gallery" @class(['nav-link', 'active' => request()->is('gallery')])>
                                     Gallery
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="{{ route('aboutus') }}" @class(['nav-link', 'active' => request()->routeIs('aboutus')])>About Us</a>
+                                <a href="/about-us" @class(['nav-link', 'active' => request()->is('about-us')])>About Us</a>
                             </li>
                             <li class="nav-item">
                                 <a href="{{ route('contact-us.index') }}" @class([
@@ -179,6 +180,9 @@
                             <div class="option-item">
                                 {{-- <a href="{{ route('donation.index') }}" class="btn  btn_navber">Donate now</a> --}}
                                 <a href="https://www.mchanga.africa/fundraiser/109416" target="_blank" class="btn  btn_navber">Donate now</a>
+                            </div>
+                            <div class="option-item">
+                                <a href="{{ url('/cp') }}" target="_blank" class="btn btn-sm" style="font-size: 12px; padding: 5px 10px; margin-left: 10px;" title="Content Management System"><i class="fas fa-cog"></i> CMS</a>
                             </div>
                         </div>
                     </div>

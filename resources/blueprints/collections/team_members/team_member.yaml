@@ -1,0 +1,84 @@
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: title
+        field:
+          type: text
+          required: true
+          validate:
+            - required
+          display: Title
+          width: 50
+      -
+        handle: slug
+        field:
+          type: slug
+          required: true
+          generate: true
+          from: title
+          display: Slug
+          width: 50
+      -
+        handle: name
+        field:
+          type: text
+          required: false
+          display: Full Name
+          width: 50
+      -
+        handle: position
+        field:
+          type: text
+          required: false
+          display: Position/Role
+          width: 50
+      -
+        handle: photo
+        field:
+          type: assets
+          container: assets
+          max_files: 1
+          required: false
+          display: Photo
+          width: 50
+      -
+        handle: bio
+        field:
+          type: textarea
+          display: Biography
+          width: 50
+      -
+        handle: social_links
+        field:
+          type: replicator
+          display: Social Links
+          sets:
+            social_link:
+              display: Social Link
+              fields:
+                -
+                  handle: platform
+                  field:
+                    type: select
+                    options:
+                      facebook: Facebook
+                      twitter: Twitter
+                      instagram: Instagram
+                      linkedin: LinkedIn
+                      youtube: YouTube
+                    display: Platform
+                    width: 50
+                -
+                  handle: url
+                  field:
+                    type: text
+                    display: URL
+                    width: 50
+      -
+        handle: order
+        field:
+          type: integer
+          default: 0
+          display: Display Order

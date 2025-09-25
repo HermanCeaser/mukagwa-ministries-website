@@ -1,0 +1,13 @@
+title: Team Members
+handle: team_members
+route: /team/{slug}
+date: false
+sort_dir: asc
+blueprint: team_member
+mount: false
+sites:
+  - default
+propagate: true
+search_index: default
+revisions: false
+origin_behavior: select

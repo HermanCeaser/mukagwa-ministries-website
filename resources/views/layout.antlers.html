@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="{{ site:short_locale }}">
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script
+            async
+            src="https://www.googletagmanager.com/gtag/js?id=G-HMEL4YS757"
+        ></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag("js", new Date());
+            gtag("config", "G-HMEL4YS757");
+        </script>
+
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="csrf-token" content="{{ csrf_token }}" />
+
+        <title>{{ meta_title or title }} - {{ config:app:name }}</title>
+
+        <!-- HTML Meta Tags -->
+        <title>
+            {{ meta_title or title }} - Mukagwa children and women ministries
+        </title>
+        <meta
+            name="description"
+            content="{{ meta_description or 'Mukagwa Children and Women Ministries is a Christian NGO founded in 2018 to serve underprivileged communities through holistic education, healthcare, evangelism, and leadership.' }}"
+        />
+
+        <!-- Facebook Meta Tags -->
+        <meta property="og:url" content="https://mukagwaministries.com" />
+        <meta property="og:type" content="website" />
+        <meta
+            property="og:title"
+            content="{{ meta_title or title }} - Mukagwa children and women ministries"
+        />
+        <meta
+            property="og:description"
+            content="{{ meta_description or 'Mukagwa Children and Women Ministries is a Christian NGO founded in 2018 to serve underprivileged communities through holistic education, healthcare, evangelism, and leadership.' }}"
+        />
+        <meta
+            property="og:image"
+            content="https://ogcdn.net/c078a98b-9a33-4eaf-a5cf-e5ebf3ea450c/v1/mukagwaministries.com/Mukagwa%20children%20and%20women%20ministries/Mukagwa%20children%20and%20women%20ministries%20is%20a%20Christian%20Non%20Government%20Organisation.%20It%20was%20founded%20in%202018%20with%20an%20aim%20of%20providing%20holistic%20education%2C%20health%20care%2C%20envagelism%20and%20leadership%20to%20the%20less%20privileged%20communities.%20We%20are%20people%20who%20know%20that%20we%20can't%20afford%20to%20lose%20an%20individual%20to%20illiteracy%2C%20disease%20and%20spiritual%20poverty.%20We%20believe%20that%20when%20an%20individual%20is%20healthy%2C%20educated%20and%20spiritually%20grown%20every%20one%20wins./https%3A%2F%2Fopengraph.b-cdn.net%2Fproduction%2Fimages%2Ffce8ef16-d66c-421f-b4d8-3325415d779e.jpg%3Ftoken%3DfG-329Y2Plprd03JxlaFaOhDf75G2ZwLxZ3cnXkPZoI%26height%3D780%26width%3D1040%26expires%3D33267606300/og.png"
+        />
+
+        <!-- Twitter Meta Tags -->
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta property="twitter:domain" content="mukagwaministries.com" />
+        <meta property="twitter:url" content="https://mukagwaministries.com" />
+        <meta
+            name="twitter:title"
+            content="{{ meta_title or title }} - Mukagwa children and women ministries"
+        />
+        <meta
+            name="twitter:description"
+            content="{{ meta_description or 'Mukagwa Children and Women Ministries is a Christian NGO founded in 2018 to serve underprivileged communities through holistic education, healthcare, evangelism, and leadership.' }}"
+        />
+        <meta
+            name="twitter:image"
+            content="https://ogcdn.net/c078a98b-9a33-4eaf-a5cf-e5ebf3ea450c/v1/mukagwaministries.com/Mukagwa%20children%20and%20women%20ministries/Mukagwa%20children%20and%20women%20ministries%20is%20a%20Christian%20Non%20Government%20Organisation.%20It%20was%20founded%20in%202018%20with%20an%20aim%20of%20providing%20holistic%20education%2C%20health%20care%2C%20envagelism%20and%20leadership%20to%20the%20less%20privileged%20communities.%20We%20are%20people%20who%20know%20that%20we%20can't%20afford%20to%20lose%20an%20individual%20to%20illiteracy%2C%20disease%20and%20spiritual%20poverty.%20We%20believe%20that%20when%20an%20individual%20is%20healthy%2C%20educated%20and%20spiritually%20grown%20every%20one%20wins./https%3A%2F%2Fopengraph.b-cdn.net%2Fproduction%2Fimages%2Ffce8ef16-d66c-421f-b4d8-3325415d779e.jpg%3Ftoken%3DfG-329Y2Plprd03JxlaFaOhDf75G2ZwLxZ3cnXkPZoI%26height%3D780%26width%3D1040%26expires%3D33267606300/og.png"
+        />
+
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.bunny.net" />
+        <link
+            rel="stylesheet"
+            href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap"
+        />
+        <script
+            defer
+            src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"
+        ></script>
+
+        <!-- Favicon -->
+        <link rel="icon" type="image/png" href="/assets/img/favicon.png" />
+
+        <!-- Styles -->
+        <link rel="stylesheet" href="/build/assets/app.93504e9b.css" />
+
+        <style>
+            .responsive-logo-wrapper {
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-start;
+                gap: 8px;
+                align-items: center;
+            }
+
+            .logo-name {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-content: center;
+            }
+
+            .motto {
+                font-size: 12px;
+                text-orientation: sideways;
+            }
+
+            @media only screen and (max-width: 1199px) {
+                .motto {
+                    display: none;
+                }
+                .logo-name {
+                    display: block;
+                }
+            }
+        </style>
+    </head>
+
+    <body class="font-sans antialiased">
+        <div class="min-h-screen bg-gray-100">
+            <!-- preloader Area -->
+            <div class="preloader">
+                <div class="d-table">
+                    <div class="d-table-cell">
+                        <div class="lds-spinner">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Header Area -->
+            <header class="main_header_arae">
+                <!-- Top Bar -->
+                <div class="topbar-area">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-lg-6 col-md-6">
+                                <ul class="topbar-list">
+                                    <li>
+                                        <a href="#!"
+                                            ><i class="fa fa-envelope"></i
+                                            ><span
+                                                >info@mukagwaministries.com</span
+                                            ></a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a href="#!"
+                                            ><i class="fa fa-phone"></i
+                                            ><span
+                                                >+256 782 331 162 | +256 705 996
+                                                362</span
+                                            ></a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a href="#!"><span>Faqs</span></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-6 col-md-6">
+                                <ul class="topbar-list-right">
+                                    <li>
+                                        <a
+                                            href="https://www.youtube.com/channel/UCurriVT-sKF0NQ5yU4gDCpw"
+                                            ><i class="fab fa-youtube"></i
+                                        ></a>
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="https://www.facebook.com/profile.php?id=61568646977146"
+                                            ><i class="fab fa-facebook"></i
+                                        ></a>
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="https://twitter.com/@Mukagwa2020"
+                                            ><i
+                                                class="fab fa-twitter-square"
+                                            ></i
+                                        ></a>
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="https://instagram.com/mukagwa_ministries"
+                                            ><i class="fab fa-instagram"></i
+                                        ></a>
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="https://www.linkedin.com/in/mukagwa-ministries-18bb4b272/"
+                                            ><i class="fab fa-linkedin"></i
+                                        ></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Navbar Bar -->
+                <div class="navbar-area">
+                    <div class="main-responsive-nav">
+                        <div class="container">
+                            <div class="main-responsive-menu">
+                                <div class="logo">
+                                    <a href="/">
+                                        <div class="responsive-logo-wrapper">
+                                            <img
+                                                src="/build/assets/logo-new.42f8c6b2.png"
+                                                alt="logo"
+                                            />
+                                            <div class="logo-name">
+                                                Mukagwa Children & Women
+                                                Ministries
+                                                <small class="motto"
+                                                    >We Strive for quality
+                                                    Christian Leadership</small
+                                                >
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-navbar">
+                        <div class="container">
+                            <nav class="navbar navbar-expand-md">
+                                <a class="navbar-brand" href="/">
+                                    <div class="responsive-logo-wrapper">
+                                        <img
+                                            src="/build/assets/logo-new.42f8c6b2.png"
+                                            alt="logo"
+                                        />
+                                        <div class="logo-name">
+                                            Mukagwa Ministries
+                                            <small class="motto"
+                                                >We Strive for quality Christian
+                                                Leadership</small
+                                            >
+                                        </div>
+                                    </div>
+                                </a>
+                                <div
+                                    class="collapse navbar-collapse mean-menu"
+                                    id="navbarSupportedContent"
+                                >
+                                    <ul class="navbar-nav">
+                                        <li class="nav-item">
+                                            <a href="/" class="nav-link"
+                                                >Home</a
+                                            >
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link">
+                                                Causes
+                                                <i
+                                                    class="fas fa-angle-down"
+                                                ></i>
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li class="nav-item">
+                                                    <a
+                                                        href="/projects/health"
+                                                        class="nav-link"
+                                                        >Health</a
+                                                    >
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a
+                                                        href="/projects/education"
+                                                        class="nav-link"
+                                                        >Education</a
+                                                    >
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a
+                                                        href="/projects/evangelism"
+                                                        class="nav-link"
+                                                        >Evangelism</a
+                                                    >
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a
+                                                        href="/projects/leadership"
+                                                        class="nav-link"
+                                                        >Leadership</a
+                                                    >
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a
+                                                        href="/projects/leadership"
+                                                        class="nav-link"
+                                                        >Women Empowerment</a
+                                                    >
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="/gallery" class="nav-link"
+                                                >Gallery</a
+                                            >
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="/about-us" class="nav-link"
+                                                >About Us</a
+                                            >
+                                        </li>
+                                        <li class="nav-item">
+                                            <a
+                                                href="/contact-us"
+                                                class="nav-link"
+                                                >Contact</a
+                                            >
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="/reports" class="nav-link"
+                                                >Reports</a
+                                            >
+                                        </li>
+                                    </ul>
+                                    <div
+                                        class="others-options d-flex align-items-center"
+                                    >
+                                        <div class="option-item">
+                                            <a href="#" class="search-box">
+                                                <img
+                                                    src="/assets/img/icon/search_icon.png"
+                                                    alt="icon"
+                                            /></a>
+                                        </div>
+                                        <div class="option-item">
+                                            <a
+                                                href="https://www.mchanga.africa/fundraiser/109416"
+                                                target="_blank"
+                                                class="btn btn_navber"
+                                                >Donate now</a
+                                            >
+                                        </div>
+                                    </div>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Search Area -->
+            <div class="search-overlay">
+                <div class="d-table">
+                    <div class="d-table-cell">
+                        <div class="search-overlay-layer"></div>
+                        <div class="search-overlay-layer"></div>
+                        <div class="search-overlay-layer"></div>
+                        <div class="search-overlay-close">
+                            <span class="search-overlay-close-line"></span>
+                            <span class="search-overlay-close-line"></span>
+                        </div>
+                        <div class="search-overlay-form">
+                            <form>
+                                <input
+                                    type="text"
+                                    class="input-search"
+                                    placeholder="Search here..."
+                                />
+                                <button type="button">
+                                    <i class="fas fa-search"></i>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Page Content -->
+            <main>{{ template_content }}</main>
+
+            <!-- Subscribe Area -->
+            <section id="newletter_area">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6">
+                            <div class="newletter_text">
+                                <h4>
+                                    <img
+                                        src="/assets/img/icon/email.png"
+                                        alt="img"
+                                    />Subscribe Us
+                                </h4>
+                                <h2>
+                                    Sign up to get latest news from
+                                    <span class="color_big_heading">us</span>
+                                </h2>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <form
+                                action="/newsletter"
+                                method="POST"
+                                class="newletter_from"
+                            >
+                                <input
+                                    type="hidden"
+                                    name="_token"
+                                    value="{{ csrf_token }}"
+                                />
+                                <input
+                                    name="email"
+                                    type="email"
+                                    placeholder="Enter Email Address"
+                                    required
+                                />
+                                <button
+                                    type="submit"
+                                    class="btn btn_theme btn_md"
+                                >
+                                    Subscribe
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Footer Area -->
+            <footer class="footer_area section_padding">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                            <div class="footer_heading">
+                                <h3>About Us</h3>
+                            </div>
+                            <div class="footer_content">
+                                <p>
+                                    Mukagwa Children and Women Ministries is a
+                                    Christian Non Government Organization. It
+                                    was founded in 2018 with an aim of providing
+                                    holistic education, health care, evangelism
+                                    and leadership to the less privileged
+                                    communities.
+                                </p>
+                            </div>
+                            <div class="footer_contact">
+                                <h4>Contact Info</h4>
+                                <div class="footer_contact_item">
+                                    <div class="footer_contact_icon">
+                                        <i class="fas fa-map-marker"></i>
+                                    </div>
+                                    <div class="footer_contact_text">
+                                        <p>
+                                            Mukagwa Ministries<br />P.O.BOX
+                                            3745, Kampala, Uganda
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="footer_contact_item">
+                                    <div class="footer_contact_icon">
+                                        <i class="fas fa-phone"></i>
+                                    </div>
+                                    <div class="footer_contact_text">
+                                        <p>
+                                            +256 782 331 162<br />+256 705 996
+                                            362
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="footer_contact_item">
+                                    <div class="footer_contact_icon">
+                                        <i class="fas fa-envelope"></i>
+                                    </div>
+                                    <div class="footer_contact_text">
+                                        <p>info@mukagwaministries.com</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-6 col-sm-6 col-12">
+                            <div class="footer_heading">
+                                <h3>Quick Links</h3>
+                            </div>
+                            <div class="footer_content">
+                                <ul>
+                                    <li><a href="/">Home</a></li>
+                                    <li><a href="/about-us">About Us</a></li>
+                                    <li><a href="/gallery">Gallery</a></li>
+                                    <li><a href="/contact-us">Contact</a></li>
+                                    <li><a href="/reports">Reports</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                            <div class="footer_heading">
+                                <h3>Our Causes</h3>
+                            </div>
+                            <div class="footer_content">
+                                <ul>
+                                    <li>
+                                        <a href="/projects/health">Health</a>
+                                    </li>
+                                    <li>
+                                        <a href="/projects/education"
+                                            >Education</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a href="/projects/evangelism"
+                                            >Evangelism</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a href="/projects/leadership"
+                                            >Leadership</a
+                                        >
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                            <div class="footer_heading">
+                                <h3>Photo Gallery</h3>
+                            </div>
+                            <div class="footer_content">
+                                <div class="footer_gallery">
+                                    <a href="/gallery"
+                                        ><img
+                                            src="/assets/img/gallery/gallery1.jpg"
+                                            alt="gallery"
+                                    /></a>
+                                    <a href="/gallery"
+                                        ><img
+                                            src="/assets/img/gallery/gallery2.jpg"
+                                            alt="gallery"
+                                    /></a>
+                                    <a href="/gallery"
+                                        ><img
+                                            src="/assets/img/gallery/gallery3.jpg"
+                                            alt="gallery"
+                                    /></a>
+                                    <a href="/gallery"
+                                        ><img
+                                            src="/assets/img/gallery/gallery4.jpg"
+                                            alt="gallery"
+                                    /></a>
+                                    <a href="/gallery"
+                                        ><img
+                                            src="/assets/img/gallery/gallery5.jpg"
+                                            alt="gallery"
+                                    /></a>
+                                    <a href="/gallery"
+                                        ><img
+                                            src="/assets/img/gallery/gallery6.jpg"
+                                            alt="gallery"
+                                    /></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+
+            <!-- Copyright Area -->
+            <div class="copyright_area">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="co-lg-6 col-md-6 col-sm-12 col-12">
+                            <div class="copyright_left">
+                                <p>
+                                    Copyright © {{ now format="Y" }} All Rights
+                                    Reserved
+                                </p>
+                            </div>
+                        </div>
+                        <div class="co-lg-6 col-md-6 col-sm-12 col-12">
+                            <div class="copyright_right">
+                                <ul>
+                                    <li>
+                                        <a
+                                            href="https://www.youtube.com/channel/UCurriVT-sKF0NQ5yU4gDCpw"
+                                            ><i
+                                                class="fab fa-youtube-square"
+                                            ></i
+                                        ></a>
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="https://www.facebook.com/profile.php?id=61568646977146"
+                                            ><i class="fab fa-facebook"></i
+                                        ></a>
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="https://twitter.com/@Mukagwa2020"
+                                            ><i
+                                                class="fab fa-twitter-square"
+                                            ></i
+                                        ></a>
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="https://instagram.com/mukagwa_ministries"
+                                            ><i class="fab fa-instagram"></i
+                                        ></a>
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="https://www.linkedin.com/in/mukagwa-ministries-18bb4b272/"
+                                            ><i class="fab fa-linkedin"></i
+                                        ></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Top To Bottom Area -->
+            <div class="go-top">
+                <i class="fas fa-chevron-up"></i>
+                <i class="fas fa-chevron-up"></i>
+            </div>
+        </div>
+
+        <!-- Scripts -->
+        <script src="/build/assets/app.ab93cf8a.js"></script>
+        <script src="/assets/js/jquery.min.js"></script>
+        <script src="/assets/js/jquery.meanmenu.js"></script>
+        <script src="/assets/js/owl.carousel.min.js"></script>
+        <script src="/assets/js/wow.min.js"></script>
+        <script src="/assets/js/waypoints.min.js"></script>
+        <script src="/assets/js/jquery.counterup.min.js"></script>
+        <script src="/assets/js/custom.js"></script>
+    </body>
+</html>

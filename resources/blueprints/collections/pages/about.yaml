@@ -1,0 +1,190 @@
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: title
+        field:
+          type: text
+          required: true
+          validate:
+            - required
+          display: Title
+          width: 50
+      -
+        handle: slug
+        field:
+          type: slug
+          required: true
+          generate: true
+          from: title
+          display: Slug
+          width: 50
+      -
+        handle: template
+        field:
+          type: template
+          display: Template
+          width: 50
+      -
+        handle: banner_title
+        field:
+          type: text
+          display: Banner Title
+          width: 50
+          required: false
+      -
+        handle: banner_breadcrumb
+        field:
+          type: text
+          display: Banner Breadcrumb
+          width: 50
+          required: false
+      -
+        handle: content_sections
+        field:
+          type: replicator
+          display: Content Sections
+          sets:
+            about_intro:
+              display: About Intro Section
+              fields:
+                -
+                  handle: intro_image
+                  field:
+                    type: assets
+                    container: assets
+                    max_files: 1
+                    display: Intro Image
+                    width: 50
+                    required: false
+                -
+                  handle: intro_icon
+                  field:
+                    type: assets
+                    container: assets
+                    max_files: 1
+                    display: Intro Icon
+                    width: 50
+                    required: false
+                -
+                  handle: welcome_title
+                  field:
+                    type: text
+                    display: Welcome Title
+                    width: 50
+                    required: false
+                -
+                  handle: main_heading
+                  field:
+                    type: bard
+                    display: Main Heading
+                    width: 100
+                    required: false
+                -
+                  handle: goal_title
+                  field:
+                    type: text
+                    display: Goal Title
+                    width: 50
+                    required: false
+                -
+                  handle: goal_content
+                  field:
+                    type: bard
+                    display: Goal Content
+                    width: 100
+                    required: false
+                -
+                  handle: mission_title
+                  field:
+                    type: text
+                    display: Mission Title
+                    width: 50
+                    required: false
+                -
+                  handle: mission_content
+                  field:
+                    type: bard
+                    display: Mission Content
+                    width: 100
+                    required: false
+                -
+                  handle: video_url
+                  field:
+                    type: text
+                    display: Video URL
+                    width: 50
+                    required: false
+                -
+                  handle: video_title
+                  field:
+                    type: text
+                    display: Video Title
+                    width: 50
+                    required: false
+            about_story:
+              display: About Story Section
+              fields:
+                -
+                  handle: story_icon
+                  field:
+                    type: assets
+                    container: assets
+                    max_files: 1
+                    display: Story Icon
+                    width: 50
+                    required: false
+                -
+                  handle: story_subtitle
+                  field:
+                    type: text
+                    display: Story Subtitle
+                    width: 50
+                    required: false
+                -
+                  handle: story_title
+                  field:
+                    type: bard
+                    display: Story Title
+                    width: 100
+                    required: false
+                -
+                  handle: story_content
+                  field:
+                    type: bard
+                    display: Story Content
+                    width: 100
+                    required: false
+            team_section:
+              display: Team Section
+              fields:
+                -
+                  handle: team_subtitle
+                  field:
+                    type: text
+                    display: Team Subtitle
+                    width: 50
+                    required: false
+                -
+                  handle: team_title
+                  field:
+                    type: bard
+                    display: Team Title
+                    width: 100
+                    required: false
+  meta:
+    display: Meta
+    fields:
+      -
+        handle: meta_title
+        field:
+          type: text
+          display: Meta Title
+          width: 50
+      -
+        handle: meta_description
+        field:
+          type: textarea
+          display: Meta Description
+          width: 50

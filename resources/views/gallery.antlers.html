@@ -1,0 +1,61 @@
+{{ layout:set src="layout" }}
+
+<!-- Banner Area -->
+<section id="common_banner_area">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="commn_banner_page">
+                    <h2>{{ banner_title or title }}</h2>
+                    <ul class="breadcrumb_wrapper">
+                        <li class="breadcrumb_item"><a href="/">Home</a></li>
+                        <li class="breadcrumb_item"><img src="/assets/img/icon/arrow.png" alt="img"></li>
+                        <li class="breadcrumb_item active">{{ banner_breadcrumb or 'Gallery Slider' }}</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Gallery Grid Area -->
+    <section id="gallery_grid_area" class="section_padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 offset-lg-3 col-md-12 col-sm-12 col-12">
+                    <div class="section_heading">
+                        {{ if intro_subtitle }}
+                            <h3>{{ intro_subtitle }}</h3>
+                        {{ /if }}
+                        {{ if intro_title }}
+                            {{ intro_title }}
+                        {{ /if }}
+                    </div>
+                </div>
+            </div>
+
+            {{ collection:gallery_sections sort="order:asc" scope="section" }}
+                {{ if section:title }}
+                    <h2>{{ section:title }}</h2>
+                {{ /if }}
+                <div class="row popup-gallery">
+                    {{ if section:images }}
+                        {{ section:images }}
+                            <div class="col-lg-4 co-md-6 col-sm-12 col-12">
+                                <div class="gallery_item">
+                                    <img width="450" height="400" loading="lazy"
+                                        src="{{ url }}" alt="{{ alt or 'Gallery Image' }}">
+                                    <div class="gallery_overlay">
+                                        <a href="{{ url }}"
+                                            title="{{ alt or 'Gallery Image' }}"><img src="/assets/img/icon/arrow-round.png" alt="icon"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        {{ /section:images }}
+                    {{ /if }}
+                </div>
+            {{ /collection:gallery_sections }}
+        </div>
+    </section>
+
+<script src="/assets/js/gallery-popup.js"></script>

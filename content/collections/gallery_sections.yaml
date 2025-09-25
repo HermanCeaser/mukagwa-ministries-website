@@ -1,0 +1,13 @@
+title: Gallery Sections
+handle: gallery_sections
+route: false
+date: false
+sort_dir: asc
+blueprint: gallery_section
+mount: false
+sites:
+  - default
+propagate: true
+search_index: default
+revisions: false
+origin_behavior: select

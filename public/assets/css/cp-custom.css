@@ -1,0 +1,504 @@
+/* Custom Control Panel Styling for Mukagwa Ministries */
+
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,600&display=swap');
+
+/* CSS Variables to match website theme */
+:root {
+    --mukagwa-primary: #E03C33;
+    --mukagwa-primary-dark: #c23228;
+    --mukagwa-secondary: #FDC221;
+    --mukagwa-black: #2A283E;
+    --mukagwa-gray: #818090;
+    --mukagwa-light-bg: #EEF4F8;
+    --mukagwa-white: #ffffff;
+}
+
+/* ============================================
+   LOGIN SCREEN CUSTOMIZATION
+============================================ */
+
+/* Login page body styling */
+body.outside,
+body.theme-business.outside {
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    font-family: 'Poppins', sans-serif !important;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Subtle background pattern for login */
+body.outside::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23000000' fill-opacity='0.02'%3E%3Cpath d='M20 20c0 4.4-3.6 8-8 8s-8-3.6-8-8 3.6-8 8-8 8 3.6 8 8zm0-20c0 4.4-3.6 8-8 8s-8-3.6-8-8 3.6-8 8-8 8 3.6 8 8z'/%3E%3C/g%3E%3C/svg%3E");
+    z-index: 0;
+}
+
+/* Login container */
+.login-page {
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+    width: 100%;
+}
+
+/* Main login form container */
+.outside .card,
+.login-form,
+.outside .max-w-lg,
+.outside .bg-white {
+    background: var(--mukagwa-white) !important;
+    border-radius: 16px !important;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1) !important;
+    border: 1px solid #e9ecef !important;
+    padding: 40px !important;
+    max-width: 420px !important;
+    width: 100% !important;
+    margin: 0 auto !important;
+    position: relative;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Logo area in login form */
+.login-form .logo,
+.outside .logo {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.login-form .logo img,
+.outside .logo img {
+    max-width: 180px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+/* Custom logo text */
+.login-form .logo::after,
+.outside .card::before,
+.outside .max-w-lg::before {
+    content: "Mukagwa Ministries CMS";
+    display: block;
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--mukagwa-black);
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+/* Hide default Statamic branding */
+.outside .text-grey,
+.outside .text-gray-600 {
+    display: none !important;
+}
+
+/* Login form title */
+.outside h1,
+.login-form h1 {
+    text-align: center !important;
+    color: var(--mukagwa-black) !important;
+    font-size: 24px !important;
+    font-weight: 600 !important;
+    margin-bottom: 30px !important;
+    margin-top: 0 !important;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+/* Form container */
+.outside form {
+    width: 100% !important;
+}
+
+/* Button container */
+.outside .form-group:last-child,
+.outside .flex.justify-between {
+    margin-top: 25px !important;
+    width: 100% !important;
+}
+
+/* Form inputs */
+.outside .form-group input,
+.outside input[type="email"],
+.outside input[type="password"],
+.outside input[type="text"],
+.login-form input[type="email"],
+.login-form input[type="password"] {
+    height: 48px !important;
+    border: 1px solid #dee2e6 !important;
+    border-radius: 8px !important;
+    padding: 12px 16px !important;
+    font-size: 15px !important;
+    transition: all 0.3s ease !important;
+    background: var(--mukagwa-white) !important;
+    font-family: 'Poppins', sans-serif !important;
+    width: 100% !important;
+    margin-bottom: 15px !important;
+}
+
+.outside .form-group input:focus,
+.outside input:focus,
+.login-form input:focus {
+    border-color: var(--mukagwa-primary) !important;
+    box-shadow: 0 0 0 2px rgba(224, 60, 51, 0.1) !important;
+    outline: none !important;
+}
+
+/* Form groups */
+.outside .form-group,
+.outside .mb-4,
+.outside .mb-3 {
+    margin-bottom: 20px !important;
+}
+
+/* Form labels */
+.outside label {
+    color: var(--mukagwa-black) !important;
+    font-weight: 500 !important;
+    margin-bottom: 8px !important;
+    font-family: 'Poppins', sans-serif !important;
+    display: block !important;
+}
+
+/* Login button */
+.outside .btn-primary,
+.outside button[type="submit"],
+.outside .btn,
+.login-form button[type="submit"] {
+    background: linear-gradient(135deg, var(--mukagwa-primary) 0%, var(--mukagwa-primary-dark) 100%) !important;
+    border: none !important;
+    border-radius: 8px !important;
+    padding: 12px 24px !important;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    width: 100% !important;
+    transition: all 0.3s ease !important;
+    font-family: 'Poppins', sans-serif !important;
+    letter-spacing: 0.3px !important;
+    color: white !important;
+    margin-top: 10px !important;
+    display: block !important;
+    text-align: center !important;
+}
+
+.outside .btn-primary:hover,
+.outside button[type="submit"]:hover,
+.outside .btn:hover,
+.login-form button[type="submit"]:hover {
+    background: linear-gradient(135deg, var(--mukagwa-primary-dark) 0%, var(--mukagwa-primary) 100%) !important;
+    transform: translateY(-1px) !important;
+    box-shadow: 0 4px 15px rgba(224, 60, 51, 0.25) !important;
+    color: white !important;
+}
+
+/* Checkbox area */
+.outside .form-check,
+.outside .flex.items-center {
+    margin: 20px 0 !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+}
+
+.outside .form-check-input,
+.outside input[type="checkbox"] {
+    margin-right: 8px !important;
+    accent-color: var(--mukagwa-primary) !important;
+}
+
+.outside .form-check-input:checked {
+    background-color: var(--mukagwa-primary) !important;
+    border-color: var(--mukagwa-primary) !important;
+}
+
+.outside .form-check-label {
+    font-size: 14px !important;
+    color: var(--mukagwa-gray) !important;
+}
+
+/* Links */
+.outside a {
+    color: var(--mukagwa-primary);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.outside a:hover {
+    color: var(--mukagwa-primary-dark);
+    text-decoration: underline;
+}
+
+/* ============================================
+   CONTROL PANEL CUSTOMIZATION
+============================================ */
+
+/* Customize the CP logo */
+.logo img {
+    max-height: 40px !important;
+    width: auto !important;
+}
+
+/* Header branding */
+.cp-header,
+.global-header {
+    background: var(--mukagwa-white);
+    border-bottom: 2px solid var(--mukagwa-light-bg);
+}
+
+/* Main navigation */
+.nav-main .nav-item > .nav-link {
+    color: var(--mukagwa-gray);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.nav-main .nav-item > .nav-link:hover,
+.nav-main .nav-item > .nav-link.active {
+    color: var(--mukagwa-primary);
+    background-color: rgba(224, 60, 51, 0.1);
+}
+
+/* Dashboard widgets */
+.widget-header {
+    background: linear-gradient(135deg, var(--mukagwa-primary) 0%, var(--mukagwa-primary-dark) 100%);
+    color: white;
+    border-radius: 8px 8px 0 0;
+}
+
+/* Cards and panels */
+.card,
+.panel {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    border-radius: 12px;
+    border: none;
+}
+
+/* Collection widgets */
+.collection-widget .collection-item {
+    padding: 15px;
+    border-bottom: 1px solid var(--mukagwa-light-bg);
+    font-family: 'Poppins', sans-serif;
+}
+
+.collection-widget .collection-item:hover {
+    background-color: rgba(224, 60, 51, 0.05);
+}
+
+/* Primary buttons */
+.btn-primary {
+    background: linear-gradient(135deg, var(--mukagwa-primary) 0%, var(--mukagwa-primary-dark) 100%);
+    border-color: var(--mukagwa-primary);
+    border-radius: 8px;
+    font-weight: 500;
+    padding: 8px 20px;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(135deg, var(--mukagwa-primary-dark) 0%, var(--mukagwa-primary) 100%);
+    border-color: var(--mukagwa-primary-dark);
+    transform: translateY(-1px);
+}
+
+/* Secondary buttons */
+.btn-secondary {
+    background-color: var(--mukagwa-secondary);
+    border-color: var(--mukagwa-secondary);
+    color: var(--mukagwa-black);
+    border-radius: 8px;
+    font-weight: 500;
+}
+
+.btn-secondary:hover {
+    background-color: #e6b71e;
+    border-color: #e6b71e;
+    color: var(--mukagwa-black);
+}
+
+/* Form controls */
+.form-control {
+    border-radius: 8px;
+    border: 1px solid #e8e8e8;
+    font-family: 'Poppins', sans-serif;
+}
+
+.form-control:focus {
+    border-color: var(--mukagwa-primary);
+    box-shadow: 0 0 0 2px rgba(224, 60, 51, 0.1);
+}
+
+/* Sidebar */
+.sidebar {
+    background: var(--mukagwa-white);
+    border-right: 1px solid var(--mukagwa-light-bg);
+}
+
+/* Tables */
+.table th {
+    background-color: var(--mukagwa-light-bg);
+    color: var(--mukagwa-black);
+    font-weight: 600;
+    border: none;
+}
+
+/* Status indicators */
+.badge-success {
+    background-color: #28a745;
+}
+
+.badge-warning {
+    background-color: var(--mukagwa-secondary);
+    color: var(--mukagwa-black);
+}
+
+.badge-danger {
+    background-color: var(--mukagwa-primary);
+}
+
+/* Welcome message styling */
+.dashboard-welcome {
+    background: linear-gradient(135deg, var(--mukagwa-primary) 0%, var(--mukagwa-primary-dark) 100%);
+    color: white;
+    border-radius: 12px;
+    padding: 25px;
+    margin-bottom: 25px;
+    box-shadow: 0 8px 25px rgba(224, 60, 51, 0.2);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--mukagwa-light-bg);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--mukagwa-primary);
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--mukagwa-primary-dark);
+}
+
+/* Global font family override */
+* {
+    font-family: 'Poppins', sans-serif !important;
+}
+
+/* Error pages styling */
+.error-page {
+    background: linear-gradient(135deg, var(--mukagwa-primary) 0%, var(--mukagwa-primary-dark) 100%);
+    color: white;
+}
+
+/* Loading states */
+.loading,
+.spinner {
+    border-color: var(--mukagwa-primary);
+}
+
+/* Dropdown menus */
+.dropdown-menu {
+    border: none;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+}
+
+.dropdown-item:hover {
+    background-color: rgba(224, 60, 51, 0.1);
+    color: var(--mukagwa-primary);
+}
+
+/* Alerts and notifications */
+.alert-success {
+    background-color: rgba(40, 167, 69, 0.1);
+    border-color: #28a745;
+    color: #155724;
+}
+
+.alert-warning {
+    background-color: rgba(253, 194, 33, 0.1);
+    border-color: var(--mukagwa-secondary);
+    color: #856404;
+}
+
+.alert-danger {
+    background-color: rgba(224, 60, 51, 0.1);
+    border-color: var(--mukagwa-primary);
+    color: #721c24;
+}
+
+/* Tab navigation */
+.nav-tabs .nav-link {
+    border: none;
+    color: var(--mukagwa-gray);
+}
+
+.nav-tabs .nav-link.active {
+    color: var(--mukagwa-primary);
+    border-bottom: 2px solid var(--mukagwa-primary);
+}
+
+/* Modal dialogs */
+.modal-content {
+    border-radius: 12px;
+    border: none;
+}
+
+.modal-header {
+    border-bottom: 1px solid var(--mukagwa-light-bg);
+}
+
+/* CMS Link Styling in Navigation */
+.topbar-list li:last-child a {
+    color: var(--mukagwa-gray) !important;
+    font-size: 13px !important;
+    opacity: 0.8;
+    transition: all 0.3s ease;
+}
+
+.topbar-list li:last-child a:hover {
+    color: var(--mukagwa-primary) !important;
+    opacity: 1;
+}
+
+.topbar-list li:last-child a i {
+    margin-right: 5px;
+    font-size: 12px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .outside .card,
+    .login-form {
+        margin: 20px;
+        padding: 30px 25px;
+    }
+    
+    .login-form .logo img,
+    .outside .logo img {
+        max-width: 150px;
+    }
+    
+    /* Hide CMS link on very small screens */
+    @media (max-width: 480px) {
+        .topbar-list li:last-child {
+            display: none;
+        }
+    }
+}

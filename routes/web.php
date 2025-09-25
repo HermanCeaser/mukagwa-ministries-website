@@ -30,12 +30,12 @@ Route::get('/projects/evangelism', [ProjectController::class, 'evangelism'])->na
 Route::get('/projects/leadership', [ProjectController::class, 'leadership'])->name('projects.leadership');
 Route::get('/causes/{cause}', [CausesController::class, 'show'])->name('causes.show');
 Route::resource('/donation', DonationController::class)->only(['index', 'store', 'show']);
-Route::get('about-us', [AboutController::class, 'index'])->name('aboutus');
+// Route::get('about-us', [AboutController::class, 'index'])->name('aboutus'); // Now handled by Statamic
 Route::resource('contact-us', ContactController::class)->only(['index', 'store']);
 
-Route::get('/gallery', function () {
-    return view('pages.gallery');
-})->name('gallery');
+// Route::get('/gallery', function () {
+//     return view('pages.gallery');
+// })->name('gallery'); // Now handled by Statamic
 
 Route::get('/reports', function () {
     return view('pages.reports');

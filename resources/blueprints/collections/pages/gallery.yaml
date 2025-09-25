@@ -1,0 +1,71 @@
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: title
+        field:
+          type: text
+          required: true
+          validate:
+            - required
+          display: Title
+          width: 50
+      -
+        handle: slug
+        field:
+          type: slug
+          required: true
+          generate: true
+          from: title
+          display: Slug
+          width: 50
+      -
+        handle: template
+        field:
+          type: template
+          display: Template
+          width: 50
+      -
+        handle: banner_title
+        field:
+          type: bard
+          display: Banner Title
+          width: 100
+          required: false
+      -
+        handle: banner_breadcrumb
+        field:
+          type: text
+          display: Banner Breadcrumb
+          width: 50
+          required: false
+      -
+        handle: intro_subtitle
+        field:
+          type: text
+          display: Intro Subtitle
+          width: 50
+          required: false
+      -
+        handle: intro_title
+        field:
+          type: bard
+          display: Intro Title
+          width: 100
+          required: false
+  meta:
+    display: Meta
+    fields:
+      -
+        handle: meta_title
+        field:
+          type: text
+          display: Meta Title
+          width: 50
+      -
+        handle: meta_description
+        field:
+          type: textarea
+          display: Meta Description
+          width: 50

@@ -1,0 +1,13 @@
+title: Pages
+handle: pages
+route: /{slug}
+date: false
+sort_dir: asc
+blueprint: page
+mount: false
+sites:
+  - default
+propagate: true
+search_index: default
+revisions: false
+origin_behavior: select

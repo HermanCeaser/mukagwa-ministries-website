@@ -1,0 +1,4 @@
+content_managers:
+  title: 'Content Managers'
+  roles:
+    - editor

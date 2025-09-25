@@ -1,0 +1,41 @@
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: title
+        field:
+          type: text
+          required: false
+          display: Title
+          width: 50
+      -
+        handle: slug
+        field:
+          type: slug
+          required: true
+          generate: true
+          from: title
+          display: Slug
+          width: 50
+      -
+        handle: description
+        field:
+          type: textarea
+          display: Description
+          width: 100
+          required: false
+      -
+        handle: images
+        field:
+          type: assets
+          container: assets
+          display: Images
+          width: 100
+          required: false
+      -
+        handle: order
+        field:
+          type: integer
+          default: 0
+          display: Display Order
