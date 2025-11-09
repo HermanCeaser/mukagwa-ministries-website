@@ -2244,3 +2244,77 @@ textarea.form-control {
     top: 50%
 }
 
+/* ----------------------------
+    Responsive Video Container
+---------------------------------*/
+.responsive-video-container {
+    position: relative;
+    width: 100%;
+    max-width: 702px;
+    padding-bottom: 98.43%; /* Aspect ratio: 691/702 = 0.9843 = 98.43% */
+    height: 0;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.responsive-video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 702px;
+    height: 691px;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 8px;
+    border: none;
+}
+
+/* Tablet devices (768px - 991px) */
+@media only screen and (max-width: 991px) {
+    .responsive-video-container {
+        max-width: 100%;
+        padding-bottom: 75%; /* 4:3 aspect ratio for tablets */
+    }
+    
+    .responsive-video-container iframe {
+        width: 100%;
+        height: 500px;
+    }
+}
+
+/* Mobile devices (576px - 767px) */
+@media only screen and (max-width: 767px) {
+    .responsive-video-container {
+        padding-bottom: 75%; /* 4:3 aspect ratio */
+    }
+    
+    .responsive-video-container iframe {
+        width: 100%;
+        height: 400px;
+    }
+}
+
+/* Small mobile devices (below 576px) */
+@media only screen and (max-width: 575px) {
+    .responsive-video-container {
+        padding-bottom: 56.25%; /* 16:9 aspect ratio for better mobile viewing */
+    }
+    
+    .responsive-video-container iframe {
+        width: 100%;
+        height: 300px;
+    }
+}
+
+/* Extra small devices (below 400px) */
+@media only screen and (max-width: 399px) {
+    .responsive-video-container {
+        padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    }
+    
+    .responsive-video-container iframe {
+        width: 100%;
+        height: 250px;
+    }
+}
+
