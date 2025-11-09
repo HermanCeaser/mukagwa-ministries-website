@@ -49,9 +49,7 @@
                         </div>
                         <div class="about_area_para">
                             <h3>Mission</h3>
-                            <p>Mukagwa ministries exists to impact the nation of Uganda through envagelism and
-                                discipleship, education, health care and community development focused on service,
-                                leadership and excellency to the glory of God.</p>
+                            <p>To empower women, girls and communities through faith-based action, advocacy, and education to prevent gender-based violence and promote equality and build safe, resilient and inclusive communities where every woman and girl can thrive in dignity and freedom.</p>
 
                         </div>
                         <div class="about_vedio_area">
