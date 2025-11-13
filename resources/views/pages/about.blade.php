@@ -49,7 +49,10 @@
                         </div>
                         <div class="about_area_para">
                             <h3>Mission</h3>
-                            <p>To empower women, girls and communities through faith-based action, advocacy, and education to prevent gender-based violence and promote equality and build safe, resilient and inclusive communities where every woman and girl can thrive in dignity and freedom.</p>
+                            <p>To empower women, girls and communities through faith-based action, advocacy, and
+                                education to prevent gender-based violence and promote equality and build safe,
+                                resilient and inclusive communities where every woman and girl can thrive in dignity and
+                                freedom.</p>
 
                         </div>
                         <div class="about_vedio_area">
@@ -173,15 +176,15 @@
 
                         <div class="volunteer_text">
                             <h3><a href="#!">Stephen Kuwereka</a></h3>
-                            <p>CEO</p>
+                            <p>Director of Health Department</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="volunteer_wrapper h-100">
                         <div class="volunteer_img">
-                            <img loading="lazy" width="330" height="345" src="assets/img/volunteer/Komodo Keneth1.jpg"
-                                alt="img">
+                            <img loading="lazy" width="330" height="345"
+                                src="assets/img/volunteer/Nangobi Linda Eunice2.jpg" alt="img">
                             <div class="volunteer_icon">
                                 <ul>
                                     <li>
@@ -209,11 +212,12 @@
                         </div>
 
                         <div class="volunteer_text">
-                            <h3><a href="#!">Komodo Keneth</a></h3>
-                            <p> Department of Planning & Administration</p>
+                            <h3><a href="#!">Nangobi Linda Eunice</a></h3>
+                            <p>Chief Finance Officer</p>
                         </div>
                     </div>
                 </div>
+
 
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="volunteer_wrapper h-100">
@@ -251,43 +255,6 @@
             </div>
             <br>
             <div class="row">
-                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-                    <div class="volunteer_wrapper h-100">
-                        <div class="volunteer_img">
-                            <img loading="lazy" width="330" height="345" src="assets/img/volunteer/Ssenyange_Samson.jpg"
-                                alt="Ssenyange Samson - General Secretary">
-                            <div class="volunteer_icon">
-                                <ul>
-                                    <li>
-                                        <a href="https://www.youtube.com/channel/UCurriVT-sKF0NQ5yU4gDCpw"><i
-                                                class="fab fa-youtube-square"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="https://www.facebook.com/profile.php?id=100092540853639"><i
-                                                class="fab fa-facebook"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="https://twitter.com/@Mukagwa2020"><i
-                                                class="fab fa-twitter-square"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="https://instagram.com/mukagwa_ministries"><i
-                                                class="fab fa-instagram"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="https://www.linkedin.com/in/mukagwa-ministries-18bb4b272/"><i
-                                                class="fab fa-linkedin"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <div class="volunteer_text">
-                            <h3><a href="#!">Ssenyange Samson</a></h3>
-                            <p>General Secretary</p>
-                        </div>
-                    </div>
-                </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="volunteer_wrapper h-100">
                         <div class="volunteer_img">
@@ -361,8 +328,8 @@
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="volunteer_wrapper h-100">
                         <div class="volunteer_img">
-                            <img loading="lazy" width="330" height="345"
-                                src="assets/img/volunteer/Nangobi Linda Eunice2.jpg" alt="img">
+                            <img loading="lazy" width="330" height="345" src="assets/img/volunteer/volunteer-6.png"
+                                alt="Kalajja Mercy - General Secretary">
                             <div class="volunteer_icon">
                                 <ul>
                                     <li>
@@ -390,11 +357,50 @@
                         </div>
 
                         <div class="volunteer_text">
-                            <h3><a href="#!">Nangobi Linda Eunice</a></h3>
-                            <p>Project Manager</p>
+                            <h3><a href="#!">Kalajja Mercy</a></h3>
+                            <p>General Secretary</p>
                         </div>
                     </div>
                 </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                    <div class="volunteer_wrapper h-100">
+                        <div class="volunteer_img">
+                            <img loading="lazy" width="330" height="345" src="assets/img/volunteer/volunteer-6.png"
+                                alt="img">
+                            <div class="volunteer_icon">
+                                <ul>
+                                    <li>
+                                        <a href="https://www.youtube.com/channel/UCurriVT-sKF0NQ5yU4gDCpw"><i
+                                                class="fab fa-youtube-square"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.facebook.com/profile.php?id=100092540853639"><i
+                                                class="fab fa-facebook"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://twitter.com/@Mukagwa2020"><i
+                                                class="fab fa-twitter-square"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://instagram.com/mukagwa_ministries"><i
+                                                class="fab fa-instagram"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.linkedin.com/in/mukagwa-ministries-18bb4b272/"><i
+                                                class="fab fa-linkedin"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="volunteer_text">
+                            <h3><a href="#!">Katalo Juliet</a></h3>
+                            <p> Department of Planning & Administration</p>
+                        </div>
+                    </div>
+                </div>
+
             </div>
             <br>
             <div class="row">
@@ -433,14 +439,14 @@
 
                         <div class="volunteer_text">
                             <h3><a href="#!">Namugga Linda</a></h3>
-                            <p>Department of Development & planning</p>
+                            <p>Operations Manager</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="volunteer_wrapper h-100">
                         <div class="volunteer_img">
-                            <img loading="lazy" width="330" height="345" src="assets/img/volunteer/Daniel Mugabi.jpg"
+                            <img loading="lazy" width="330" height="345" src="assets/img/volunteer/volunteer-6.png"
                                 alt="img">
                             <div class="volunteer_icon">
                                 <ul>
@@ -469,7 +475,7 @@
                         </div>
 
                         <div class="volunteer_text">
-                            <h3><a href="#!">Daniel Mugabi</a></h3>
+                            <h3><a href="#!">Mugala Deborah</a></h3>
                             <p>Project Moblizer</p>
                         </div>
                     </div>
@@ -661,7 +667,7 @@
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="volunteer_wrapper h-100">
                         <div class="volunteer_img">
-                            <img loading="lazy" width="330" height="345" src="assets/img/volunteer/volunteer-2.png"
+                            <img loading="lazy" width="330" height="345" src="assets/img/volunteer/baluka-franzi.jpg"
                                 alt="img">
                             <div class="volunteer_icon">
                                 <ul>
@@ -690,15 +696,15 @@
                         </div>
 
                         <div class="volunteer_text">
-                            <h3><a href="#!">Kaigo Julius</a></h3>
-                            <p>Cheif Financial Officer</p>
+                            <h3><a href="#!">Baluka Franzi</a></h3>
+                            <p>Front Desk Officer</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="volunteer_wrapper h-100">
                         <div class="volunteer_img">
-                            <img loading="lazy" width="330" height="345" src="assets/img/volunteer/volunteer-3.png"
+                            <img loading="lazy" width="330" height="345" src="assets/img/volunteer/musibika-lillian.jpg"
                                 alt="img">
                             <div class="volunteer_icon">
                                 <ul>
@@ -728,7 +734,84 @@
 
                         <div class="volunteer_text">
                             <h3><a href="#!">Musibika Lillian</a></h3>
-                            <p>Operations Manager</p>
+                            <p>Project Manager</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br />
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                    <div class="volunteer_wrapper h-100">
+                        <div class="volunteer_img">
+                            <img loading="lazy" width="330" height="345" src="assets/img/volunteer/nankya-sandra.jpeg"
+                                alt="img">
+                            <div class="volunteer_icon">
+                                <ul>
+                                    <li>
+                                        <a href="https://www.youtube.com/channel/UCurriVT-sKF0NQ5yU4gDCpw"><i
+                                                class="fab fa-youtube-square"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.facebook.com/profile.php?id=100092540853639"><i
+                                                class="fab fa-facebook"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://twitter.com/@Mukagwa2020"><i
+                                                class="fab fa-twitter-square"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://instagram.com/mukagwa_ministries"><i
+                                                class="fab fa-instagram"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.linkedin.com/in/mukagwa-ministries-18bb4b272/"><i
+                                                class="fab fa-linkedin"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="volunteer_text">
+                            <h3><a href="#!">Nankya Sandra</a></h3>
+                            <p>Monitoring and Evaluation Department</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                    <div class="volunteer_wrapper h-100">
+                        <div class="volunteer_img">
+                            <img loading="lazy" width="330" height="345"
+                                src="assets/img/volunteer/tawomerawo-sylvia.jpeg" alt="img">
+                            <div class="volunteer_icon">
+                                <ul>
+                                    <li>
+                                        <a href="https://www.youtube.com/channel/UCurriVT-sKF0NQ5yU4gDCpw"><i
+                                                class="fab fa-youtube-square"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.facebook.com/profile.php?id=100092540853639"><i
+                                                class="fab fa-facebook"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://twitter.com/@Mukagwa2020"><i
+                                                class="fab fa-twitter-square"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://instagram.com/mukagwa_ministries"><i
+                                                class="fab fa-instagram"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.linkedin.com/in/mukagwa-ministries-18bb4b272/"><i
+                                                class="fab fa-linkedin"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="volunteer_text">
+                            <h3><a href="#!">Tawomerawo Slyvia</a></h3>
+                            <p>Head of Welfare Department</p>
                         </div>
                     </div>
                 </div>
@@ -765,12 +848,87 @@
 
                         <div class="volunteer_text">
                             <h3><a href="#!">Sarah Buwule Ndimwibo</a></h3>
-                            <p>Welfare Department</p>
+                            <p>Head of Gender and Women Affairs Department</p>
                         </div>
                     </div>
                 </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                    <div class="volunteer_wrapper h-100">
+                        <div class="volunteer_img">
+                            <img loading="lazy" width="330" height="345" src="assets/img/volunteer/volunteer-6.png"
+                                alt="img">
+                            <div class="volunteer_icon">
+                                <ul>
+                                    <li>
+                                        <a href="https://www.youtube.com/channel/UCurriVT-sKF0NQ5yU4gDCpw"><i
+                                                class="fab fa-youtube-square"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.facebook.com/profile.php?id=100092540853639"><i
+                                                class="fab fa-facebook"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://twitter.com/@Mukagwa2020"><i
+                                                class="fab fa-twitter-square"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://instagram.com/mukagwa_ministries"><i
+                                                class="fab fa-instagram"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.linkedin.com/in/mukagwa-ministries-18bb4b272/"><i
+                                                class="fab fa-linkedin"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
 
+                        <div class="volunteer_text">
+                            <h3><a href="#!">Ssembusi Allan Mayengo</a></h3>
+                            <p>Head of Research Department</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br />
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                    <div class="volunteer_wrapper h-100">
+                        <div class="volunteer_img">
+                            <img loading="lazy" width="330" height="345"
+                                src="assets/img/volunteer/luganda-lenon-jonny.jpeg" alt="img">
+                            <div class="volunteer_icon">
+                                <ul>
+                                    <li>
+                                        <a href="https://www.youtube.com/channel/UCurriVT-sKF0NQ5yU4gDCpw"><i
+                                                class="fab fa-youtube-square"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.facebook.com/profile.php?id=100092540853639"><i
+                                                class="fab fa-facebook"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://twitter.com/@Mukagwa2020"><i
+                                                class="fab fa-twitter-square"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://instagram.com/mukagwa_ministries"><i
+                                                class="fab fa-instagram"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.linkedin.com/in/mukagwa-ministries-18bb4b272/"><i
+                                                class="fab fa-linkedin"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
 
+                        <div class="volunteer_text">
+                            <h3><a href="#!">Luganda Lenono Jonny</a></h3>
+                            <p>Associate Researcher</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
