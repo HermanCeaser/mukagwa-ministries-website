@@ -446,7 +446,7 @@
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="volunteer_wrapper h-100">
                         <div class="volunteer_img">
-                            <img loading="lazy" width="330" height="345" src="assets/img/volunteer/volunteer-6.png"
+                            <img loading="lazy" width="330" height="345" src="assets/img/volunteer/namubiru-sarah.jpg"
                                 alt="img">
                             <div class="volunteer_icon">
                                 <ul>
@@ -475,7 +475,7 @@
                         </div>
 
                         <div class="volunteer_text">
-                            <h3><a href="#!">Mugala Deborah</a></h3>
+                            <h3><a href="#!">Namubiru Sarah</a></h3>
                             <p>Project Moblizer</p>
                         </div>
                     </div>
@@ -818,7 +818,7 @@
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="volunteer_wrapper h-100">
                         <div class="volunteer_img">
-                            <img loading="lazy" width="330" height="345" src="assets/img/volunteer/volunteer-6.png"
+                            <img loading="lazy" width="330" height="345" src="assets/img/volunteer/sarah-buwule.png"
                                 alt="img">
                             <div class="volunteer_icon">
                                 <ul>

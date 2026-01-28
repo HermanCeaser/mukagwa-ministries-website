@@ -74,6 +74,9 @@
                                 <a href="{{ route('home') }}" @class(['nav-link', 'active' => request()->routeIs('home')])>Home</a>
                             </li>
                             <li class="nav-item">
+                                <a href="{{ route('aboutus') }}" @class(['nav-link', 'active' => request()->routeIs('aboutus')])>About Us</a>
+                            </li>
+                            <li class="nav-item">
                                 <a href="#" class="nav-link">
                                     Causes
                                     <i class="fas fa-angle-down"></i>
@@ -131,9 +134,7 @@
                                     Gallery
                                 </a>
                             </li>
-                            <li class="nav-item">
-                                <a href="{{ route('aboutus') }}" @class(['nav-link', 'active' => request()->routeIs('aboutus')])>About Us</a>
-                            </li>
+                            
                             <li class="nav-item">
                                 <a href="{{ route('contact-us.index') }}" @class([
                                     'nav-link',
